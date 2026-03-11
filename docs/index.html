@@ -1,0 +1,1772 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="每日日报 - 专注于你关注领域的最新资讯聚合平台">
+  <meta name="theme-color" content="#165DFF">
+  <title>每日日报 - 2026-03-11</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>">
+</head>
+<body>
+  <!-- 顶部进度条 -->
+  <div id="progress-bar" class="progress-bar"></div>
+
+  <!-- 导航栏 -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <div class="nav-brand">
+          <div class="logo">📰</div>
+          <span class="logo-text">每日日报</span>
+        </div>
+        
+        <div class="nav-menu" id="navMenu">
+          <a href="/" class="nav-link active">今日日报</a>
+          <a href="/archive/" class="nav-link">历史存档</a>
+          <button class="theme-toggle" id="themeToggle" aria-label="切换主题">
+            <span class="theme-icon">🌙</span>
+          </button>
+        </div>
+        
+        <button class="menu-toggle" id="menuToggle" aria-label="菜单">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 头部横幅 -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">📅 今日更新</div>
+        <h1 class="hero-title">2026年3月11日星期三</h1>
+        <p class="hero-subtitle">汇聚 60 条精选资讯，覆盖 6 大领域</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" onclick="showSummary()">
+            <span>📋</span>
+            查看今日汇总
+          </button>
+          <button class="btn btn-secondary" onclick="scrollToContent()">
+            <span>👇</span>
+            浏览全部资讯
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 主内容区 -->
+  <main class="main" id="mainContent">
+    <div class="container">
+      <!-- 数据统计 -->
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number">60</div>
+          <div class="stat-label">今日资讯</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">6</div>
+          <div class="stat-label">领域分类</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">24h</div>
+          <div class="stat-label">实时更新</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">⭐</div>
+          <div class="stat-label">精选内容</div>
+        </div>
+      </div>
+
+      <!-- 分类标签页 -->
+      <div class="tabs-container">
+        <div class="tabs-scroll">
+          <div class="tabs" id="categoryTabs">
+            <button class="tab-btn active" data-category="all">
+              <span>📰</span>
+              全部
+            </button>
+            <button class="tab-btn" data-category="ai">
+      <span>🤖</span>
+      人工智能
+    </button><button class="tab-btn" data-category="tech">
+      <span>🔬</span>
+      科技前沿
+    </button><button class="tab-btn" data-category="business">
+      <span>💼</span>
+      商业动态
+    </button><button class="tab-btn" data-category="web3">
+      <span>⛓️</span>
+      Web3
+    </button><button class="tab-btn" data-category="health">
+      <span>🏥</span>
+      医疗健康
+    </button><button class="tab-btn" data-category="green">
+      <span>🌱</span>
+      绿色能源
+    </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 资讯内容 -->
+      <div class="content-container">
+        
+      <section class="category-section" id="ai">
+        <div class="category-header">
+          <div class="category-title">
+            <span class="category-icon">🤖</span>
+            人工智能
+          </div>
+          <span class="category-count">10 条</span>
+        </div>
+        <div class="news-grid">
+          
+      <article class="news-card" data-category="ai">
+        <a href="https://example.com/news/ai-1" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/ai-0/600/400" 
+                 alt="人工智能领域最新动态1：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-ai">融资</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">人工智能领域最新动态1：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于人工智能领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                极客公园
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                12小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="ai">
+        <a href="https://example.com/news/ai-2" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/ai-1/600/400" 
+                 alt="人工智能领域最新动态2：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-ai">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">人工智能领域最新动态2：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于人工智能领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                极客公园
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                7小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="ai">
+        <a href="https://example.com/news/ai-3" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/ai-2/600/400" 
+                 alt="人工智能领域最新动态3：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-ai">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">人工智能领域最新动态3：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于人工智能领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                创业邦
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                9小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="ai">
+        <a href="https://example.com/news/ai-4" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/ai-3/600/400" 
+                 alt="人工智能领域最新动态4：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-ai">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">人工智能领域最新动态4：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于人工智能领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                极客公园
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                5小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="ai">
+        <a href="https://example.com/news/ai-5" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/ai-4/600/400" 
+                 alt="人工智能领域最新动态5：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-ai">融资</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">人工智能领域最新动态5：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于人工智能领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                极客公园
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                6小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="ai">
+        <a href="https://example.com/news/ai-6" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/ai-5/600/400" 
+                 alt="人工智能领域最新动态6：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-ai">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">人工智能领域最新动态6：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于人工智能领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                创业邦
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                11小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="ai">
+        <a href="https://example.com/news/ai-7" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/ai-6/600/400" 
+                 alt="人工智能领域最新动态7：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-ai">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">人工智能领域最新动态7：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于人工智能领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                36氪
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                6小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="ai">
+        <a href="https://example.com/news/ai-8" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/ai-7/600/400" 
+                 alt="人工智能领域最新动态8：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-ai">融资</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">人工智能领域最新动态8：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于人工智能领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                创业邦
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                6小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="ai">
+        <a href="https://example.com/news/ai-9" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/ai-8/600/400" 
+                 alt="人工智能领域最新动态9：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-ai">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">人工智能领域最新动态9：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于人工智能领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                虎嗅
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                6小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="ai">
+        <a href="https://example.com/news/ai-10" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/ai-9/600/400" 
+                 alt="人工智能领域最新动态10：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-ai">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">人工智能领域最新动态10：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于人工智能领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                创业邦
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                2小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+        </div>
+      </section>
+    
+      <section class="category-section" id="tech">
+        <div class="category-header">
+          <div class="category-title">
+            <span class="category-icon">🔬</span>
+            科技前沿
+          </div>
+          <span class="category-count">10 条</span>
+        </div>
+        <div class="news-grid">
+          
+      <article class="news-card" data-category="tech">
+        <a href="https://example.com/news/tech-1" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/tech-0/600/400" 
+                 alt="科技前沿领域最新动态1：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-tech">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">科技前沿领域最新动态1：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于科技前沿领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                虎嗅
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                9小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="tech">
+        <a href="https://example.com/news/tech-2" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/tech-1/600/400" 
+                 alt="科技前沿领域最新动态2：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-tech">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">科技前沿领域最新动态2：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于科技前沿领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                极客公园
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                7小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="tech">
+        <a href="https://example.com/news/tech-3" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/tech-2/600/400" 
+                 alt="科技前沿领域最新动态3：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-tech">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">科技前沿领域最新动态3：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于科技前沿领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                极客公园
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                1小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="tech">
+        <a href="https://example.com/news/tech-4" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/tech-3/600/400" 
+                 alt="科技前沿领域最新动态4：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-tech">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">科技前沿领域最新动态4：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于科技前沿领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                创业邦
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                3小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="tech">
+        <a href="https://example.com/news/tech-5" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/tech-4/600/400" 
+                 alt="科技前沿领域最新动态5：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-tech">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">科技前沿领域最新动态5：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于科技前沿领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                创业邦
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                5小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="tech">
+        <a href="https://example.com/news/tech-6" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/tech-5/600/400" 
+                 alt="科技前沿领域最新动态6：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-tech">融资</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">科技前沿领域最新动态6：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于科技前沿领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                极客公园
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                9小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="tech">
+        <a href="https://example.com/news/tech-7" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/tech-6/600/400" 
+                 alt="科技前沿领域最新动态7：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-tech">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">科技前沿领域最新动态7：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于科技前沿领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                虎嗅
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                3小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="tech">
+        <a href="https://example.com/news/tech-8" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/tech-7/600/400" 
+                 alt="科技前沿领域最新动态8：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-tech">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">科技前沿领域最新动态8：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于科技前沿领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                36氪
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                12小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="tech">
+        <a href="https://example.com/news/tech-9" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/tech-8/600/400" 
+                 alt="科技前沿领域最新动态9：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-tech">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">科技前沿领域最新动态9：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于科技前沿领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                36氪
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                4小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="tech">
+        <a href="https://example.com/news/tech-10" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/tech-9/600/400" 
+                 alt="科技前沿领域最新动态10：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-tech">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">科技前沿领域最新动态10：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于科技前沿领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                创业邦
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                3小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+        </div>
+      </section>
+    
+      <section class="category-section" id="business">
+        <div class="category-header">
+          <div class="category-title">
+            <span class="category-icon">💼</span>
+            商业动态
+          </div>
+          <span class="category-count">10 条</span>
+        </div>
+        <div class="news-grid">
+          
+      <article class="news-card" data-category="business">
+        <a href="https://example.com/news/business-1" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/business-0/600/400" 
+                 alt="商业动态领域最新动态1：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-business">融资</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">商业动态领域最新动态1：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于商业动态领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                科技日报
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                7小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="business">
+        <a href="https://example.com/news/business-2" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/business-1/600/400" 
+                 alt="商业动态领域最新动态2：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-business">融资</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">商业动态领域最新动态2：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于商业动态领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                36氪
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                5小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="business">
+        <a href="https://example.com/news/business-3" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/business-2/600/400" 
+                 alt="商业动态领域最新动态3：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-business">融资</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">商业动态领域最新动态3：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于商业动态领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                创业邦
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                6小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="business">
+        <a href="https://example.com/news/business-4" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/business-3/600/400" 
+                 alt="商业动态领域最新动态4：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-business">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">商业动态领域最新动态4：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于商业动态领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                创业邦
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                6小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="business">
+        <a href="https://example.com/news/business-5" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/business-4/600/400" 
+                 alt="商业动态领域最新动态5：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-business">融资</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">商业动态领域最新动态5：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于商业动态领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                创业邦
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                7小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="business">
+        <a href="https://example.com/news/business-6" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/business-5/600/400" 
+                 alt="商业动态领域最新动态6：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-business">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">商业动态领域最新动态6：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于商业动态领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                极客公园
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                6小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="business">
+        <a href="https://example.com/news/business-7" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/business-6/600/400" 
+                 alt="商业动态领域最新动态7：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-business">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">商业动态领域最新动态7：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于商业动态领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                虎嗅
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                7小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="business">
+        <a href="https://example.com/news/business-8" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/business-7/600/400" 
+                 alt="商业动态领域最新动态8：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-business">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">商业动态领域最新动态8：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于商业动态领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                36氪
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                8小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="business">
+        <a href="https://example.com/news/business-9" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/business-8/600/400" 
+                 alt="商业动态领域最新动态9：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-business">融资</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">商业动态领域最新动态9：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于商业动态领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                创业邦
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                11小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="business">
+        <a href="https://example.com/news/business-10" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/business-9/600/400" 
+                 alt="商业动态领域最新动态10：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-business">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">商业动态领域最新动态10：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于商业动态领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                虎嗅
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                3小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+        </div>
+      </section>
+    
+      <section class="category-section" id="web3">
+        <div class="category-header">
+          <div class="category-title">
+            <span class="category-icon">⛓️</span>
+            Web3
+          </div>
+          <span class="category-count">10 条</span>
+        </div>
+        <div class="news-grid">
+          
+      <article class="news-card" data-category="web3">
+        <a href="https://example.com/news/web3-1" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/web3-0/600/400" 
+                 alt="Web3领域最新动态1：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-web3">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">Web3领域最新动态1：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于Web3领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                科技日报
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                8小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="web3">
+        <a href="https://example.com/news/web3-2" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/web3-1/600/400" 
+                 alt="Web3领域最新动态2：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-web3">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">Web3领域最新动态2：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于Web3领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                36氪
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                10小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="web3">
+        <a href="https://example.com/news/web3-3" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/web3-2/600/400" 
+                 alt="Web3领域最新动态3：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-web3">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">Web3领域最新动态3：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于Web3领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                科技日报
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                4小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="web3">
+        <a href="https://example.com/news/web3-4" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/web3-3/600/400" 
+                 alt="Web3领域最新动态4：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-web3">融资</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">Web3领域最新动态4：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于Web3领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                36氪
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                11小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="web3">
+        <a href="https://example.com/news/web3-5" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/web3-4/600/400" 
+                 alt="Web3领域最新动态5：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-web3">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">Web3领域最新动态5：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于Web3领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                极客公园
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                6小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="web3">
+        <a href="https://example.com/news/web3-6" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/web3-5/600/400" 
+                 alt="Web3领域最新动态6：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-web3">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">Web3领域最新动态6：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于Web3领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                虎嗅
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                6小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="web3">
+        <a href="https://example.com/news/web3-7" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/web3-6/600/400" 
+                 alt="Web3领域最新动态7：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-web3">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">Web3领域最新动态7：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于Web3领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                科技日报
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                8小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="web3">
+        <a href="https://example.com/news/web3-8" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/web3-7/600/400" 
+                 alt="Web3领域最新动态8：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-web3">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">Web3领域最新动态8：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于Web3领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                极客公园
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                5小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="web3">
+        <a href="https://example.com/news/web3-9" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/web3-8/600/400" 
+                 alt="Web3领域最新动态9：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-web3">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">Web3领域最新动态9：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于Web3领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                虎嗅
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                12小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="web3">
+        <a href="https://example.com/news/web3-10" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/web3-9/600/400" 
+                 alt="Web3领域最新动态10：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-web3">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">Web3领域最新动态10：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于Web3领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                虎嗅
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                10小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+        </div>
+      </section>
+    
+      <section class="category-section" id="health">
+        <div class="category-header">
+          <div class="category-title">
+            <span class="category-icon">🏥</span>
+            医疗健康
+          </div>
+          <span class="category-count">10 条</span>
+        </div>
+        <div class="news-grid">
+          
+      <article class="news-card" data-category="health">
+        <a href="https://example.com/news/health-1" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/health-0/600/400" 
+                 alt="医疗健康领域最新动态1：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-health">融资</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">医疗健康领域最新动态1：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于医疗健康领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                虎嗅
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                7小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="health">
+        <a href="https://example.com/news/health-2" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/health-1/600/400" 
+                 alt="医疗健康领域最新动态2：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-health">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">医疗健康领域最新动态2：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于医疗健康领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                极客公园
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                7小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="health">
+        <a href="https://example.com/news/health-3" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/health-2/600/400" 
+                 alt="医疗健康领域最新动态3：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-health">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">医疗健康领域最新动态3：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于医疗健康领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                科技日报
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                5小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="health">
+        <a href="https://example.com/news/health-4" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/health-3/600/400" 
+                 alt="医疗健康领域最新动态4：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-health">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">医疗健康领域最新动态4：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于医疗健康领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                极客公园
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                4小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="health">
+        <a href="https://example.com/news/health-5" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/health-4/600/400" 
+                 alt="医疗健康领域最新动态5：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-health">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">医疗健康领域最新动态5：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于医疗健康领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                虎嗅
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                7小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="health">
+        <a href="https://example.com/news/health-6" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/health-5/600/400" 
+                 alt="医疗健康领域最新动态6：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-health">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">医疗健康领域最新动态6：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于医疗健康领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                虎嗅
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                10小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="health">
+        <a href="https://example.com/news/health-7" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/health-6/600/400" 
+                 alt="医疗健康领域最新动态7：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-health">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">医疗健康领域最新动态7：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于医疗健康领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                科技日报
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                7小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="health">
+        <a href="https://example.com/news/health-8" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/health-7/600/400" 
+                 alt="医疗健康领域最新动态8：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-health">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">医疗健康领域最新动态8：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于医疗健康领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                36氪
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                6小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="health">
+        <a href="https://example.com/news/health-9" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/health-8/600/400" 
+                 alt="医疗健康领域最新动态9：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-health">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">医疗健康领域最新动态9：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于医疗健康领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                创业邦
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                1小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="health">
+        <a href="https://example.com/news/health-10" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/health-9/600/400" 
+                 alt="医疗健康领域最新动态10：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-health">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">医疗健康领域最新动态10：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于医疗健康领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                科技日报
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                1小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+        </div>
+      </section>
+    
+      <section class="category-section" id="green">
+        <div class="category-header">
+          <div class="category-title">
+            <span class="category-icon">🌱</span>
+            绿色能源
+          </div>
+          <span class="category-count">10 条</span>
+        </div>
+        <div class="news-grid">
+          
+      <article class="news-card" data-category="green">
+        <a href="https://example.com/news/green-1" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/green-0/600/400" 
+                 alt="绿色能源领域最新动态1：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-green">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">绿色能源领域最新动态1：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于绿色能源领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                创业邦
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                6小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="green">
+        <a href="https://example.com/news/green-2" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/green-1/600/400" 
+                 alt="绿色能源领域最新动态2：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-green">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">绿色能源领域最新动态2：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于绿色能源领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                36氪
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                6小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="green">
+        <a href="https://example.com/news/green-3" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/green-2/600/400" 
+                 alt="绿色能源领域最新动态3：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-green">融资</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">绿色能源领域最新动态3：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于绿色能源领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                极客公园
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                3小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="green">
+        <a href="https://example.com/news/green-4" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/green-3/600/400" 
+                 alt="绿色能源领域最新动态4：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-green">融资</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">绿色能源领域最新动态4：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于绿色能源领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                36氪
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                6小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="green">
+        <a href="https://example.com/news/green-5" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/green-4/600/400" 
+                 alt="绿色能源领域最新动态5：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-green">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">绿色能源领域最新动态5：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于绿色能源领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                极客公园
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                5小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="green">
+        <a href="https://example.com/news/green-6" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/green-5/600/400" 
+                 alt="绿色能源领域最新动态6：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-green">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">绿色能源领域最新动态6：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于绿色能源领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                创业邦
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                7小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="green">
+        <a href="https://example.com/news/green-7" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/green-6/600/400" 
+                 alt="绿色能源领域最新动态7：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-green">融资</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">绿色能源领域最新动态7：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于绿色能源领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                科技日报
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                11小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="green">
+        <a href="https://example.com/news/green-8" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/green-7/600/400" 
+                 alt="绿色能源领域最新动态8：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-green">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">绿色能源领域最新动态8：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于绿色能源领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                虎嗅
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                9小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="green">
+        <a href="https://example.com/news/green-9" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/green-8/600/400" 
+                 alt="绿色能源领域最新动态9：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-green">融资</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">绿色能源领域最新动态9：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于绿色能源领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                虎嗅
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                4小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="green">
+        <a href="https://example.com/news/green-10" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/green-9/600/400" 
+                 alt="绿色能源领域最新动态10：突破性技术发布，行业格局或将重构" 
+                 loading="lazy">
+            <div class="news-tag tag-green">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">绿色能源领域最新动态10：突破性技术发布，行业格局或将重构</h3>
+            <p class="news-summary">这是一篇关于绿色能源领域的重要资讯，详细介绍了最新的技术突破和行业应用场景，对未来发展趋势具有重要参考价值。内容涵盖技术原理、市场前景、投资机会等多个维度，为行业从业者提供深度洞察。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                36氪
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                7小时前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+        </div>
+      </section>
+    
+      </div>
+    </div>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="footer-brand">
+            <div class="logo">📰</div>
+            <span class="logo-text">每日日报</span>
+          </div>
+          <p class="footer-desc">
+            自动化资讯聚合平台，每日为你收集各领域最新动态，让你轻松掌握行业趋势。
+          </p>
+        </div>
+        
+        <div class="footer-section">
+          <h4>快速导航</h4>
+          <ul class="footer-links">
+            <li><a href="/">今日日报</a></li>
+            <li><a href="/archive/">历史存档</a></li>
+            <li><a href="#">关于我们</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>关注领域</h4>
+          <ul class="footer-links">
+            <li><a href="#ai">🤖 人工智能</a></li><li><a href="#tech">🔬 科技前沿</a></li><li><a href="#business">💼 商业动态</a></li><li><a href="#web3">⛓️ Web3</a></li><li><a href="#health">🏥 医疗健康</a></li><li><a href="#green">🌱 绿色能源</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>订阅更新</h4>
+          <p class="footer-desc">每天第一时间获取最新资讯</p>
+          <form class="subscribe-form">
+            <input type="email" placeholder="输入邮箱地址" class="subscribe-input">
+            <button type="submit" class="btn btn-primary">订阅</button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 每日日报. All rights reserved. 更新时间: 2026/3/11 22:08:41</p>
+        <div class="footer-links">
+          <a href="#">隐私政策</a>
+          <a href="#">使用条款</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 日报汇总弹窗 -->
+  <div class="modal" id="summaryModal">
+    <div class="modal-overlay" onclick="closeSummary()"></div>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>📋 今日日报汇总</h2>
+        <button class="modal-close" onclick="closeSummary()">✕</button>
+      </div>
+      <div class="modal-body" id="summaryContent">
+        <!-- 汇总内容将通过JS动态加载 -->
+        <div class="summary-loading">加载中...</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
