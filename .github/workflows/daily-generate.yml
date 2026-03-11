@@ -37,3 +37,6 @@ jobs:
           keep_files: true # 保留历史存档文件
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
+
+permissions:
+  contents: write
