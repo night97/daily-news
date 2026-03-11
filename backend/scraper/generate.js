@@ -52,8 +52,8 @@ const TEMPLATE = `<!DOCTYPE html>
         </div>
         
         <div class="nav-menu" id="navMenu">
-          <a href="/" class="nav-link active">今日日报</a>
-          <a href="/archive/" class="nav-link">历史存档</a>
+          <a href="./" class="nav-link active">今日日报</a>
+          <a href="./archive/" class="nav-link">历史存档</a>
           <button class="theme-toggle" id="themeToggle" aria-label="切换主题">
             <span class="theme-icon">🌙</span>
           </button>
@@ -149,8 +149,8 @@ const TEMPLATE = `<!DOCTYPE html>
         <div class="footer-section">
           <h4>快速导航</h4>
           <ul class="footer-links">
-            <li><a href="/">今日日报</a></li>
-            <li><a href="/archive/">历史存档</a></li>
+            <li><a href="./">今日日报</a></li>
+            <li><a href="./archive/">历史存档</a></li>
             <li><a href="#">关于我们</a></li>
           </ul>
         </div>
@@ -365,8 +365,8 @@ function updateArchiveIndex() {
         </div>
         
         <div class="nav-menu">
-          <a href="/" class="nav-link">今日日报</a>
-          <a href="/archive/" class="nav-link active">历史存档</a>
+          <a href="../" class="nav-link">今日日报</a>
+          <a href="../archive/" class="nav-link active">历史存档</a>
           <button class="theme-toggle" id="themeToggle" aria-label="切换主题">
             <span class="theme-icon">🌙</span>
           </button>
@@ -392,7 +392,7 @@ function updateArchiveIndex() {
       </div>
       
       <div class="text-center mt-60">
-        <a href="/" class="btn btn-primary">
+        <a href="../" class="btn btn-primary">
           <span>←</span>
           返回今日日报
         </a>
