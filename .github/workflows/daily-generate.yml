@@ -10,28 +10,28 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-       - name: Checkout code
-         uses: actions/checkout@v4
-         with:
-           fetch-depth: 0
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-       - name: Pull existing archives from gh-pages
-         uses: actions/checkout@v4
-         with:
-           ref: gh-pages
-           path: gh-pages-temp
-           fetch-depth: 1
+      - name: Pull existing archives from gh-pages
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: gh-pages-temp
+          fetch-depth: 1
 
-       - name: Copy existing archives to working directory
-         run: |
-           mkdir -p docs/archive
-           if [ -d gh-pages-temp/docs/archive ]; then
-             cp -f gh-pages-temp/docs/archive/*.html docs/archive/
-           elif [ -d gh-pages-temp/archive ]; then
-             cp -f gh-pages-temp/archive/*.html docs/archive/
-           fi
+      - name: Copy existing archives to working directory
+        run: |
+          mkdir -p docs/archive
+          if [ -d gh-pages-temp/docs/archive ]; then
+            cp -f gh-pages-temp/docs/archive/*.html docs/archive/
+          elif [ -d gh-pages-temp/archive ]; then
+            cp -f gh-pages-temp/archive/*.html docs/archive/
+          fi
 
-       - name: Setup Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
