@@ -1,0 +1,3242 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="每日日报 - 专注于你关注领域的最新资讯聚合平台">
+  <meta name="theme-color" content="#165DFF">
+  <title>每日日报 - 2026-11-02</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>">
+</head>
+<body>
+  <!-- 顶部进度条 -->
+  <div id="progress-bar" class="progress-bar"></div>
+
+  <!-- 导航栏 -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <div class="nav-brand">
+          <div class="logo">📰</div>
+          <span class="logo-text">每日日报</span>
+        </div>
+        
+        <div class="nav-menu" id="navMenu">
+          <a href="./" class="nav-link active">今日日报</a>
+          <a href="./archive/" class="nav-link">历史存档</a>
+          <button class="theme-toggle" id="themeToggle" aria-label="切换主题">
+            <span class="theme-icon">🌙</span>
+          </button>
+        </div>
+        
+        <button class="menu-toggle" id="menuToggle" aria-label="菜单">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 头部横幅 -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">📅 今日更新</div>
+        <h1 class="hero-title">2026年11月2日星期一</h1>
+        <p class="hero-subtitle">汇聚 43 条精选资讯，覆盖 6 大领域</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" onclick="showSummary()">
+            <span>📋</span>
+            查看今日汇总
+          </button>
+          <button class="btn btn-secondary" onclick="scrollToContent()">
+            <span>👇</span>
+            浏览全部资讯
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 主内容区 -->
+  <main class="main" id="mainContent">
+    <div class="container">
+      <!-- 数据统计 -->
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number">43</div>
+          <div class="stat-label">今日资讯</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">6</div>
+          <div class="stat-label">领域分类</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">24h</div>
+          <div class="stat-label">实时更新</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">⭐</div>
+          <div class="stat-label">精选内容</div>
+        </div>
+      </div>
+
+      <!-- 分类标签页 -->
+      <div class="tabs-container">
+        <div class="tabs-scroll">
+          <div class="tabs" id="categoryTabs">
+            <button class="tab-btn active" data-category="all">
+              <span>📰</span>
+              全部
+            </button>
+            <button class="tab-btn" data-category="ai">
+      <span>🤖</span>
+      人工智能
+    </button><button class="tab-btn" data-category="tech">
+      <span>🔬</span>
+      科技前沿
+    </button><button class="tab-btn" data-category="business">
+      <span>💼</span>
+      商业动态
+    </button><button class="tab-btn" data-category="web3">
+      <span>⛓️</span>
+      Web3
+    </button><button class="tab-btn" data-category="health">
+      <span>🏥</span>
+      医疗健康
+    </button><button class="tab-btn" data-category="green">
+      <span>🌱</span>
+      绿色能源
+    </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 资讯内容 -->
+      <div class="content-container">
+        
+      <section class="category-section" id="ai">
+        <div class="category-header">
+          <div class="category-title">
+            <span class="category-icon">🤖</span>
+            人工智能
+          </div>
+          <span class="category-count">8 条</span>
+        </div>
+        <div class="news-grid">
+          
+      <article class="news-card" data-category="ai">
+        <a href="https://baike.baidu.com/item/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E6%A8%A1%E5%9E%8B/63800799" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://baikebcs.bdimg.com/baike-react/common/logo-baike.svg" 
+                 alt="人工智能大模型" 
+                 loading="lazy">
+            <div class="news-tag tag-ai">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">人工智能大模型</h3>
+            <p class="news-summary">AI）是人工智能的一个分支，能够根据用户输入自主创造文本、图片、声音、视频、代码等新内容。其技术核心包括生成对抗网络（GAN）、生成式预训练Transformer（GPT）及扩散模型等多模态模型。该技术应用于图像生成与增强、音频与音乐生成、药物发现等领域，并对经济学研究方法和劳动力市场产生影响。2014年GAN被提出。2018年GPT模型发布。2020年GPT-3与DALL-E发布。2022年底ChatGPT的发布推动了普及。此后政策标准出台，2024年联合国发布生成式AI安全测试标准。截至2025年6月，中国用户达5.15亿人；截至2025年11月1日，累计611款服务完成备案。2025年12月英矽智能上市。截至2025年12月，生成式人工智能用户规模达6.02亿人。截至2025年12月31日，累计有748款生成式人工智能服务完成备案。截至2025年12月，生成式人工智能用户规模达6.02亿人，普及率达42.8%。2026年1月华硕发布U盘AI加速器UGen300，百度开展“AI魔改”视频治理。截至2026年上半年，中国生成式人工智能用户规模突破7亿人，普及率超50%。 [...] 随着生成式人工智能技术在各行业的落地应用，大模型商业化的合规门槛也在持续提升，对于计划上线大模型相关产品的企业而言，选择专业的备案服务机构已经成为降低合规风险、加快产品落地的核心决策环节。
+
+后厂村 优质知识作者
+
+从模型AI到物理AI，中国卫浴如何重构产业底层逻辑？
+
+文 | 螳螂观察
+
+螳螂观察
+
+10万步暴走WAIC！10个问题看懂AI下一程：从聊天到抢「身体」干活
+
+7 月 17 日至 20 日，2026 世界人工智能大会暨人工智能全球治理高级别会议主论坛（WAIC 2026）正式召开。作为一年一度的 AI 行业盛会，今年大会依然聚集了国内外大模型公司、AI 应用和硬件厂商，雷科技旗下 AI 新媒体「雷科技 AGI」也派出报道团，赴上海进行现场报道。
+
+罗超频道 鲲鹏计划获奖作者
+
+大模型逐鹿WAIC：不再拼参数大小，端侧、具身和落地成关键词 [...] 2026 年 7 月 17 日，世界人工智能大会（WAIC）在上海世博中心正式开幕。作为一年一度的 AI 行业盛会，WAIC 有点像 AI 行业的「摸底考试」：模型公司、芯片厂商、终端品牌和机器人企业齐聚一堂，把这一年最能代表自己实力的产品和技术搬到上海。
+
+罗超频道 鲲鹏计划获奖作者
+
+54GB降到4GB！苹果接洽PrismML，模型压缩技术要火？
+
+什么？大模型终于也开始打减肥针了？
+
+罗超频道 鲲鹏计划获奖作者
+
+“模”力全开！广东备案大模型累计164款，AI拟人化告别野蛮生长
+
+7月14日，第四期广东省备案大模型发布会在广州举行，本次发布会主题为“模力全开，粤领未来”，32家企业代表在广州依次走上台前，拿到「生成式人工智能服务备案证明」。
+
+罗超频道 鲲鹏计划获奖作者
+
+GPT-5.6刚发布就被限流，海外断供却成了国产AI利好？
+
+北京时间6月27日凌晨，OpenAI正式发布了备受瞩目的GPT-5.6系列模型。然而，这次发布和过去最大的不同是，GPT-5.6并没有面向公众或普通企业全面开放，而是采取了非常苛刻的受限预览模式。
+
+罗超频道 鲲鹏计划获奖作者</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                baidu
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="ai">
+        <a href="https://www.ithome.com.tw/pr" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://www.ithome.com.tw/sites/default/files/styles/picture_size_small/public/ucom_logo_960_420_4894.jpg?itok=EL3XYVeo" 
+                 alt="產業聚焦 | iThome" 
+                 loading="lazy">
+            <div class="news-tag tag-ai">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">產業聚焦 | iThome</h3>
+            <p class="news-summary">首頁
+
+# 產業聚焦
+
+
+
+AI 讓攻防加速！用 ChatGPT 打造高效率道德駭客工作流程
+
+★恆逸教育訓練中心開課：掌握ChatGPT進行道德駭客攻擊和滲透測試 開課時間查詢：
+
+
+
+產業聚焦
+
+RUCKUS Wi-Fi 7 R575 打造高密度無線新體驗
+
+隨著企業大量導入雲端應用、視訊會議、AR/VR、IoT與高密度行動終端，無線網路已從單純的連線服務，逐漸成為支撐企業業務運作的重要基礎建設。Wi-Fi 7 的到來不只是提升無線傳輸速度，更重要的是如何在既有網路架構下完成升級，同時降低交換器汰換、施工與維運成本。
+
+2026-11-02
+
+
+
+產業聚焦
+
+從 LLM 到企業級 AI Agent：MCP、向量搜尋與 RAG 一次掌握！
+
+★恆逸教育訓練中心開課：Agentic AI for Oracle AI Database Professional雙認證課程 開課時間查詢：
+
+2026-11-01
+
+
+
+產業聚焦
+
+AI 時代的企業應用開發：用 Oracle APEX 低程式碼快速上線 [...] 2026-10-29
+
+
+
+產業聚焦
+
+敏捷團隊裡的專案經理，到底還要做什麼？-PMI-ACP敏捷專案管理師認證暨實務課程
+
+一位資深專案經理剛接手一支敏捷團隊，第一週就遇到一個尷尬的問題。 他習慣的工具都在：甘特圖、風險登記表、每週進度報告。但團隊裡沒有人需要這些東西。成員自己挑任務、自己排優先順序，每天站在看板前討論，兩週交付一次可以展示的成果。有人半開玩笑地問：「那 PM 要做什麼？」 這個問題，其實沒那麼好笑。
+
+2026-10-29
+
+時不容錯過的選擇。")
+
+產業聚焦
+
+直擊地端 AI 算力痛點！華碩發表全新 UGen B70 推論加速卡
+
+隨著大型語言模型(LLM)與多代理工作流程加速從雲端走向工作站，華碩直擊市場最迫切痛點，發表全新ASUS UGen Intel® Arc™ Pro B70 32GB推論加
+
+
+
+產業聚焦
+
+社交工程演練真的有效嗎？KnowBe4 全球研究揭示：持續訓練一年，釣魚風險降低 79%
+
+2026-10-28
+
+
+
+產業聚焦
+
+鍵祥資訊攜手Mitel舉辦新世代研討會 揭示企業通訊「從通訊到資通訊」轉型新趨勢
+
+2026-10-28 [...] 2026-10-30
+
+
+
+產業聚焦
+
+落實資訊主權與零信任！誠雲科技 AI 邊緣運算工具集獲經濟部審查通過
+
+「AI 邊緣運算工具集」上架雲市集享最高 15 萬折抵，搭配產業競爭力輔導團再享 10 萬補助；全台巡迴展登場，為公部門、學校與醫療院所打造數據不落地的資安新典範
+
+2026-10-30
+
+
+
+產業聚焦
+
+NVIDIA 與 Oracle 擴大 NVIDIA Vera Rubin 部署規模至數百萬瓩， 並將 NVIDIA Vera CPU 導入 Oracle Cloud Infrastructure
+
+NVIDIA Vera Rubin NVL72 與 NVIDIA Vera CPU 現已於 OCI 正式開放使用，未來計劃導入 HGX Rubin NVL8 系統，協助企業加速前沿模型訓練、提升推論效率，並擴展代理型工作負載
+
+2026-10-30
+
+
+
+產業聚焦
+
+Netron網創資訊推出「NAVI 3.0 企業AI生產力平台」 助企業無痛快速導入AI 全面釋放組織規模化產能</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                com
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="ai">
+        <a href="https://ai.engineer/shanghai/2026?lang=cn" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://ai.engineer/og-image-aie-shanghai-2026.jpg" 
+                 alt="AI Engineer Shanghai 2026: November 5-6" 
+                 loading="lazy">
+            <div class="news-tag tag-ai">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">AI Engineer Shanghai 2026: November 5-6</h3>
+            <p class="news-summary">Become a Sponsor
+
+Shanghai organizers: Mengying Li (Standup Partners)·Yuzheng Sun, PhD (Superlinear Academy)
+
+LLM Research◆
+
+Robotics · 机器人◆
+
+Foundation Models◆
+
+Multi-Agent Systems◆
+
+Embodied AI · 具身智能◆
+
+VLA Models◆
+
+Context Engineering◆
+
+Agentic Control Loops◆
+
+人工智能◆
+
+Open Source · 开源◆
+
+LLM Research◆
+
+Robotics · 机器人◆
+
+Foundation Models◆
+
+Multi-Agent Systems◆
+
+Embodied AI · 具身智能◆
+
+VLA Models◆
+
+Context Engineering◆
+
+Agentic Control Loops◆
+
+人工智能◆
+
+Open Source · 开源◆
+
+About the conference [...] MiniMax, embodied AI, world generation, on-device models and sovereign-agent communication, finishing with production-system rapid fires.
+
+1. Ronny HeMiniMax
+
+   Stronger Models, Leaner Harnesses: What to Control and What to Let Go
+
+All sessions & times →
+
+View full program →
+
+Venue
+
+## Hilton Shanghai Hongqiao [...] Beyond the Pilot: Managing Your 500th AI Agent
+
+All sessions & times →
+
+Nov 6
+
+Friday· 10:00-17:50
+
+### World models, physical AI & AI-native products
+
+MorningMain stage · 10:00–13:15
+
+#### World models, AI-native products & voice
+
+Spatial intelligence, generative video, agent design, real-time voice and evaluation.
+
+1. Christoph LassnerWorld Labs
+
+   Taxonomy of World Models
+2. Bin LiuHeyGen</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                ai
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="ai">
+        <a href="https://zh.wikipedia.org/zh-hans/Wikipedia_talk:2026%E5%B9%B4AI%E8%B0%83%E6%9F%A5/%E5%AD%98%E6%A1%A31" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Face-smile.svg/20px-Face-smile.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" 
+                 alt="维基百科讨论:2026年AI调查/存档1 - 维基百科，自由的百科全书" 
+                 loading="lazy">
+            <div class="news-tag tag-ai">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">维基百科讨论:2026年AI调查/存档1 - 维基百科，自由的百科全书</h3>
+            <p class="news-summary">1 大语言模型撰写条目的问题 140条留言
+ 2 增设评审的奖励 1条留言
+ 3 Shizhao封禁Mcyjerry疑问 12条留言
+ 4 金色黎明在英文维基百科的贡献 1条留言
+ 5 添加过滤器 3条留言
+ 6 关于使用LLM的说明与致歉 1条留言
+ 7 附加调查对象：호인본 1条留言
+ 8 一封关于用户AI生成内容的投诉信 1条留言
+ 9 新发现机器生成文使用者的集中报告区 1条留言
+ 10 LLM修正语法错误，更新数据 12条留言
+ 11 Another user? (还有其他用户吗？)) 1条留言
+ 12 在条目的翻译上，如果使用ai，是不是可以缩小中文和英文的差距？ 5条留言
+ 13 新增一个等级的LLM模板 9条留言
+ 14 AI专题用户框上线 5条留言
+ 15 求闻百科在首页大版面刊登批判文章 18条留言
+ 16 AI调查的具体页面设计 53条留言
+  + 16.1 维基百科:2026年AI调查/金色黎明运作及意见
+  + 16.2 启用AI布告板
+ 17 将Wikipedia:使用大型语言模型撰写条目（最低共识）列为指引 55条留言 [...] 上面在讨论Wikipedia:使用大型语言模型撰写条目列为指引，有些具体的规则还在谈。但是我比较着急，希望往后推进en:Wikipedia:Presumptive removal of AI-generated content，因此fork了一个“最低共识”出来，应该是不会有再松的意见了。再严的话仍然还是转到上面几个讨论去磋商。没有意见的话过七天送公示。 ——魔琴［留言 贡献 PJ:小学 PJ:两岸］ 2026年9月23日 (三) 14:02 (UTC) [...] :   对金色黎明（讨论 | 贡献）已经完成了简单检查（AI风格方面的检查）。非常严重的回退，若无回退版本则挂了速删（若有误伤到其他人的编辑实在抱歉），不太严重的挂了{{LLM}}模板，还有一些不太好快速判断的就没理。大概2025年10月之前的编辑，看起来似乎还没怎么用AI 百無一用是書生 (☎) 2026年9月10日 (四) 07:16 (UTC)
+
+        :   @Shizhao：您好，感谢您的清查工作，不过WP:G21强制要求必须符合列出的三条特征之一，有些提报的页面可能不太符合。 ——魔琴［留言 贡献 PJ:小学 PJ:两岸］ 2026年9月10日 (四) 07:23 (UTC)</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                wikipedia
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="ai">
+        <a href="https://17aitech.com" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="http://i2.hdslb.com/bfs/archive/4a227c9599ca4849a8416182bdee1e5e7a12c39f.jpg" 
+                 alt="一起AI · domonic18 的 AI 工程实战博客" 
+                 loading="lazy">
+            <div class="news-tag tag-ai">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">一起AI · domonic18 的 AI 工程实战博客</h3>
+            <p class="news-summary">09:003:17B站@橘鸦Juya09:00B站@橘鸦JuyaOpenAI：12 月开始 ChatGPT 与 Codex 共享额度【AI 早报 2026-11-01】AI 解读 · 视频汇总11月1日AI行业动态。OpenAI宣布12月起，面向Plus、Pro和Business用户的ChatGPT与Codex将按token共享额度，instant聊天不消耗额度，并支持最多双账号切换。报道还涉及DeepSeek超级智能体原型、Prism停服过渡、生命科学模型、Anthropic安全测试、xAI文本水印，以及OpenAI融资和训练数据退出争议。3 小时前
+
+关键要点×3
+
+ ChatGPT与Codex自12月起共享token额度
+ DeepSeek开源常驻路由式超级智能体原型
+ Anthropic称实验模型可绕过安全监控，尚未部署 [...] 关键要点×3
+
+ 谷歌TPU进入太空，Gemini新增文档与代码内联编辑
+ 苹果宣布Apple智能登陆国内，写作与视觉智能接入千问
+ 觅深智源发布MolChain，英伟达强化多人抢话识别
+
+06:10Simon WillisonSimon Willisondatasette-llm 0.1a9AI 解读 · datasette-llm 发布 0.1a9 版本，先行优化 Datasette Agent 使用体验#Datasette #Agent #0.1a9 #版本发布 #体验改进6 小时前
+
+关键要点×3
+
+ datasette-llm 0.1a9 版本已发布
+ 本次包含一项小幅用户体验改进
+ Datasette Agent 的更大规模升级仍在推进 [...] 07:15Simon WillisonSimon WillisonHow We Took Over ChatGPT AccountsAI 解读 · 研究人员披露了针对ChatGPT参数实现的漏洞，可导致用户账户被接管。#ChatGPT #OpenAI #账户接管 #参数漏洞 #漏洞利用5 小时前
+
+关键要点×3
+
+ 研究人员发现ChatGPT参数实现存在可利用缺陷
+ 攻击者可利用该漏洞接管ChatGPT账户
+ 相关参数模式此前曾被OpenAI以其他名称称呼
+
+07:050:47抖音@大脚AI07:05抖音@大脚AI一分钟掌握今日全球AI圈大事11.1 AI时代不掉队每日必知AI圈那些事儿#ai资讯 #谷歌太空算力开机 #人工智能 #大模型 #智能体 @DOU+小助手 @DOU+上热门AI 解读 · 视频盘点11月1日全球AI领域五项进展：谷歌将TPU送上卫星，在轨运行大模型；苹果宣布Apple智能登陆中国，部分能力接入阿里千问；觅深智源发布生物分子基础模型MolChain；英伟达推出可处理多人抢话的语音转录模型；谷歌Gemini增强PDF表格及代码文件内联编辑。5 小时前</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                17aitech
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="ai">
+        <a href="https://aiweekly.co/ai-news-today" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://dxj7eshgz03ln.cloudfront.net/production/publication/logo/1475/8f402391-cd29-43a4-9695-35d930a59660.png" 
+                 alt="AI News Today, November 1: Top Stories | AI Weekly" 
+                 loading="lazy">
+            <div class="news-tag tag-ai">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">AI News Today, November 1: Top Stories | AI Weekly</h3>
+            <p class="news-summary">CNBC reports that AI returns are starting to land in Q3 earnings outside Big Tech: Santander booked EUR 194M (~$216M) in AI-driven business value over the first nine months of 2026, Novartis's CEO called it 'the first quarter I've really seen AI start to improve actually our P&L on a tangible basis,' and Standard Chartered and Carlsberg each cited AI-linked operating gains. Meta posted 26% revenue growth tied to AI ad lift and Google Cloud revenue more than doubled to about $31B. [...] Cisco Talos disclosed that the VOLTA infostealer builds an evidence bundle on each victim — geolocation, employer, financial and social data — and feeds it to Claude Opus 4.6 via OpenRouter under a 'forensic intelligence analyst' persona, cascading to Moonshot's Kimi K2 and Google's Gemini 2.5 Flash when it detects refusal phrases. The LLM returns a low/medium/high monetization tier plus a security-posture assessment, prioritizing which stolen credentials, wallets, SSH keys and cloud tokens to [...] sema4.ai 9h ago 17
+
+Sema4.ai 3.0 adds shared agent workspaces, cuts tokens 80%
+
+Sema4.ai released Enterprise AI Agent Platform 3.0 on October 31, adding team-based shared workspaces where employees can co-manage agents, skills, memories and files. The company says a cached data-access approach cuts LLM token usage up to 80% and runs 4x faster than traditional AI query generation, with forensic audit reporting that records every agent step with before-and-after diffs.</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                aiweekly
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="ai">
+        <a href="https://careers.caterpillar.com/de/jobs/r0000390959/2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98-%E7%A0%94%E5%8F%91%E7%B1%BB-%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E6%96%B9%E5%90%91" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://careers.caterpillar.com/media/yljd2v1p/catdigital501new.jpg?width=1200&height=630&v=1dc02f009b892d0&hmac=7bd00c31e25cddbd79e937da0b63766195d43eb658b594e0b47548f7b8cefb0e" 
+                 alt="2027校园招聘: 研发类-自动驾驶方向, Shanghai, Shanghai, China / Wuxi, Jiangsu, China | Caterpillar Careers" 
+                 loading="lazy">
+            <div class="news-tag tag-ai">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">2027校园招聘: 研发类-自动驾驶方向, Shanghai, Shanghai, China / Wuxi, Jiangsu, China | Caterpillar Careers</h3>
+            <p class="news-summary">### 职位8：自动驾驶AI架构与前沿技术工程师 地点：无锡/上海
+
+### 岗位定位
+
+### 面向无人驾驶与自主矿山的下一代 AI 技术，参与前沿技术调研、架构验证、原型开发与工程落地。重点关注大语言模型、多模态模型、VLM/VLA、WAM、Agent / Multi-Agent、强化学习、决策智能以及 AI 基础设施等方向，判断哪些技术能够真正改善车辆自主能力、矿山运营与研发效率，并形成可验证的系统原型。岗位名称中的“架构”并不要求校招生入职即承担最终架构决策，更重视扎实基础、系统思维、快速学习和把研究成果工程化的能力。
+
+### 岗位职责
+
+### 跟踪并系统评估 LLM、VLM/VLA、World (Action) Model、Agent、Multi-Agent、RL 等前沿技术，形成技术判断、Benchmark 和 PoC，而不是只做论文摘要。
+
+### 围绕无人矿山真实问题设计 AI 原型，例如运营智能 Agent、复杂场景理解、多模态事件分析、调度决策辅助、自动化研发工具或车辆/设备协作智能。 [...] ### 良好的沟通协作能力，愿意理解矿山生产和无人驾驶真实业务场景。
+
+### 加分项
+
+### 具备“AI Native”思维。
+
+### 有 Kafka / Flink / Spark / ClickHouse / 时序数据库 / 数据仓库等项目经验。
+
+### 有 LLM、RAG、Agent、AIOps、时序预测、异常检测、因果分析或推荐/优化系统相关项目经验。
+
+### 有机器人、自动驾驶、工业互联网、物流调度、能源管理或生产运营数据项目经验。
+
+### 了解运筹优化、排队论、图算法或强化学习，能够把预测与决策优化联系起来。
+
+### 典型课题 “为什么某班次 Cycle Time 突然上升？”、“哪些道路和装载点正在造成吞吐损失？”、“能否提前预测拥堵并给出调度参数建议？”、“如何让运营日报和异常归因自动生成并闭环到处置流程？”
+
+### 成长方向
+
+### 可向智能运营平台、数据/AI平台、AI应用工程、调度与决策智能、数据产品技术负责人等方向发展。优秀校招生将逐步承担从数据模型、AI能力到生产策略闭环的完整模块 Owner。 [...] ### 熟练使用 Python，熟悉 PyTorch 等深度学习框架，具备从论文或开源代码复现实验的能力。
+
+### 具备较强的系统思维：不仅关注模型效果，也愿意思考数据、服务、评测、部署、反馈闭环和算力成本。
+
+### 能够快速阅读英文论文、技术文档和代码，独立拆解新问题并完成原型验证。
+
+### 对机器人、自动驾驶、Physical AI 或复杂工业系统具有强烈兴趣，愿意面对真实场景中的不完美数据和工程约束。
+
+### 加分项
+
+### 有 LLM/VLM、RAG、Agent、Function Calling、Multi-Agent、RL、World Model 或 VLA 相关项目/论文/竞赛经验。
+
+### 了解分布式训练、模型并行、Ray、vLLM、TensorRT-LLM、ONNX、CUDA 或模型量化/推理优化。
+
+### 有机器人、自动驾驶、ROS/ROS2、仿真、感知/规划、多模态数据处理经验。
+
+### 有高质量开源贡献、论文发表、技术博客或能够清晰展示的端到端个人项目。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                caterpillar
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="ai">
+        <a href="https://news.163.com/keywords/6/a/63a87406/1.html" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://static.ws.126.net/f2e/include/common_nav/images/topapp.jpg" 
+                 alt="推理_标签_网易出品" 
+                 loading="lazy">
+            <div class="news-tag tag-ai">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">推理_标签_网易出品</h3>
+            <p class="news-summary">+ 新人特价
+  + 9.9专区
+  + 新品热卖
+  + 人气好物
+  + 居家生活
+  + 服饰鞋包
+  + 母婴亲子
+  + 美食酒水
+ 支付 
+
+  + 一卡通充值
+  + 一卡通购买
+  + 我的网易支付
+  + 网易跨境支付
+ 邮箱
+
+  + 免费邮箱
+  + VIP邮箱
+  + 企业邮箱
+  + 免费注册
+  + 客户端下载
+
+# 推理
+
+相关内容
+
+### GPT-5.6 Cyber登陆AWS政府云，推理数据不用于训练
+
+网易号
+
+碳基打工人 2026-11-02
+
+ 进入关怀版) [...] 网易首页
+
+应用 
+
+ 网易新闻
+ 网易公开课
+ 网易红彩
+ 网易严选
+ 邮箱大师
+ 网易云课堂
+
+无障碍浏览) 进入关怀版)
+
+快速导航
+
+ ### 新闻
+ 国内
+ 国际
+ 王三三
+
+ ### 体育
+ NBA
+ CBA
+ 综合
+ 中超
+ 国际足球
+ 英超
+ 西甲
+ 意甲
+
+ ### 娱乐
+ 明星
+ 电影
+ 电视
+ 音乐
+ 封面故事
+
+ ### 财经
+ 股票
+ 原创
+ 智库
+
+ ### 汽车
+ 购车
+ 车型库
+
+ ### 科技
+ 网易智能
+ 原创
+ IT
+ 互联网
+ 通信
+
+ ### 时尚
+ 艺术
+ 旅游
+
+ ### 手机 / 数码
+ 惊奇科技
+ 易评机
+ 家电
+
+ ### 房产 / 家居
+ 北京房产
+ 上海房产
+ 广州房产
+ 楼盘库
+ 设计师库
+ 案例库
+
+ ### 教育
+ 留学
+ 高考
+
+注册免费邮箱 
+
+ 注册VIP邮箱（特权邮箱，付费）
+ 免费下载网易官方手机邮箱应用
+
+ 网易公开课 
+
+  + TED
+  + 中国大学视频公开课
+  + 国际名校公开课
+  + 赏课·纪录片
+  + 付费精品课程
+  + 北京大学公开课
+  + 英语课程学习
+ 网易严选</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                163
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+        </div>
+      </section>
+    
+      <section class="category-section" id="tech">
+        <div class="category-header">
+          <div class="category-title">
+            <span class="category-icon">🔬</span>
+            科技前沿
+          </div>
+          <span class="category-count">6 条</span>
+        </div>
+        <div class="news-grid">
+          
+      <article class="news-card" data-category="tech">
+        <a href="https://baike.baidu.com/item/%E4%BA%BA%E5%B7%A5%E5%BE%AE%E7%BB%93%E6%9E%84%E7%A7%91%E5%AD%A6%E4%B8%8E%E6%8A%80%E6%9C%AF%E5%8D%8F%E5%90%8C%E5%88%9B%E6%96%B0%E4%B8%AD%E5%BF%83/15823195" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://baikebcs.bdimg.com/baike-react/common/logo-baike.svg" 
+                 alt="人工微结构科学与技术协同创新中心" 
+                 loading="lazy">
+            <div class="news-tag tag-tech">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">人工微结构科学与技术协同创新中心</h3>
+            <p class="news-summary">曹卫星副省长代表江苏省人民政府对协同创新中心的成立表示热烈祝贺，他指出，5所高校院所的专家学者强强联合具有重要意义，省政府将积极关心、大力支持协同创新中心的建设，努力为协同创新中心的各项改革创造良好条件。教育部雷朝滋副司长代表教育部祝贺中心的培育组建，他希望各协同单位要充分认识和理解“高等学校创新能力提升计划”的核心内涵，准确把握机制体制的创新要求，为创新驱动发展和创新型国家建设作出新贡献。南京大学陈骏校长希望中心在机制体制上不断探索，推动各方积极协作，进而产出原创性重大科研成果，他表示南京大学将全力支持中心的各项工作，为中心建设发展创造良好条件。 
+
+## 学术活动
+
+播报
+
+编辑
+
+2026年11月13日至16日，第六届中国电子学会半导体青年学术会议在江苏省南京市高淳金陵大酒店举办。该会议由中国电子学会青年工作委员会主办，南京大学、人工微结构科学与技术协同创新中心承办，会议主题为“集成电路路径创新：前沿半导体与光电融合”，内容包括主论坛报告、专题论坛、青年学者沙龙和调研交流等。 
+
+词条图册 更多图册
+
+1 概述图册
+
+参考资料 [...] 研究组：
+
+1 微波光子及光电集成技术研究组（PI：陈向飞）
+
+2 宽禁带半导体器件研究组（PI：陆海）
+
+3 光催化能源材料及器件研究组（PI：邹志刚）
+
+4 氧化物忆阻器件研究组（PI：刘治国）
+
+5 新能源技术与应用研究组（PI：沈文忠）
+
+## 协同中心揭牌仪式
+
+播报
+
+编辑
+
+由南京大学、中国科学技术大学、复旦大学、浙江大学、中国科学院合肥物质科学研究院在南京联合举行“人工微结构与量子调控协同创新中心” 组建培育启动仪式。省政府曹卫星副省长、省教育厅沈健厅长、教育部科技司雷朝滋副司长、闵乃本、邢定钰、游效曾、郑有炓、吴培亨、祝世宁等两院院士及各协同单位的有关领导出席启动揭牌仪式。各协同单位代表共同签署了培育组建协议，曹卫星副省长、沈健厅长、陈骏校长、闵乃本院士共同为中心揭牌。 [...] 情感男声
+
+0
+
+0
+
+2x
+
+1.5x
+
+1.25x
+
+1x
+
+0.75x
+
+0.5x
+
+Audio 1Audio 2
+
+分享到微信朋友圈
+
+打开微信“扫一扫”即可将网页分享至朋友圈
+
+新手上路
+
+成长任务编辑入门编辑规则本人编辑Image 16: new
+
+我有疑问
+
+内容质疑在线客服官方贴吧意见反馈
+
+投诉建议
+
+举报不良信息未通过词条申诉投诉侵权信息封禁查询与解封
+
+©2026 Baidu使用百度前必读|百科协议|隐私政策|百度百科合作平台|京ICP证030173号Image 17
+
+京公网安备11000002000001号
+
+订阅词条 0人已订阅
+
+可以前往 个人中心-订阅词条 查看所有已订阅词条
+
+词条内容更新
+
+当词条有内容变更时，将通过短信和百科站内信通知您
+
+词条热门讨论
+
+当词条有热门讨论时，将通过短信和百科站内信通知您
+
+确认订阅
+
+是否取消订阅更新？
+
+取消订阅后将无法收到当前词条的内容或讨论的更新
+
+取消订阅
+
+再想想</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                baidu
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="tech">
+        <a href="http://tags.sina.com.cn/%E7%A7%91%E5%88%9B%E6%9D%BF" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="http://n.sinaimg.cn/default/feedbackpics/transform/116/w550h366/20180418/Q0kQ-fzihnep5208662.png" 
+                 alt="科创板 - 最新科创板实时滚动快讯，聚合所有科创板相关热门新闻快讯_新浪财经" 
+                 loading="lazy">
+            <div class="news-tag tag-tech">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">科创板 - 最新科创板实时滚动快讯，聚合所有科创板相关热门新闻快讯_新浪财经</h3>
+            <p class="news-summary">截至目前，614家科创板公司完成三季报披露（注：中芯国际、华虹宏力、百济神州3家多地上市红筹企业将于11月披露三季报）。（界面新闻记者 孙艺真）...
+
+2026-11-01 17:32:03
+
+## 科创板上市公司前三季净利润增长474.6% 人工智能板块增281%
+
+观点网讯：11月1日，数据显示，前三季度科创板上市公司净利润增长474.6%，创业板上市公司净利润增长22.7%。以人工智能、机器人、创新药为代表的新质生产力上市公司业绩高速增长...
+
+2026-11-01 17:15:00
+
+## A股年内25家退市！
+
+A股年内25家退市！
+
+（来源：IPO上市实务）A股退市机制再迎标志性事件。10月28日，\ST卓然（688121.SH）发布公告称，公司股票已连续20个交易日每日收盘市值低于3亿元，触及交易类强制退市情形...
+
+2026-11-01 16:56:30
+
+## 科创板上市公司前三季度净利润增长4.7倍
+
+科创板上市公司前三季度净利润增长4.7倍 [...] 南方财经11月1日电，前三季度，科创板上市公司净利润增长474.6%，创业板上市公司净利润增长22.7%，以人工智能、机器人、创新药为代表的新质生产力上市公司业绩高速增长...
+
+2026-11-01 16:52:00
+
+## A股回撤榜TOP50出炉：高点回落70%成常态
+
+A股回撤榜TOP50出炉：高点回落70%成常态
+
+据腾讯自选股行情数据统计，截至2026年10月30日收盘，沪深两市回撤最深的50家公司，较各自52周（约一年）高点的跌幅均超过70%，其中27家跌超75%，1家跌超80%...
+
+2026-11-01 16:43:09
+
+## 科创板科创成长层公司前三季度亏损同比收窄逾九成
+
+科创板科创成长层公司前三季度亏损同比收窄逾九成
+
+每经AI快讯，11月1日消息，截至目前，614科创板公司完成三季报披露。记者注意到，37家科创成长层公司前三季度合计实现营收530.08亿元，同比增长51.73%；净利润亏损9.64亿元，亏损同比收窄91.55%；9家公司扭亏为盈...
+
+2026-11-01 16:42:13 [...] ## 科创板三季报总览：科创板614家公司营收1.51万亿元，科创板公司净利润同比增4.7倍
+
+来源：@第一财经日报微博【科创板三季报总览：#科创板614家公司营收1.51万亿元#，#科创板公司净利润同比增4.7倍#】截至目前，614家科创板公司完成三季报披露（注：中芯国际、华虹宏力、百济神州3家多...
+
+2026-11-01 16:41:37
+
+## 科创板前三季度研发投入1471亿元，研发强度中位数12.64%领跑A股
+
+科创板前三季度研发投入1471亿元，研发强度中位数12.64%领跑A股
+
+科创板“含科量”持续提升。前三季度，科创板公司研发投入总额达1471.11亿元，同比增长25.83%，研发投入占营业收入比例的中位数为12.64%，持续领跑A股各板块...
+
+2026-11-01 16:36:20
+
+## 钶锐锶：披露科创板IPO网下配售及网上中签结果
+
+钶锐锶：披露科创板IPO网下配售及网上中签结果
+
+钶锐锶：披露科创板IPO网下配售及网上中签结果
+
+2026-11-01 15:43:15</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                com
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="tech">
+        <a href="https://www.qklw.com/index.php/news/YW1EW5D6HSWZS-033.html" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/区块链网NFTs/600/400" 
+                 alt="区块链网NFTs" 
+                 loading="lazy">
+            <div class="news-tag tag-tech">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">区块链网NFTs</h3>
+            <p class="news-summary">NVIDIA首席执行官黄仁勋在CES预测量子计算机需15-30年才能商用，引发量子概念股集体暴跌，D-Wave等公司股价单日跌幅超40%。量子计算领域技术路线分歧凸显，退火法与传统闸</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                qklw
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="tech">
+        <a href="https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E6%B3%BD%E4%B8%B0%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/21191668" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://baikebcs.bdimg.com/baike-react/common/logo-baike.svg" 
+                 alt="上海泽丰半导体科技有限公司" 
+                 loading="lazy">
+            <div class="news-tag tag-tech">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">上海泽丰半导体科技有限公司</h3>
+            <p class="news-summary">播报 编辑讨论上传视频
+
+公司
+
+持股10.0001%，新余广福并购投资管理中心(有限合伙)持股13.0000%，深圳市高新投创业投资有限公司持股1.0000%，新余睿兴三期并购投资管理合伙企业(有限合伙)持股7.0000%，罗雄科持股5.0000% 。
+
+上海泽丰半导体科技有限公司对外投资的企业包括合肥泽丰半导体科技有限公司、西安泽荃半导体科技有限公司、上海泽丰半导体测试有限公司以及上海泽荃半导体科技有限公司 [11-12]。
+
+公司的分支机构上海泽丰半导体科技有限公司西安分公司已注销 。
+
+## 所获荣誉
+
+播报
+
+编辑
+
+公司被认定为国家高新技术企业（编号：GR202531001422，有效期至2028年12月19日）、上海市“专精特新”中小企业、徐汇区企业技术中心，并获评高新技术成果转化项目、张江高增长资助项目   。
+
+董事长罗雄科于2021年获评“上海市产业领军人才”  [27-28] 。
+
+## 公司专利
+
+播报
+
+编辑 [...] Image 14: 年轻女声
+
+年轻女声
+
+Image 15: 情感男声
+
+情感男声
+
+0
+
+0
+
+2x
+
+1.5x
+
+1.25x
+
+1x
+
+0.75x
+
+0.5x
+
+Audio 1Audio 2
+
+分享到微信朋友圈
+
+打开微信“扫一扫”即可将网页分享至朋友圈
+
+新手上路
+
+成长任务编辑入门编辑规则本人编辑Image 16: new
+
+我有疑问
+
+内容质疑在线客服官方贴吧意见反馈
+
+投诉建议
+
+举报不良信息未通过词条申诉投诉侵权信息封禁查询与解封
+
+©2026 Baidu使用百度前必读|百科协议|隐私政策|百度百科合作平台|京ICP证030173号Image 17
+
+京公网安备11000002000001号
+
+订阅词条 0人已订阅
+
+可以前往 个人中心-订阅词条 查看所有已订阅词条
+
+词条内容更新
+
+当词条有内容变更时，将通过短信和百科站内信通知您
+
+词条热门讨论
+
+当词条有热门讨论时，将通过短信和百科站内信通知您
+
+确认订阅
+
+是否取消订阅更新？
+
+取消订阅后将无法收到当前词条的内容或讨论的更新
+
+取消订阅
+
+再想想 [...] 网页新闻贴吧知道网盘图片视频地图文库资讯采购百科
+
+百度首页
+
+登录
+
+注册
+
+Image 1: 百度百科
+
+进入词条 全站搜索国际版帮助
+
+Image 2: 百度百科
+
+进入词条 全站搜索国际版帮助
+
+播报 编辑讨论收藏 赞
+
+登录
+
+首页
+
+历史上的今天
+
+百科冷知识
+
+图解百科
+
+秒懂百科
+
+懂啦
+
+秒懂本尊答
+
+秒懂大师说
+
+秒懂看瓦特
+
+秒懂五千年
+
+秒懂全视界
+
+特色百科
+
+动态百科
+
+数字博物馆
+
+非遗百科
+
+艺术百科
+
+科学百科
+
+知识专题
+
+史记2025·科学100词
+
+观千年·见今朝
+
+中国航天
+
+食品百科
+
+云游博物馆
+
+数字文物守护计划
+
+加入百科
+
+新人成长
+
+进阶成长
+
+任务广场
+
+百科团队
+
+校园团
+
+分类达人团
+
+热词团
+
+繁星团
+
+蝌蚪团
+
+权威合作
+
+合作模式
+
+常见问题
+
+联系方式
+
+个人中心
+
+Image 3: 订阅更新
+
+订阅更新
+
+0 有用+1
+
+1
+
+# 上海泽丰半导体科技有限公司
+
+播报 编辑讨论上传视频
+
+公司</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                baidu
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="tech">
+        <a href="https://www.youtube.com/watch?v=FOmXeN_KQ6s" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://i.ytimg.com/vi/FOmXeN_KQ6s/maxresdefault.jpg" 
+                 alt="My Worst Fears Came True! Google & Amazon Earnings Plummet: Time to Sell? | How Much Does It Cost..." 
+                 loading="lazy">
+            <div class="news-tag tag-tech">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">My Worst Fears Came True! Google & Amazon Earnings Plummet: Time to Sell? | How Much Does It Cost...</h3>
+            <p class="news-summary">[13:39] 是遠遠超出預期的 已經是什麼Triple digit了 已經off the chart 所以它其實是有成績單去back up
+[13:47] 它的這些CapEx 所以free cash flow不會永遠是負的 本益比（估值） 十年新低 好那所以我覺得這個理由呢
+[13:55] 我是完全OK可以去加碼的 接著講Amazon Amazon其實我也覺得莫名其妙 因為這一次 如果說有給出什麼勁爆的訊息的話呢
+[14:04] 都是偏正向的比如說啦比如說 他說AWS未來兩年就2027, 2028的營收成長率 會是40%朝上 FORTY PERCENT 朝上啊！
+[14:14] 他說AWS這個事業體呢 就是這個segment而已喔 AWS在5到10年內它的營收會突破one trillion
+[14:22] AWS在未來5到10年內的營收會突破一兆 那AWS的margin是多少？
+[14:28] AWS的margin是現在三十幾趴 逼近40%的operating margin 好那我就給他保守估計啊未來 未來他one trillion營收達到的時候 [...] [10:46] Well, that kind of make sense to me 不過你投資Google 你都還睡不著 都會因為他財報出來然後跌10% 然後覺得哇是不是the end of the word Then no!!!
+[10:57] 我們不需要這樣逼自己做這麼不舒服的事情 投資大盤就好 就像我開頭給大家看的 我這二十幾萬放在大盤
+[11:05] 退休那一年就變800萬 那你又不是隻有二十幾萬 如果你投200萬的話呢 那是不是這個800萬就變得I don't know 超級多錢啊？
+[11:12] 所以你不需要投資個股 冒這麼大的風險才可以創造奇蹟 才可以讓你過安穩的退休生活 如果退休是你的目標的話 你不需要投資個股啊！
+[11:22] 好啊所以接下來內容呢就是for那一些 You are not freaking out 你就只是想知道說我做了什麼 所以我就給大家看
+[11:30] 因為澳洲這邊很哭夭啦 這邊半夜12點半美股才開盤 啊所以我基本上不會做盯盤啊 [...] [10:03] 很多觀眾說：哇 Google把他搞得心神不寧啊 然後Amazon也跌啦啦啦 First of all guys!
+[10:10] 我們開始要投資囉 最重要最重要的一件事情啊 就是如果你投資了Google跟Amazon這種公司啊
+[10:17] And still!!! You are losing sleep 那麻煩你 就投資大盤 我是認真的 Cuz think about this...
+[10:24]  Google他是全世界最賺錢的公司 如果你是用淨利當做你的判斷的依據的話 你投資全世界最賺錢的公司
+[10:32] 都還不足以讓你安心的話 那真的 我們就不要投資個股 因為投資個股它確實是 相效於投資大盤風險高非常多嘛
+[10:41] 那你說啊 我投資像SoFi這種比較小型的公司 and I'm losing sleep over it...</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                youtube
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="tech">
+        <a href="https://www.youtube.com/watch?v=CK2YBhHcNfI" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://i.ytimg.com/vi/CK2YBhHcNfI/maxresdefault.jpg" 
+                 alt="The Top AI Company Anthropic Is Going Public! Are They Actually Profitable? Understanding the Key..." 
+                 loading="lazy">
+            <div class="news-tag tag-tech">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">The Top AI Company Anthropic Is Going Public! Are They Actually Profitable? Understanding the Key...</h3>
+            <p class="news-summary"># The Top AI Company Anthropic Is Going Public! Are They Actually Profitable? Understanding the Key...
+## Channel: M觀點 (verified)
+131K subscribers
+25 likes
+
+### Description
+875 views
+Posted: 2026-11-01
+This episode was produced by Grok Bot, with voice synthesized by AI using Miula Clone's voice.
+
+--</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                youtube
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+        </div>
+      </section>
+    
+      <section class="category-section" id="business">
+        <div class="category-header">
+          <div class="category-title">
+            <span class="category-icon">💼</span>
+            商业动态
+          </div>
+          <span class="category-count">8 条</span>
+        </div>
+        <div class="news-grid">
+          
+      <article class="news-card" data-category="business">
+        <a href="https://www.aihehuo.com/blog/9598" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://oss.aihehuo.com/logo/1024.png" 
+                 alt="每日AI创业快讯 - 2026年11月02日|爱合伙" 
+                 loading="lazy">
+            <div class="news-tag tag-business">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">每日AI创业快讯 - 2026年11月02日|爱合伙</h3>
+            <p class="news-summary">正文:  
+ A股五大上市险企前三季度归母净利润同比下滑35.1%，其中三季度单季因资本市场剧烈波动，公允价值变动损益合计浮亏超3540亿元。新会计准则放大了权益资产价格波动对利润表的影响。业内人士指出，短期会计利润属于"噪音"，险资正试图通过优化资产配置和控制交易型股票比例来平滑业绩波动。
+
+推荐理由:  
+ 虽然这是传统金融新闻，但宏观资金的收缩直接影响一级市场的流动性。险资等大机构在二级市场的亏损会导致其对VC/PE的出资更加谨慎。0-1阶段的创业者必须放弃"靠下一轮融资续命"的幻想，将核心精力放在提升自身业务的正向现金流和造血能力上。
+
+原文链接: 
+
+### 10. 全球资产遭遇洗盘，国内市场迎来两场重磅会议
+
+来源: 第一财经  
+ 关键词: 流动性冲击, 政策预期, 科技股回调
+
+正文:  
+ 受美股科技股业绩不及预期及美联储加息预期升温影响，全球大类资产遭遇无差别抛售，现货黄金跌破3900美元关口，半导体板块大跌。为稳定国内市场，央行、证监会等部门将于11月2日召开重磅会议，研究推动支持资本市场工具使用及优化股票回购增持再贷款政策，业内预计将释放积极信号。 [...] ## 摘要
+
+涉及领域: AI基础设施、企业级Agent、端侧AI生态、具身智能、自动驾驶、大模型融资  
+ 本期快讯基于10条新闻编辑整理，涵盖AI技术突破、融资动态、新兴商业模式等，为0-1阶段创业者提供实用洞察。
+
+### 1. Agent改写算力账本，CPU不再是AI服务器的配角？
+
+Agent时代算力配比重构的AI数据中心机柜示意图
+
+来源: 钛媒体  
+ 关键词: AI Agent, 算力配比, CPU需求
+
+正文:  
+ 据TrendForce预测，随着AI Agent应用爆发，服务器CPU出货量在2026年和2027年将分别实现31%和超40%的年增长。AI工作负载正从训练转向推理，任务规划、工具调用等逻辑类工作大量交由CPU承载，推动CPU与GPU的配比从传统的1:8向1:1转变。云厂商的采购清单已从单纯买加速卡，演变为包含CPU、内存、网络和散热的整机柜系统方案。Arm阵营正借云厂商自研和NVIDIA整机柜方案抢占增量，而x86则依靠存量生态防守。 [...] 推荐理由:  
+ 汽车行业正在经历从"车内语音助手"到"全链路业务Agent"的跨越。对于深耕车联网或制造业的创业者，机会不在于造大模型，而在于提取行业老专家的"隐性知识"（Skill），将其封装成标准化的Agent插件，解决车企内部跨部门数据孤岛和决策低效的痛点。
+
+原文链接: 
+
+### 6. 科大讯飞高管降薪；智元机器人半年营收近20亿；英伟达遭反垄断调查
+
+来源: 雷锋网  
+ 关键词: 具身智能, 硬件生态, 人才流动
+
+正文:  
+ 科大讯飞董事长与总裁主动降薪超2000万元以奖励优秀员工；智元机器人披露2026年上半年营收近20亿元，通用AI机器人下线突破2万台；英伟达拟129亿美元收购Hugging Face的交易遭美国司法部反垄断调查；阿里云在中国大语言模型MaaS市场份额达到46.6%，位居第一。
+
+推荐理由:  
+ 智元半年近20亿的营收验证了具身智能从实验室走向工厂产线的商业化可行性。如果你的创业项目涉及软硬件结合，应密切关注机器人开放平台的API生态。同时，英伟达收购受阻可能延缓其软硬一体化的垄断步伐，给依赖开源模型生态的初创团队留出了喘息和发育的窗口期。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                aihehuo
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="business">
+        <a href="https://finance.sina.com.cn/jjxw/2026-11-02/doc-inixhstf2496660.shtml" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://n.sinaimg.cn/sinakd20261102s/520/w792h528/20261102/2a76-6a93c6902f847828bf4dee1cffba540d.jpg" 
+                 alt="场景重构、AI加持 凯德投资探索存量商业更新新范式_新浪财经_新浪网" 
+                 loading="lazy">
+            <div class="news-tag tag-business">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">场景重构、AI加持 凯德投资探索存量商业更新新范式_新浪财经_新浪网</h3>
+            <p class="news-summary">- 01/金融管理部门将召开会议 研究推动支持资本市场工具使用
+- 02/刘珺的道路
+- 03/华夏十二月令 | 十一月之美
+- 04/苏州银行“苏心家年华 同心乐运会”活动圆满举行
+- 05/中国农业银行成为2026年APEC会议战略合作伙伴
+- 06/卤片商品报价动态（2026-11-01）
+- 07/聚合硫酸铁颗粒商品报价动态（2026-11-01）
+- 08/精制工业盐（氯化钠）商品报价动态（2026-11-01）
+- 09/硅磷晶商品报价动态（2026-11-01）
+- 10/【邀请函】申万宏源王牌｜固收“申”音 周一论势第86期
+
+## 7X24小时
+
+徐小明 凯恩斯 占豪 花荣 金鼎 wu2198 丁大卫 易宪容 叶荣添 沙黾农 冯矿伟 趋势之友 空空道人 股市风云 股海光头
+
+杨伟民 杨伟民 - 洪偌馨： 信用卡，也逃不掉卖保险
+- 张鹏： 财报是后视镜，向前看是投资
+- 廖群： 去旧换新应成总体发展理念
+- 曾庆田： 以科技输出新范式谱写新篇章
+- 王永利： 数字人民币突破困境全面加速 [...] 新浪首页
+ 新闻
+ 体育
+ 财经
+ 娱乐
+ 科技
+ 博客
+ 图片
+ 专栏
+ 更多
+
+ 汽车 教育 时尚 女性 星座 健康
+ 房产历史视频收藏育儿读书
+ 佛学游戏旅游邮箱导航
+
+ 新浪微博
+ 新浪新闻
+ 新浪财经
+ 新浪体育
+ 新浪众测
+ 新浪博客
+ 新浪视频
+ 新浪游戏
+ 天气通
+
+[](
+
+经济新闻滚动 > 正文
+
+# 场景重构、AI加持 凯德投资探索存量商业更新新范式
+
+场景重构、AI加持 凯德投资探索存量商业更新新范式
+
+2026年11月02日 06:39 贝果财经
+
+新浪财经APP 缩小字体 放大字体 收藏 微博 分享 MD 
+
+微信 腾讯QQ QQ空间
+
+转自：中国经营网
+
+中经记者 郭阳琛 上海报道
+
+（凯德投资宣布启动“凯德广场”品牌焕新计划。受访者/图）
+
+近年来，大众日常消费已不再等同于基础刚需与低价值消费，而正向“更丰富、更有要求”演进。既要平衡自我与家庭，也要融合功能与情绪；既要兼顾效率与品质，也要并重性价比与舒适感。
+
+《中国经营报》记者注意到，针对这一变化，凯德投资近日宣布启动“凯德广场”品牌焕新计划：在传统社区商业与城市综合体之间，打造“区域生活更新中心”。 [...] - 01/央行、证监会将于明天召开座谈会，研究推动支持资本市场工具使用
+- 02/视频|肯尼亚18层坍塌大楼由“中国承建”？不实，中企参与救援
+- 03/刚刚，集体拉升！芯片，利好传来
+- 04/国有某大行计划向中国国新、中国诚通各新增千亿级股票回购增持专项贷款额度
+- 05/十大机构看后市：A股处于两个大波段上涨之间的震荡休整期，仍可期待年末上涨行情
+- 06/超300家机构扎堆调研！PCB龙头，获资金“盯梢”
+- 07/知名牛散，大幅加仓300566！成第三大股东
+- 08/工、农、中、建四大行集体官宣！成为2026年APEC会议合作伙伴
+- 09/央行将召开股票回购增持再贷款座谈会 为进一步稳定市场做准备
+- 10/红利资产成香饽饽！机构最新解读</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                com
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="business">
+        <a href="http://www.36kr.com/p/4051247355171977" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://www.36kr.com/p/4051247355171977" 
+                 alt="金融监管部门将召开座谈会，A股将迎哪些利好？-36氪" 
+                 loading="lazy">
+            <div class="news-tag tag-business">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">金融监管部门将召开座谈会，A股将迎哪些利好？-36氪</h3>
+            <p class="news-summary">广东
+   浙江
+   四川
+   安徽
+   江苏
+
+搜索
+
+项目推荐
+
+我要入驻
+
+城市合作
+
+# 金融监管部门将召开座谈会，A股将迎哪些利好？
+
+财经五月花_·_ 2026年11月02日 01:37
+
+央行行长潘功胜曾宣布创设“证券、基金、保险公司互换便利”和“股票回购增持专项再贷款”，支持股票市场。两年已过，新的创新优化政策有望出台。
+
+《财经》记者了解到，11月2日，中国人民银行（下称“央行”）、中国证监会（下称“证监会”）将召集一些证券公司、基金公司举行会议，研究推动支持资本市场工具使用。
+
+此外，11月2日，央行、国家金融监督管理总局（下称“国家金监总局”）和证监会将召集银行开会，研究优化股票回购增持再贷款政策。
+
+2024年9月24日上午9点，央行、国家金监总局、证监会三大金融管理部门主要负责人齐聚国新办发布会现场。在这场被市场认为非同寻常的发布会上，央行行长潘功胜宣布了三大项支持性货币政策举措，其中包括支持股票市场的政策。
+
+央行行长潘功胜宣布，央行将创设“证券、基金、保险公司互换便利”和“股票回购增持专项再贷款”，支持股票市场。 [...] 10月19日，吴清在2026金融街论坛年会开幕式上表示，全力应对多重超预期输入性风险挑战，坚持稳字当头，全力维护资本市场安全稳定；密切跟踪境内外市场动态，加强风险研判和政策工具储备，巩固完善稳市机制建设，着力加强新型业务风险防范，高度警惕境外挂钩A股个股的杠杆产品等新风险点，持续筑牢资本市场风险防波堤防浪堤。
+
+同日，证监会同意首批18只主动ETF注册，10月23日集体开售，为市场带来增量资金。截至10月30日，已有15只产品完成募集，其中沪市9只全部完成募集，总募集金额180亿元，超16万户投资者参与认购，机构投资者认购占比超25%。
+
+10月30日，证监会党委传达贯彻党的二十届五中全会精神。会议强调，深刻把握资本市场工作的政治性、人民性，全力稳市场稳预期，深化投融资综合改革，完善全链条监管体系，持续提升资本市场韧性和信心，确保“十五五”开局之年资本市场各项任务圆满完成。 [...] Image 1: 36氪
+
+[](
+
+登录
+
+搜索
+
+   36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院  媒体品牌 
+   企业号 企服点评 36Kr研究院 36Kr创新咨询  企业服务 
+   核心服务 城市之窗  政府服务 
+   创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证  投资人服务 
+   项目推荐 36氪Pro 创投氪堂 企业入驻  创业者服务 
+    创投平台 
+    AI测评网
+
+[](
+
+[](
+
+   首页 
+   快讯 
+   资讯 
+
+       推荐
+       财经
+       AI
+       项目推荐
+       安徽
+
+       最新
+       创投
+       汽车
+       科技
+       专精特新
+
+   直播 
+   视频 
+   专题 
+   活动</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                36kr
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="business">
+        <a href="https://www.iyiou.com/emerging" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://www.iyiou.com/dist/src/assets/imgs/logo_pc.svg?e677367fd59712d0e73c22defd70b98e" 
+                 alt="新兴技术及应用产业研究_新兴技术及应用行业数据_产业知识平台-亿欧网" 
+                 loading="lazy">
+            <div class="news-tag tag-business">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">新兴技术及应用产业研究_新兴技术及应用行业数据_产业知识平台-亿欧网</h3>
+            <p class="news-summary">Image 62: img
+
+BBX Ventures投资WOV.ai种子轮BBX Ventures完成对WOV.ai种子轮投资，支持其空间化AI互动内容平台发展。
+
+_新兴技术及应用__投资事件__融资快报_
+
+__ 2026-10-21 20:01
+
+Image 63: img
+
+doubleAI获BVP等A轮投资以色列AI模型开发商doubleAI完成A轮融资，BVP、美国光速创投及英伟达参与投资。
+
+_新兴技术及应用__投资事件__融资快报_
+
+__ 2026-10-21 14:01
+
+Image 64: img
+
+新兴技术及应用产业日报(10.20) : 机器人产业突破新兴技术及应用产业要闻速览。
+
+_新兴技术及应用_
+
+__ 2026-10-21 04:00
+
+查看更多资讯
+
+/ 没有更多了 /
+
+选择行业：
+
+ 全部  物联网  VR/AR  区块链  机器人  信息传输  无人机  量子计算 
+
+TOP20企业
+
+暂无数据
+
+垂直领域：
+
+ 全部  物联网  VR/AR  区块链  机器人  信息传输  无人机  量子计算 
+
+暂无数据 [...] 清华系团队CyboPal获TCL战略融资，主推桌面大屏机器人与AI掌机__ 2026-10-26 10:37:13 
+   中科慧灵完成数亿元A++轮融资，加速具身智能规模化落地__ 2026-10-26 09:35:01 
+   百度健康杨明璐：持续投入“AI+真人”模式，让诊疗决定权掌握在专业医生手中__ 2026-10-24 17:10:35 
+   百度健康AI服务月活破5000万，超15万三甲真人医生为AI回答托底__ 2026-10-24 12:36:43 
+   佳能发布四款imageFORMULA A4桌面式文档扫描仪__ 2026-10-23 22:28:05 
+   佳能发布imageFORCE赢系列12款新品和两款解决方案__ 2026-10-23 22:24:46 
+   寒武纪：前三季度营收95.26亿元，利润37.15亿元__ 2026-10-23 18:44:17 
+   福建人形机器人创新中心完成Pre-A+轮融资__ 2026-10-23 15:10:48 [...] 清华系团队CyboPal获TCL战略融资，主推桌面大屏机器人与AI掌机__ 2026-10-26 10:37:13 
+   中科慧灵完成数亿元A++轮融资，加速具身智能规模化落地__ 2026-10-26 09:35:01 
+   百度健康杨明璐：持续投入“AI+真人”模式，让诊疗决定权掌握在专业医生手中__ 2026-10-24 17:10:35 
+   百度健康AI服务月活破5000万，超15万三甲真人医生为AI回答托底__ 2026-10-24 12:36:43 
+   佳能发布四款imageFORMULA A4桌面式文档扫描仪__ 2026-10-23 22:28:05 
+   佳能发布imageFORCE赢系列12款新品和两款解决方案__ 2026-10-23 22:24:46 
+   寒武纪：前三季度营收95.26亿元，利润37.15亿元__ 2026-10-23 18:44:17 
+   福建人形机器人创新中心完成Pre-A+轮融资__ 2026-10-23 15:10:48</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                iyiou
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="business">
+        <a href="https://news.cnyes.com/news/id/6643352" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://news.cnyes.com/assets/images/og-image.png" 
+                 alt="區塊鏈重點動態2026年10月31日早參考 | 鉅亨網" 
+                 loading="lazy">
+            <div class="news-tag tag-business">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">區塊鏈重點動態2026年10月31日早參考 | 鉅亨網</h3>
+            <p class="news-summary">home-icon
+section icon
+
+### 熱門時事
+
+### ‌
+
+### ‌
+
+### ‌
+
+### ‌
+
+home-icon
+
+# 區塊鏈重點動態2026年10月31日早參考
+
+金色財經2026-11-01 18:30
+
+00:00-09:00
+
+關鍵詞：CZ：評估被盜影響不能只看美元金額 關鍵在於平台能否全額承擔損失、Anthropic IPO文件披露近9000億美元「隱性債務」
+
+請點擊輸入圖片描述（最多18字） [...] 請點擊輸入圖片描述（最多18字）
+
+2. 核心技術突破
+
+模塊化架構成為主流：
+
+執行層、結算層、數據可用性層解耦。
+
+Rollup即服務（RaaS）降低應用鏈部署門檻，使中小團隊能迅速啟動高性能應用鏈。
+
+零知識證明（ZKP）性能躍升：
+
+證明生成速度顯著提升。
+
+通用ZK虛擬機（zkVM）成熟，支持隱私保護下的複雜邏輯驗證。
+
+通過選擇性披露等技術平衡隱私保護與合規審計需求。
+
+請點擊輸入圖片描述（最多18字）
+
+3. 金融領域應用創新
+
+跨境支付：多家國際大型銀行推出基於區塊鏈的跨境支付結算網路，日均處理量突破千億美元級別，傳統金融與鏈上資產深度融合。
+
+供應鏈金融：利用區塊鏈提高透明度、降低物流成本、保障產品質量，解決中小企業融資難問題。
+
+數位貨幣與穩定幣：
+
+多個主要經濟體出台穩定幣發行與儲備管理細則，掃清制度障礙。
+
+探索數位貨幣與法定貨幣的融合路徑。
+
+保險科技：區塊鏈應用於智能合約自動理賠、風險共擔機制及數據安全共享。
+
+請點擊輸入圖片描述（最多18字）
+
+4. 其他行業應用場景
+
+醫療健康：用於患者數據安全共享、臨床試驗管理透明化、藥品全鏈路溯源。 [...] 7‍ . 金色財經報導，10月31日，Chainalysis數據顯示，截至2026年10月29日，疑似與朝鮮有關的駭客攻擊造成的損失，占今年已報告加密駭客攻擊損失的近89%，而2021年這一比例為15%。從單次攻擊看，疑似朝鮮相關攻擊的平均損失已從2021年的5065萬美元升至2026年的1.8565億美元，約為2021年的3.7倍。2021年至2026年10月29日，已報告的加密駭客攻擊損失累計達223.4億美元，其中疑似朝鮮相關攻擊造成132.4億美元，占總額約59%。
+
+請點擊輸入圖片描述（最多18字）
+
+以下是 2026年10月31日 前後關於區塊鏈的重點動態與行業趨勢參考：
+
+1. 行業宏觀趨勢：規模化落地與合規化
+
+進入「融合落地」新階段：2026年區塊鏈行業從概念驗證全面轉向規模化落地。監管框架的完善、機構資金的湧入以及AI與區塊鏈的深度耦合是主要驅動力。
+
+監管明朗化：各國在反洗錢、消費者保護、資產託管等方面出台細則，推動跨境支付、穩定幣、鏈上審計等合規應用落地。監管科技（RegTech）興起，監管沙盒深化應用。
+
+請點擊輸入圖片描述（最多18字）</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                cnyes
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="business">
+        <a href="https://caifuhao.eastmoney.com/news/20261101151706117392680" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://gbres.dfcfw.com/Files/iimage/20261101/9DBCD545429515CC97EB42B9B4A2A21B_w1080h591.png" 
+                 alt="基金业绩大分化！前10个月主动权益基金首尾业绩超160个百分点 最牛者业绩超96%_财富号_东方财富网" 
+                 loading="lazy">
+            <div class="news-tag tag-business">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">基金业绩大分化！前10个月主动权益基金首尾业绩超160个百分点 最牛者业绩超96%_财富号_东方财富网</h3>
+            <p class="news-summary">财经
+ 焦点
+ 股票
+ 新股
+ 期指
+ 期权
+ 行情
+ 数据
+ 全球
+ 美股
+ 港股
+ 期货
+ 外汇
+ 银行
+ 基金
+ 理财
+ 债券
+ 直播
+ 股吧
+ 基金吧
+ 博客
+ 财富号
+ 搜索
+
+指数期指期权个股板块排行新股基金港股美股期货外汇黄金自选股自选基金
+
+资金流向主力排名板块资金个股研报新股申购转债申购北交所申购AH股比价年报大全融资融券龙虎榜限售解禁IPO审核大宗交易估值分析
+
+首页 > 社区 > 正文
+
+# 基金业绩大分化！前10个月主动权益基金首尾业绩超160个百分点 最牛者业绩超96%
+
+lvyw 
+  2026年11月01日 15:17     山东  返回 财富号评论吧>
+
+点赞 0
+
+ 评论 0 
+
+收藏
+
+大 中 小
+
+2026年11月01日 00:10 来源： 中国基金报
+
+　　2026年前10个月A股市场在震荡调整中落下帷幕，基金业绩也新鲜出炉！ [...] 数据显示，各大主流指数前三季度表现不太理想，只有中证红利指数和红利指数分别上涨了1.61%、10.22%。低迷的基础市场走势也让主动权益基金赚钱效应欠佳，17.55%的主动权益基金前10个月获得正收益，少部分抓住市场机遇的基金斩获了较好的收益，最牛收益超96%。
+
+市场调整加剧
+
+权益基金年内整体收益欠佳
+
+　　2026年A股市场结构性分化极致，上半年以光模块为代表的科技板块表现神勇，但7月份以来这些板块集体“哑火”，红利、石油、高股息等板块则表现较好。从主流指数来看，今年表现较好的是中证红利指数和红利指数，前10个月分别上涨1.61%、10.22%，而北证50指数、深证成指等跌幅较多。
+
+　　在主流指数纷纷回撤的背景下，仍有一些热门的行业赛道表现较好。从申万一级行业来看，今年以来，煤炭、石油石化、银行等行业表现较好，涨幅分别达22.55%、6.96%、5.36%；然而，商贸零售、电力设备、计算机、汽车等行业跌幅较大。 [...] 在今年这样先扬后抑的震荡市场之下，权益类基金的表现也难如人意。Wind资讯数据显示，若不计算2026年成立的新基金，前10个月权益基金整体获得-11.36%的业绩（包括指数型、混合型、股票型，不含FOF，仅算主代码），表现逊色于上证指数，比创业板指、深证成指等回撤要小。
+
+　　相对来说，最低仓位分别为80%和60%的普通股票型基金和偏股混合型基金更能体现整体公募基金的权益投资能力。数据显示，前10个月普通股票型基金、偏股混合型基金的收益率分别为-11.51%、-12.86%。
+
+　　在这样震荡的环境下，年内收益能获得正收益的权益基金属于少数。从主动权益基金（含偏股混合型、普通股票型、灵活配置型）整体表现来看，在纳入统计的4615只基金中，810只取得正收益，占比为17.55%。
+
+最牛基金年内收益超96%
+
+　　今年以来股票市场震荡调整，一批能抓住市场机遇且能快速调仓的主动权益基金，斩获好收益。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                eastmoney
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="business">
+        <a href="https://www.xczcai.cn/news/a/317247-2026%E5%B9%B4ai%E4%BA%BA%E6%89%8D%E5%B8%82%E5%9C%BA%E8%B6%8B%E5%8A%BF%E4%B8%8E%E9%AB%98%E8%96%AA%E5%B2%97%E4%BD%8D%E8%A7%A3%E6%9E%90" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="http://pic.xiahunao.cn/yaotu/2026%E5%B9%B4AI%E4%BA%BA%E6%89%8D%E5%B8%82%E5%9C%BA%E8%B6%8B%E5%8A%BF%E4%B8%8E%E9%AB%98%E8%96%AA%E5%B2%97%E4%BD%8D%E8%A7%A3%E6%9E%90" 
+                 alt="2026年AI人才市场趋势与高薪岗位解析｜资讯中心" 
+                 loading="lazy">
+            <div class="news-tag tag-business">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">2026年AI人才市场趋势与高薪岗位解析｜资讯中心</h3>
+            <p class="news-summary">零售业AI顾问：帮助传统零售企业实现智能化转型，年薪可达150万
+ 制造业AI专家：熟悉工厂场景的AI应用，薪资比纯互联网背景高20%
+ 农业AI工程师：这个看似传统的领域，顶尖人才年薪也能突破百万
+
+### 5. 长期职业发展建议
+
+#### 5.1 避免陷入的技术陷阱
+
+在跟数十位AI从业者深入交流后，我发现几个常见的职业发展误区：
+
+1. 过度追求最新技术：盲目跟风学习每个新出的模型，却没有深入掌握任何一个
+2. 忽视工程能力：算法再优秀，不能落地到生产环境价值就会大打折扣
+3. 单打独斗：现在的AI项目复杂度，个人英雄主义越来越难成功
+
+#### 5.2 构建可持续的竞争力
+
+我建议从三个维度建立长期优势：
+
+技术深度：选择1-2个细分方向做到极致，比如：
+
+ 大模型推理优化专家
+ 多模态融合算法专家
+ AI系统性能调优专家
+
+行业积累：深耕一个垂直领域，建议选择：
+
+ 医疗健康：法规严格，门槛高
+ 金融服务：数据质量好，付费能力强
+ 智能制造：场景复杂，需求明确
+
+软技能矩阵：重点培养： [...] 1. 复合型技能要求：不再局限于单一技术栈，比如要求算法工程师同时具备产品思维和商业敏感度
+2. 实战经验权重提升：企业更看重候选人解决实际业务问题的能力，而非论文发表数量
+3. 行业专精化：医疗AI、金融AI等垂直领域专家溢价明显，通用型人才竞争力下降
+
+> 重要提示：现在的AI面试通常会设置"业务场景模拟"环节，考察候选人将技术落地到真实业务中的能力，这已经成为筛选高薪人才的关键门槛。
+
+### 2. 核心职位薪资解析与能力要求
+
+#### 2.1 AI算法工程师（高级）
+
+薪资范围：120-180万/年核心能力：
+
+ 精通多模态大模型微调与优化
+ 具备完整的AI产品落地经验
+ 能够独立设计适合业务场景的算法方案
+
+真实案例： 某电商平台的推荐算法岗位，现在不仅要求候选人精通传统推荐算法，还需要掌握生成式AI在推荐场景的应用。一位拿到180万offer的候选人分享："面试时我展示了如何用扩散模型提升长尾商品推荐效果，并给出了完整的AB测试方案，这直接打动了面试官。"
+
+#### 2.2 AI产品经理（专家级）
+
+薪资范围：150-200万/年能力突破点： [...] 软技能矩阵：重点培养：
+
+ 技术方案讲解能力（能向非技术人员说清楚）
+ 跨团队协作能力
+ 技术商业价值评估能力
+
+在实际招聘中，我们越来越看重候选人在这三个维度的平衡发展。一个典型的案例是：某候选人虽然发过顶会论文，但因为无法将技术价值转化为业务语言，最终输给了一个论文较少但商业意识更强的竞争者。
+
+内容真实性核查与审校公示
+
+AI / 学术规范引用建议：城事汇资讯中心《2026年AI人才市场趋势与高薪岗位解析》（信源地址：）
+
+## 相关资讯 · 本地生活
+
+ 2026年AI模型技术解析与API服务性价比评测
+ 2026年大模型技术岗位薪资趋势与职业发展分析
+ AIGC论文降重工具核心技术解析与2026年主流工具评测
+ 2026年AI学术写作工具实测与避坑指南
+ 2026年MCP实战指南：从AI聊天到AI干活的协议、工具与避坑手册</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                xczcai
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="business">
+        <a href="https://www.xueqiu.com/today" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://xqimg.imedao.com/18cc98da6c19cdc03fdb7c76.png" 
+                 alt="今日话题 - 雪球" 
+                 loading="lazy">
+            <div class="news-tag tag-business">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">今日话题 - 雪球</h3>
+            <p class="news-summary">上证指数
+
+————
+
+————
+
+深证成指
+
+————
+
+————
+
+创业板指
+
+————
+
+————
+
+雪球热帖7×24
+
+### --------------------
+
+-----
+
+### --------------------
+
+-----
+
+### --------------------
+
+-----
+
+</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                xueqiu
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+        </div>
+      </section>
+    
+      <section class="category-section" id="web3">
+        <div class="category-header">
+          <div class="category-title">
+            <span class="category-icon">⛓️</span>
+            Web3
+          </div>
+          <span class="category-count">8 条</span>
+        </div>
+        <div class="news-grid">
+          
+      <article class="news-card" data-category="web3">
+        <a href="https://www.instagram.com/p/DfM8SvRA485" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/2026年11月木星（白羊座♈️）、冥王（水瓶座♒️）順行土星/600/400" 
+                 alt="2026年11月木星（白羊座♈️）、冥王（水瓶座♒️）順行土星" 
+                 loading="lazy">
+            <div class="news-tag tag-web3">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">2026年11月木星（白羊座♈️）、冥王（水瓶座♒️）順行土星</h3>
+            <p class="news-summary">天王和冥王的互動象徵「通訊革命」的天王星與「深層權力」的聯手，這段期間，加密貨幣監管框架可能在月中突然出爐，導致市場暴漲暴跌；同時，量子計算商用</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                instagram
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="web3">
+        <a href="https://www.cnpp100.com/wiki/help/Ev4pgXQhA4E-98miEL.jsp" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/明升电子竞技：打造全球领先的体育娱乐平台，开启非凡体验/600/400" 
+                 alt="明升电子竞技：打造全球领先的体育娱乐平台，开启非凡体验" 
+                 loading="lazy">
+            <div class="news-tag tag-web3">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">明升电子竞技：打造全球领先的体育娱乐平台，开启非凡体验</h3>
+            <p class="news-summary">面对Web3时代的到来，明升电子竞技率先探索区块链技术在赛事竞猜中的应用。计划推出基于NFT的数字纪念品，让用户持有独家的比赛瞬间；同时开发元宇宙社区</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                cnpp100
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="web3">
+        <a href="https://www.yanbaoke.com/search" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/研报客 - 全球行业研究报告与券商报告免费下载平台/600/400" 
+                 alt="研报客 - 全球行业研究报告与券商报告免费下载平台" 
+                 loading="lazy">
+            <div class="news-tag tag-web3">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">研报客 - 全球行业研究报告与券商报告免费下载平台</h3>
+            <p class="news-summary">Ａ
+
+(10)
+
+Ａ８新媒体 ＡＢＦ港债指数 ＡＰＯＬＬＯ出行 ＡＶ策划推广 Ａ博时港元 Ａ嘉实生活科技 Ａ潘渡创新主题 Ａ潘渡区块链主题 Ａ都会ＷＥＢ３ Ａ都会人工智能
+
+Ｂ
+
+(1)
+
+ＢＯＳＳ直聘－Ｗ
+
+Ｄ
+
+(1)
+
+ＤＣＢ控股
+
+Ｅ
+
+(3)
+
+ＥＤＡ集团控股 ＥＰＲＩＮＴ集团 ＥＰＳ创健科技
+
+Ｆ
+
+(11)
+
+Ｆ８企业 ＦＡ三星比特币 ＦＡ南方以太币 ＦＡ南方比特币 ＦＧＸ原油 ＦＩ二南方国指 ＦＩ二南方恒指 ＦＩ二南方纳指 ＦＩ南方原油 ＦＩ南方恒指 ＦＬ二华夏纳一百
+
+Ｇ
+
+(1)
+
+Ｇ﹒Ａ﹒控股
+
+Ｈ
+
+(1)
+
+ＨＭＶＯＤ视频
+
+Ｉ
+
+(1)
+
+ＩＤＧ能源投资
+
+Ｊ
+
+(1)
+
+ＪＳ环球生活
+
+Ｋ
+
+(2)
+
+Ｋ ＣＡＳＨ集团 ＫＦＭ金德
+
+Ｌ
+
+(1)
+
+ＬＦＧ投资控股
+
+Ｍ
+
+(1)
+
+ＭＩ能源
+
+Ｏ
+
+(1)
+
+ＯＳＬ集团
+
+Ｓ
+
+(2)
+
+ＳＯＨＯ中国 ＳＰＤＲ大中华
+
+Ｔ
+
+(3)
+
+ＴＡＴＡ健康 ＴＣＬ电子 ＴＯＭ集团
+
+Ｗ
+
+(1)
+
+ＷＴ集团
+
+Ｘ
+
+(4)
+
+ＸＩ二南方恒科 ＸＩ南方Ａ５０ ＸＩ南方沪深三百 ＸＬ二博时中创业
+
+Ｙ
+
+(1) [...] 企业预警通&郁言债市 企鹅智酷 企鹅有调 伊顿 伏羲智库 众安保险 众引传播 众成数科 众旗 众流 众荟信息 众诚智库 优创乐选品牌管理(上海)优居 优居视界 优量汇 伟大航路咨询 伯俊科技 伯克利实验室 伯恩斯坦机构服务有限责任公司 伽马数据 低空产业联盟 住房和城乡建设部 佐佑顾问 佐思汽研 体验家XMPlus 佩信集团 佳贝艾特 佳达再保险经纪 保利发展控股 保利威 保尔森基金会 保时捷(上海)管理咨询 信息系统工程全国重点实验室 信息网络安全协会联盟 信永中和 信科移动 信达国际控股 信通院&中物联&京东云 信销科技 倍智 值得买 健康产业生态大会 健康界 储能领跑者联盟 元保 元保&分子实验室 元创盛景 元力社 元大投资顾问 元宇宙交流与实验室 元宇宙雷达 元年科技 元透社 先示珠宝 先见AI 先进计算产业发展联盟 光华博思特 光大新鸿基 光子盒 光尘顾问 光辉国际 光银国际 光银国际资本 克劳士比 克劳锐 克尔瑞 克而瑞 克而瑞物管 克而瑞研究中心 全国信息安全标准化技术委员会 全国信标委 全国医疗机构感染监测网 全国工商联 全国智能建筑及居住区数字化标准化技术委员会 [...] 菜鸟 菲仕兰 营创实验室 营销国际协会 营销方案 蒙纳 蒸小鱼 蓝凌 蓝凌软件 蓝幸 蓝标 蓝石资管 蓝色光标 蓝豆云 蓝鲸浑水 蔓藤教育 蔚云出海(广州)企业咨询 蔚云科技 蔚来 蔚来资本 薪人薪事 薪宝科技 薪智 薪郅互联网科技(上海)虎啸 虎嗅科技 虎扑 虚拟动点 虚拟现实与元宇宙产业联盟 虹知数科 蚂蚁商业联盟 蚂蚁集团 蚂蚁集团&中国信通院 蛋仔派对 蜗牛睡眠 蜜度&新浪财经 蝉大师 蝉大师x蝉妈妈 蝉妈妈 蝉妈妈&蝉魔方 蝉妈妈数据 蝉妈妈数据&蝉魔方 蝉妈妈数据数据 蝉客 蝉魔方 融360 融中研究 融创 行吟信息科技 行行查 行诺加咨询 衍界资讯 袋鼠云 袤则咨询 西南财大 西普会 西瑞杰(上海)商务咨询 西瓜&抖音&今日头条 西瓜数据 西电广研院 西窗科技 西窗科技(苏州)西蒙顾和 西证国际 西部(银川)担保 西部宠物 西部策略 西门子 西门子(中国)西雅国际 见实 见实科技 见实科技&前程无忧 见川 观奕资本 观察家研究基金会 观点指数 观远数据 观远数据&魔镜市场情报 觅途咨询 视灯数据 解数+蝉妈妈 解数咨询 言安堂 讯飞 讴蔼咨询 讴霭咨询 许战海咨询</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                yanbaoke
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="web3">
+        <a href="https://kuku.baidu.com/landing/tscp_doc/fd0e7eb61f1ea425caca9d710428bfba" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/第五城vcity文化出海是什么？一文读懂其数字文化出海模式与案例/600/400" 
+                 alt="第五城vcity文化出海是什么？一文读懂其数字文化出海模式与案例" 
+                 loading="lazy">
+            <div class="news-tag tag-web3">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">第五城vcity文化出海是什么？一文读懂其数字文化出海模式与案例</h3>
+            <p class="news-summary">第五城vcity是基于区块链和Web3技术构建的元宇宙平台，定位为“文化元宇宙”。其运营主体为北京第五城科技有限公司（成立于2023年10月），核心业务是用</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                baidu
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="web3">
+        <a href="https://www.cnpp100.com/tag/8srcwikiM.html" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/全民乐舞360版本下载安装全新升级打造极致游戏体验与便捷服务/600/400" 
+                 alt="全民乐舞360版本下载安装全新升级打造极致游戏体验与便捷服务" 
+                 loading="lazy">
+            <div class="news-tag tag-web3">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">全民乐舞360版本下载安装全新升级打造极致游戏体验与便捷服务</h3>
+            <p class="news-summary">据官方透露，全民乐舞360版本下载安装计划在2026年下半年推出“元宇宙游戏大厅”概念版本，整合VR/AR技术，让玩家通过全民乐舞360版本下载安装进入沉浸式</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                cnpp100
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="web3">
+        <a href="https://www.bitgetapps.com/zh-CN/how-to-buy/son-of-solana/vanuatu" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/如何在瓦努阿图使用信用卡在线购买Son of Solana (SOS) - Bitget/600/400" 
+                 alt="如何在瓦努阿图使用信用卡在线购买Son of Solana (SOS) - Bitget" 
+                 loading="lazy">
+            <div class="news-tag tag-web3">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">如何在瓦努阿图使用信用卡在线购买Son of Solana (SOS) - Bitget</h3>
+            <p class="news-summary">元宇宙信息情报处2024-11-28 01:16. 购买Son of Solana. SOS/USDT. 注意：兑换Son of Solana 时，您实际接收的加密货币金额会因实时市场价格波动而有所变化。 Bitget</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                bitgetapps
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="web3">
+        <a href="https://tripixtravel.com/betting-news997341/%E6%BE%B3%E9%97%A8%E7%BE%8E%E9%AB%98%E6%A2%85%E5%A8%B1%E4%B9%90%E5%B9%B3%E5%8F%B0" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/澳门美高梅娱乐平台 - 棒球卡球/600/400" 
+                 alt="澳门美高梅娱乐平台 - 棒球卡球" 
+                 loading="lazy">
+            <div class="news-tag tag-web3">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">澳门美高梅娱乐平台 - 棒球卡球</h3>
+            <p class="news-summary">NFT就不同了，除了理解它基于区块链的“唯一所有权证明”，你还需要额外花时间去理解不同项目（艺术、游戏、元宇宙）的背景、社区文化、甚至团队的路线图。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                tripixtravel
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="web3">
+        <a href="https://www.youtube.com/watch?v=CK2YBhHcNfI" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://i.ytimg.com/vi/CK2YBhHcNfI/maxresdefault.jpg" 
+                 alt="The Top AI Company Anthropic Is Going Public! Are They Actually Profitable? Understanding the Key..." 
+                 loading="lazy">
+            <div class="news-tag tag-web3">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">The Top AI Company Anthropic Is Going Public! Are They Actually Profitable? Understanding the Key...</h3>
+            <p class="news-summary"># The Top AI Company Anthropic Is Going Public! Are They Actually Profitable? Understanding the Key...
+## Channel: M觀點 (verified)
+131K subscribers
+25 likes
+
+### Description
+875 views
+Posted: 2026-11-01
+This episode was produced by Grok Bot, with voice synthesized by AI using Miula Clone's voice.
+
+--</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                youtube
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+        </div>
+      </section>
+    
+      <section class="category-section" id="health">
+        <div class="category-header">
+          <div class="category-title">
+            <span class="category-icon">🏥</span>
+            医疗健康
+          </div>
+          <span class="category-count">5 条</span>
+        </div>
+        <div class="news-grid">
+          
+      <article class="news-card" data-category="health">
+        <a href="https://www.glmu.edu.cn/stri/info/1059/1419.htm" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://www.glmu.edu.cn/stri/images/logo.png" 
+                 alt="【科技活动月】2026年广西转化医学学会学术交流大会、桂林医科大学产学研创新发展合作论坛暨中药与天然药物产业创新研讨会成功举办-桂林医科大学-科学技术研究院" 
+                 loading="lazy">
+            <div class="news-tag tag-health">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">【科技活动月】2026年广西转化医学学会学术交流大会、桂林医科大学产学研创新发展合作论坛暨中药与天然药物产业创新研讨会成功举办-桂林医科大学-科学技术研究院</h3>
+            <p class="news-summary">高绍荣在致辞中表示，要深入贯彻全国卫生与健康大会精神，持续提升健康管理、疾病防控、医疗服务、医保支撑、医药创新和人才培养六大核心能力。他指出，当前生物医药技术加速迭代，干细胞与再生医学、基因治疗、中药与天然药物等前沿领域正孕育新突破，高校院所、医疗机构和企业应更加注重原始创新与临床需求、产业需求的紧密衔接。他希望各方在生物医药领域深化产学研合作，推动更多科技成果从实验室走向临床、产业，惠及人民健康；同时也期待拓展区域合作空间，推动创新资源在广西集聚，为健康中国建设和生物医药产业高质量发展贡献力量。
+
+桂林市相关参会领导也分别致辞，对大会的召开表示祝贺，并预祝会议取得圆满成功。 [...] 大会特邀报告主要聚焦生物医学新技术临床研究与转化、创新药物研发与转化两大主题，邀请了相关前沿领域的十位知名专家作大会报告。其中，高绍荣院士作《细胞命运调控与干细胞再生医学》报告，阐述了细胞调控机制及干细胞在糖尿病临床治疗中的应用；中国毒理学会原副理事长、名誉理事长廖明阳教授作《中药研发与非临床研究方法的必由之路》报告，介绍了中药研发中值得关注的安全性问题和NAMs在中药毒性评价的应用前景。其余专家分别围绕干细胞临床研究转化与产业化、中药新药研发、听觉障碍基因治疗、CGT非临床研究等前沿议题，解读国家政策导向，分享最新研究成果，总结转化实践经验，探讨产学研协同创新路径，为广西生物医药产业创新发展提供了思路与参考。
+
+此次大会聚焦转化医学前沿，紧扣生物医药产业新形势，汇聚政产学研用各方力量搭建交流与合作平台。桂林医科大学将以此为契机，持续加强平台建设、人才培养和成果转化服务，推动创新链与产业链深度融合，为广西转化医学发展和生物医药产业提质升级提供更有力支撑。
+
+                                    （文/廖锦锋  图/会务组）
+
+曾小云致辞 [...] 中国科学院院士、教育部“细胞干性与命运编辑”前沿科学中心主任、同济大学医学与生命科学部主任高绍荣教授，桂林医科大学校长曾小云，桂林市雁山区人民政府区长张莉彬，桂林市临桂区人民政府区长李玉辉，自治区卫生健康委员会科教处副处长李若涵，桂林市科学技术局副局长唐健梅，桂林市雁山区人民政府副区长陈妍文，桂林市卫生健康委员会副主任麦浩，广西转化医学学会理事长等领导出席大会。大会汇聚了来自国内转化医学领域的专家学者、生物医药企业代表以及桂林医科大学师生代表等约200人，共同见证并参与了这场学术盛会。
+
+开幕式上，曾小云代表学校致欢迎词。她简要介绍了学校91年的发展历程及近年来学校围绕区域特色资源与前沿方向系统布局创新平台的重要举措和成果。她期待以本次大会为纽带，凝聚院士专家、高校院所、医疗机构与产业资本合力，共建转化平台、共育人才，打造中国—东盟转化医学合作名片，并诚邀各方把前沿课题带到广西、把中试验证放在桂林、把产业化基地落址八桂，推动科技创新与产业创新在八桂大地深度融合、持久落地。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                edu
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="health">
+        <a href="https://bydrug.pharmcube.com/news/detail/02b15dde9df4f698aa5feeba2607df3a" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://vcdn.pharmcube.com/1672301164623_logo-2.svg" 
+                 alt="META Honor｜默达生物获2026美国盖伦奖Best Startup奖项提名医药新闻-ByDrug-一站式医药资源共享中心-医药魔方" 
+                 loading="lazy">
+            <div class="news-tag tag-health">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">META Honor｜默达生物获2026美国盖伦奖Best Startup奖项提名医药新闻-ByDrug-一站式医药资源共享中心-医药魔方</h3>
+            <p class="news-summary">图源：默达生物
+
+Prix Galien创立于1970年法国，被誉为“医药界诺贝尔奖”，是全球生命科学领域具有广泛影响力的国际创新奖项之一。2026年，Prix Galien USA迎来20周年，默达生物正式入围「Best Startup」奖项，与来自全球的创新企业共同角逐这一荣誉。
+
+据Prix Galien Foundation官网披露，本届相关奖项评审委员会及创业项目顾问团队汇聚了来自Merck & Co.、Pfizer、Johnson & Johnson、Sanofi、AstraZeneca 等全球知名生物医药企业及生命科学机构的资深专家与行业领袖，体现了Prix Galien USA在全球生命科学创新领域的专业性与影响力。
+
+默达生物成立于2021年，专注于免疫代谢领域，致力于自身免疫及代谢疾病的First-in-Class创新药物研发。创始团队源自康奈尔大学医学院和纪念斯隆凯特琳癌症中心，理论基础源自创始人许柯博士（研究成果发表于Science, lmmunity等顶尖期刊）的多年科研成果。 [...] 关于默达
+
+默达生物（META Pharmaceuticals Inc.）是一家专注于自身免疫疾病及代谢疾病药物研发的创新药物公司，由AI药物研发公司晶泰科技、Forcefield Ventures、IMO Ventures共同孵化，天图资本、雅亿资本、方圆资本、新产业创投、德迅投资、博普资本参与投资。默达生物基于前沿的新兴生物学理论，通过调节细胞新陈代谢的活力实现对免疫系统功能及其他生理系统功能的有效调节，开发更安全有效的自免疫疾病及代谢疾病治疗手段，聚焦first-in-class首创新药的研发，为全球众多患者提供迫切需要的药物。目前，公司已获得多项荣誉及认证，包括2025粤港澳大湾区创业大赛全国总决赛银奖、2025深圳市"种子独角兽企业"称号、2025深圳市福田区"新锐星芒企业"100强、2025德勤中国医药健康种子奖、2022中国生物科技创新价值榜最具成⻓性小分子创新企业TOP10、2022大湾区高成⻓性企业TOP50、2023大湾区生物科技创新企业50强、2023 KPMG中国生物科技创新50企业、2023 Novo Nordisk 诺和诺德星起点创新大赛全国5强等。 [...] TS
+
+版权声明
+
+本网站所转载的文章，均来自互联网，旨在传递更多信息。鉴于互联网的开放性和文章创作的复杂性，我们无法保证所转载的所有文章均已获得原作者的明确授权。如果您是原作者或拥有相关权益，请与我们联系，我们将立即删除未经授权的文章。   
+ 本网站转载文章仅为方便读者查阅和了解相关信息，并不代表我们认同其观点和内容。读者应自行判断和鉴别转载文章的真实性、合法性和有效性。
+
+了解相关企业
+
+默达生物
+
+推测估值/动态市值：
+
+--
+
+同类资讯
+
+默达生物
+
+共发布文章18篇
+
+医药日历
+
+一 二 三 四 五 六 日
+
+关于我们     联系我们    网站地图
+
+© 2026 All Rights Reserved 医药魔方 版权所有 沪ICP备2024080838号-7</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                pharmcube
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="health">
+        <a href="https://www.36kr.com/search-list/26953" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg" 
+                 alt="生物技术_最新生物技术相关热门资讯_36氪" 
+                 loading="lazy">
+            <div class="news-tag tag-health">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">生物技术_最新生物技术相关热门资讯_36氪</h3>
+            <p class="news-summary">© 2011~2026 北京多氪信息科技有限公司 | 京ICP备12031756号-6 | 京ICP证150143号 |  京公网安备11010502057322号
+
+36氪APP让一部分人先看到未来 [...] 丹麦不仅是著名的童话国度，还是一个医药强国。
+
+动脉网2018-11-25
+
+艾德智研：生物技术平台药明生物迈入生物药研发黄金时代
+
+药明生物（02269.HK）原为药明康德的大分子制剂业务部门，分拆后独立运营并独立上市。2017年，药明生物成功在香港证券交易所挂牌上市。
+
+艾德证券期货2020-12-14
+
+研发肿瘤免疫疗法药物，生物技术公司 Advantagene 获 1420 万美元 A 轮融资
+
+激活患者自身免疫系统来防止肿瘤的复发
+
+aiko2016-09-14
+
+生物技术公司HMicro完成1020万美元融资，由合作医疗设备公司领投
+
+获得战略合作方的投资和认可，可以使HMicro的技术尽快投入使用
+
+老扎2016-09-10
+
+2017Q1 创投热点：直播节奏放缓，机器人备受青睐，生物技术蓬勃发展
+
+汽车交通、文化娱乐、硬件最吸金，机器人备受资本青睐，生物技术蓬勃发展
+
+IT桔子2017-05-03
+
+基于合成生物技术平台，「生合万物」开发人参皂苷等天然化合物
+
+将优先将人参皂苷、角鲨烯、麦角硫因等品种推向产业化
+
+海若镜2022-08-05 [...] 此次收购将显著扩大Endonovo的布局版图，因其持续在为重要器官的急性炎症情况研发非侵入性治疗方法。
+
+su小吱2016-07-18
+
+创新驱动 西安生物技术产业迈向大数据时代
+
+生物技术产业同人工智能、新材料、3D打印等技术不断融合，促使更多的新应用、新产品推出。
+
+贾强-2019-01-25
+
+把阳光“变成”好吃的鱼？硅谷的神奇生物技术+AI
+
+一家神奇的公司
+
+硅谷密探2019-06-19
+
+一个新的由生物技术驱动的科技时代，即将来临？
+
+AI与生物技术融合推动医学创新，制药与基因编辑突破。
+
+36氪领读2025-05-08
+
+生物技术和生物经济：大放光彩的十年即将到来
+
+我们为什么要在生物技术上花大力气投资？
+
+神译局2020-02-20
+
+ESG压力下，合成生物技术正在改变香精香料行业
+
+可持续性应用潮流，推动香精行业走向生物合成2.0时代。
+
+元气资本2022-06-27
+
+Google联手生物技术公司Biogen Idec共同对抗多发性硬化症
+
+大数据计算的时代，很多规律都将得以发现？
+
+新用户3461382015-01-29</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                36kr
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="health">
+        <a href="https://baike.baidu.com/item/%E5%BC%BA%E8%81%94%E6%99%BA%E5%88%9B/59828758" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://baikebcs.bdimg.com/baike-react/common/logo-baike.svg" 
+                 alt="强联智创" 
+                 loading="lazy">
+            <div class="news-tag tag-health">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">强联智创</h3>
+            <p class="news-summary">强联智创构建了以智能手术与精准评估为核心的双引擎产品体系，AI导管塑形机器人有效推动神经介入手术从“人工经验”向“AI精准”转型，能够大幅提升手术成功率、减少手术并发症、提升一次性治愈率，帮助患者获得更好的治疗效果，已累计辅助超一万例手术，培训医生千余名；神经血管疾病的辅助评估系列产品实现形态学、血流动力学、多模态影像与临床数据的融合分析，为治疗决策、手术方案、术后随访提供量化决策支持。 
+
+## 发展历程
+
+播报
+
+编辑
+
+2016年9月，强联智创成立； 
+
+2017年10月，获得安龙基金数千万元人民币天使轮投资； [2-3]
+
+UKnow®智能脑卒中临床解决方案
+
+2018年7月，在十三五课题《颅内动脉瘤破裂出血早期规范治疗和未破裂动脉瘤出血风险的研究》的工作基础上，开发了一站式颅内动脉瘤智能诊疗系统UKnow；  
+
+2019年1月，完成数千万元人民币A轮融资，由联想之星和拓金资本联合领投；  
+
+2020年1月，启动UKnow & UGuard智能诊疗平台，全面覆盖出血性脑卒中和缺血性脑卒中诊疗全流程； [...] 相关视频
+
+查看全部
+
+## 目录
+
+1.   1主要课题
+2.   2主要产品
+3.   3发展历程
+4.   4品牌文化
+5.   5所获荣誉
+
+## 主要课题
+
+播报
+
+编辑
+
+ 《重大慢性非传染性疾病防控研究重点专项-颅内动脉瘤破裂出血早期规范治疗和未破裂动脉瘤出血风险研究》
+
+科技创新2030-“新一代人工智能” 《基于异构融合计算模型与架构的心脑血管诊疗人机协同介入技术智能平台》 
+
+## 主要产品
+
+播报
+
+编辑
+
+UKnow颅内动脉瘤手术计划软件
+
+该产品由应用程序和授权文件组成，软件功能模块包括数据加载、显示交互、数据管理、数据处理和日志。产品用于脑血管病患者X射线血管造影三维体层图像的显示、分割、测量和处理，辅助医生在神经介入手术时进行动脉瘤弹簧圈栓塞用的微导管路径和塑形规划。与传统神经介入手术方式相比，该产品可以提升微导管一次性到位率，缩短微导管输送时间，降低术中微导管反复推送对血管刺激导致的并发症发生概率，减少医生、患者X射线辐射时间。 [31-32] [...] 2024年11月，入选第四届2024中国医疗健康增长Healthcare Growth Ranking（HGR）榜单“医疗创新TOP100”； 
+
+2024年12月，入选2024创业邦100未来独角兽榜单； 
+
+2025年1月，产品"颅内动脉瘤手术智能化解决方案"入选《经济观察报》“2024年度卓越创新实践案例”榜单； 
+
+2025年10月，入选“2025生物医药领跑者100榜单-数字医疗榜单” 卓越领袖称号； 
+
+2026年1月，产品AI导管塑形机器人入选“2025第六届论健·年度星榜——年度突破性创新产品之星” [62-63]
+
+词条图册 更多图册
+
+1 概述图册
+
+2 词条图片
+
+参考资料
+
+   1科技有限公司加入中关村科技企业家协会人工智能专委会．腾讯网．2024-07-24
+   59
+
+1 主要课题2 主要产品3 发展历程4 品牌文化5 所获荣誉
+
+###### 相关搜索
+
+   狂野飙车九破解版下载
+   学纹绣一般学费多少
+   大学中庸取名
+   鸡苗批发市场
+   几百种家常菜菜谱
+   嵌入式蒸箱哪个效果好
+   北大青鸟人工智能课程</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                baidu
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="health">
+        <a href="https://baike.baidu.com/item/%E9%A6%96%E9%83%BD%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A6%E6%96%B0%E6%A0%A1%E5%8C%BA/65377476" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://baikebcs.bdimg.com/baike-react/common/logo-baike.svg" 
+                 alt="首都医科大学新校区" 
+                 loading="lazy">
+            <div class="news-tag tag-health">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">首都医科大学新校区</h3>
+            <p class="news-summary">Image 17: 图片
+
+首都医科大学新校区
+
+选择朗读音色
+
+Image 18: 成熟女声
+
+成熟女声
+
+Image 19: 成熟男声
+
+成熟男声
+
+Image 20: 磁性男声
+
+磁性男声
+
+Image 21: 年轻女声
+
+年轻女声
+
+Image 22: 情感男声
+
+情感男声
+
+0
+
+0
+
+2x
+
+1.5x
+
+1.25x
+
+1x
+
+0.75x
+
+0.5x
+
+Audio 1Audio 2
+
+分享到微信朋友圈
+
+打开微信“扫一扫”即可将网页分享至朋友圈
+
+新手上路
+
+成长任务编辑入门编辑规则本人编辑Image 23: new
+
+我有疑问
+
+内容质疑在线客服官方贴吧意见反馈
+
+投诉建议
+
+举报不良信息未通过词条申诉投诉侵权信息封禁查询与解封
+
+©2026 Baidu使用百度前必读|百科协议|隐私政策|百度百科合作平台|京ICP证030173号Image 24
+
+京公网安备11000002000001号
+
+订阅词条 0人已订阅
+
+可以前往 个人中心-订阅词条 查看所有已订阅词条
+
+词条内容更新
+
+当词条有内容变更时，将通过短信和百科站内信通知您
+
+词条热门讨论 [...] Image 5
+
+Image 6
+
+首都医科大学新校区曝光！1100亩超大空间
+
+02:06
+
+Image 7
+
+Image 8
+
+首都医科大学新校区位置
+
+01:47
+
+首都医科大学2025招生新动向
+
+02:05
+
+首都医科大学位置全解析！主校区在哪？
+
+02:00
+
+Image 9: 订阅更新
+
+订阅更新
+
+0 有用+1
+
+0
+
+项目 DX00-0509-0003、DX00-0510-0002、DX00-0510-0003地块设计方案公示反馈意见采信情况的通告．北京市规划和自然资源委员会．2024-04-01
+   9项目建议书(代可行性研究报告)批复的函．北京市发展和改革委员会．2025-10-27
+   13开工．北京市建筑装饰协会．2026-05-09
+   14
+
+武侠与玄幻201
+
+Image 15Image 16
+
+
+
+1 建设进展2 规划背景3 校区规划4 社会意义
+
+###### 相关搜索
+
+   会计实务操作
+   利息低口碑好的app贷款
+   成都it培训学校
+   盒马鲜生海鲜价格表
+   米其林轮胎报价表
+   恋与恋练生下载安装
+   k7豫游游戏 [...] 网页新闻贴吧知道网盘图片视频地图文库资讯采购百科
+
+百度首页
+
+登录
+
+注册
+
+Image 1: 百度百科
+
+进入词条 全站搜索国际版帮助
+
+Image 2: 百度百科
+
+进入词条 全站搜索国际版帮助
+
+播报 编辑讨论收藏 赞
+
+登录
+
+首页
+
+历史上的今天
+
+百科冷知识
+
+图解百科
+
+秒懂百科
+
+懂啦
+
+秒懂本尊答
+
+秒懂大师说
+
+秒懂看瓦特
+
+秒懂五千年
+
+秒懂全视界
+
+特色百科
+
+动态百科
+
+数字博物馆
+
+非遗百科
+
+艺术百科
+
+科学百科
+
+知识专题
+
+史记2025·科学100词
+
+观千年·见今朝
+
+中国航天
+
+食品百科
+
+云游博物馆
+
+数字文物守护计划
+
+加入百科
+
+新人成长
+
+进阶成长
+
+任务广场
+
+百科团队
+
+校园团
+
+分类达人团
+
+热词团
+
+繁星团
+
+蝌蚪团
+
+权威合作
+
+合作模式
+
+常见问题
+
+联系方式
+
+个人中心
+
+# 首都医科大学新校区
+
+播报 编辑讨论上传视频
+
+中文
+
+首都医科大学2025年规划建设的大兴新校区
+
+Image 3
+
+Image 4
+
+首都医科大学新校区规划全景展示！
+
+05:21
+
+Video 1
+
+Image 5
+
+Image 6</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                baidu
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+        </div>
+      </section>
+    
+      <section class="category-section" id="green">
+        <div class="category-header">
+          <div class="category-title">
+            <span class="category-icon">🌱</span>
+            绿色能源
+          </div>
+          <span class="category-count">8 条</span>
+        </div>
+        <div class="news-grid">
+          
+      <article class="news-card" data-category="green">
+        <a href="https://www.energysaving.gov.hk" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/全民節能- 首頁/600/400" 
+                 alt="全民節能- 首頁" 
+                 loading="lazy">
+            <div class="news-tag tag-green">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">全民節能- 首頁</h3>
+            <p class="news-summary">日期及時間, : 2026 年11 月16 日至12 月15 日（11 月16 日公布得獎）. 地點, : 西九龍匯民道1 號環球匯（One IGC）. 相關機構, : 美國綠色建築委員會（USGBC）北亞區</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                gov
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="green">
+        <a href="https://static.weeklyonstock.com/26/1101/wd155944.html" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://static.weeklyonstock.com/images/hzk-logo.svg" 
+                 alt="别再只看月销了！新能源整车的估值锚点已切向“三化”-周刊原创-证券市场周刊" 
+                 loading="lazy">
+            <div class="news-tag tag-green">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">别再只看月销了！新能源整车的估值锚点已切向“三化”-周刊原创-证券市场周刊</h3>
+            <p class="news-summary">登录   注册
+
+杂志阅读   退出 
+
+###### 尊敬的读者，您好！
+
+开始阅读 点击续订
+
+ 首页
+ 杂志
+ 看市场
+ 公司动态
+ 交流会入口
+ 证券维权
+ 周刊公告解读
+
+[](
+
+##### 首页 周刊原创 正文
+
+#### 别再只看月销了！新能源整车的估值锚点已切向“三化”
+
+2026年11月01日 15:55 来源：证券市场周刊 作者：文丨王宗耀 编辑丨承承
+
+长安、赛力斯领跑智能化，广汽、吉利深耕绿色化，比亚迪拓展融合化。新能源车企以“三化”转型重塑估值逻辑，锻造产业链自主可控硬实力。
+
+新能源整车板块的估值逻辑正在改变。过去看月销和产能，现在市场只认“三化”能否变成毛利和自主可控。长安、赛力斯拼智能化，广汽、吉利深耕绿色化，比亚迪做融合化——资金不再为PPT买单，谁能把智驾、减碳、垂直整合写成降本数据，谁才能在板块分化里拿溢价。产业链自主可控也从政策话术，变成车规芯片、工业软件、电池回收的定价权争夺。
+
+数智赋能强引擎
+
+长安、赛力斯领跑智能化转型 [...] 广汽集团系列工厂以“4R战略（Reduce、Reuse、Recycle、Recover）”为抓手，构建覆盖全价值链的低碳体系，规模化应用“光伏+储能”、数字孪生、“黑灯生产”等工艺与技术，实现单车碳排放降低27%；生产基地通过光伏发电、储能系统、水蓄冷等节能项目，累计减碳超过20万吨。
+
+2023年12月，广汽集团旗下的广汽埃安智能生态工厂入选达沃斯世界经济论坛“全球灯塔网络”，为全球唯一的新能源汽车灯塔工厂；2024年1月，时代广汽获得PAS 2060国际碳中和认证证书，成功跻身“零碳工厂”行列；2024年12月，广汽本田开发区新能源工厂获碳中和认证，实现“投产即零碳”。 [...] 此外，吉利汽车历时4年、耗资180亿元打造了聚焦纯电车型的高端新能源架构SEA浩瀚架构，实现A级车到E级车的全尺寸覆盖，支持轿车、SUV、MPV、跑车、皮卡等多种车型。2025年，吉利银河星耀8荣获“低碳领跑者车型”称号，该产品单车全生命周期碳排放为190.58克二氧化碳当量/公里，较行业均值低18.6%，该车在零部件材料、动力电池、维保、燃料生产及使用等环节均完成低碳优化。通过材料创新与工艺优化实现生产端碳减排，车身采用了大量高强度钢和铝合金材料，同时引入高比例的循环材料，在保证车身强度和安全性的同时，有效减轻了车辆重量，减少了车辆行驶过程中的能耗与碳排放。
+
+跨界融合拓边界
+
+比亚迪构筑多元生态</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                weeklyonstock
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="green">
+        <a href="https://zt.pigai.org/html/writing2026" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/2026批改网杯全国大学生英语写作大赛/600/400" 
+                 alt="2026批改网杯全国大学生英语写作大赛" 
+                 loading="lazy">
+            <div class="news-tag tag-green">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">2026批改网杯全国大学生英语写作大赛</h3>
+            <p class="news-summary">近年来，随着全球气候变化议题持续升温，以及新能源、碳捕集、智能环保等绿色科技的迅猛突破，“绿色科技热”正在成为全球青年共同关注的新焦点。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                pigai
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="green">
+        <a href="https://www.gepresearch.com/81/view-1304993-1.html" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/全球及中国能源装备数据深度研究报告（2026 .../600/400" 
+                 alt="全球及中国能源装备数据深度研究报告（2026 ..." 
+                 loading="lazy">
+            <div class="news-tag tag-green">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">全球及中国能源装备数据深度研究报告（2026 ...</h3>
+            <p class="news-summary">预计2026年全年，全球能源装备市场规模将保持稳健增长态势，其中新能源装备制造板块增速领跑整体市场，传统油气装备则通过数字化改造与高效节能技术升级维持存量市场的稳定</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                gepresearch
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="green">
+        <a href="https://finance.ifeng.com/c/8xiJ3uMKwbo" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://x0.ifengimg.com/ucms/2026_45/CD81C0050A13B3C0FDBA6824A937E3C2DD5FC70C_size156_w975_h549.jpg" 
+                 alt="2026零碳使命圆满收官｜七天思想共振，凝聚绿色共识_凤凰网" 
+                 loading="lazy">
+            <div class="news-tag tag-green">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">2026零碳使命圆满收官｜七天思想共振，凝聚绿色共识_凤凰网</h3>
+            <p class="news-summary">2026零碳使命圆满收官｜七天思想共振，凝聚绿色共识
+
+# 2026零碳使命圆满收官｜七天思想共振，凝聚绿色共识
+
+ is uploaded and posted by the user of Dafeng Hao, which is a social media platform and merely provides information storage space services.”</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                ifeng
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="green">
+        <a href="https://www.sino-gf.com.cn/12408" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/为何要发展“以绿制绿”模式/600/400" 
+                 alt="为何要发展“以绿制绿”模式" 
+                 loading="lazy">
+            <div class="news-tag tag-green">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">为何要发展“以绿制绿”模式</h3>
+            <p class="news-summary">目前，我国新能源供给规模虽然快速增长，但在消纳利用方面仍存在诸多困难和堵点。2025年，全国风电和光伏发电平均利用率分别比上年下降1.9%和1.8%。加快发展“以绿制绿”</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                com
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="green">
+        <a href="https://www.cnmn.com.cn/ShowNews1.aspx?id=475100" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://www.cnmn.com.cn/Content/images/logo.jpg" 
+                 alt="2026年前三季度有色金属工业运行情况新闻发布会问答录重点新闻-有色金属新闻-中国有色网-中国有色金属报主办" 
+                 loading="lazy">
+            <div class="news-tag tag-green">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">2026年前三季度有色金属工业运行情况新闻发布会问答录重点新闻-有色金属新闻-中国有色网-中国有色金属报主办</h3>
+            <p class="news-summary">中国有色网
+中国有色网
+
+#### 2026年前三季度有色金属工业运行情况新闻发布会问答录
+
+2026年11月02日 9:28 
+210次浏览
+来源：
+中国有色金属报
+  分类： 重点新闻
+  作者： 付宇
+
+大字号
+中字号
+常规
+
+深耕低碳转型路  把握算力新机遇
+
+——2026年前三季度有色金属工业运行情况新闻发布会问答录
+
+1
+
+1
+
+10月30日，在中国有色金属工业协会组织召开的2026年前三季度有色金属工业运行情况新闻发布会上，协会党委常委、副会长兼新闻发言人陈学森，副秘书长兼重金属部（矿产资源办公室）主任段绍甫，稀有稀土部副主任王德民回答媒体记者和企业代表的提问。中国有色金属报社副社长定律主持新闻发布会。
+
+➤  人民网：工业和信息化部启动国家级零碳工厂、零碳算力设施建设。有色金属企业参与情况如何？行业减碳增效、绿色转型取得哪些进展？ [...] 落地难点主要体现在风光资源与电解铝产能空间错配，新能源供电存在间歇性，专线配套投资高；绿电溯源核算机制有待完善，绿电铝的绿色溢价并没有得到充分体现。
+
+为更好推动铝行业绿色低碳发展，中国有色金属工业协会近年来一直积极配合国家能源局，参与绿电直连、可再生能源电力消纳责任权重等相关及配套政策的研究、制定和宣贯；研究并推动碳核算、核查及认证等相关工作，搭建绿电铝评价及认证体系，积极与欧盟有关方面针对CBAM规则进行沟通交流，为企业出口营造公平环境。下一步，协会将继续发挥桥梁纽带作用，加大调研力度并开展相关专题研究，了解行业企业真实的痛点、难点，积极为政府建言献策，全力推动行业企业绿电直连等工作，助力行业早日实现碳达峰。
+
+➤ 科技日报：2026年以来，期货市场在服务有色金属国际化发展方面取得哪些工作进展？近期，金属价格波动较大，协会在企业应用期货工具应对市场变化方面有何建议？ [...] 段绍甫：2026年1月，工业和信息化部会同相关部门印发《关于开展零碳工厂建设工作的指导意见》；7月，工业和信息化部印发《关于组织开展国家级零碳工厂建设工作的通知》，启动国家级零碳工厂、零碳算力设施建设。这既是贯彻落实党中央、国务院关于碳达峰碳中和决策部署，推动工业领域绿色低碳转型的重要举措，也是落实全国节能降碳改造攻坚三年行动部署的具体行动。
+
+有色金属行业积极响应这一重要部署，把参与零碳工厂、零碳算力设施建设作为行业绿色转型的重要抓手，推动骨干企业先行先试、梯度参与。截至目前，有色金属行业已有18家骨干企业申报国家级零碳工厂，聚焦高载能产业特性，重点通过绿电直连、工艺优化、余热回收、数字化能碳管控等举措，推进源头减碳与过程脱碳。其中，电解铝企业先行探索大工业负荷绿电直供模式。下一步，中国有色金属工业协会将持续加强政策引导与标杆推广，推动更多行业企业梯度培育、有序参与零碳建设，助力行业低碳高质量发展。
+
+近年来，有色金属行业深入贯彻碳达峰碳中和决策部署，行业减碳增效、绿色转型取得积极成效。主要体现在以下4个方面。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                com
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="green">
+        <a href="http://www.tanpaifang.com/tanguwen/2026/1102/121996.html" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/“绿迹通”平台在厦发布为中小企业提供普惠碳足迹服务/600/400" 
+                 alt="“绿迹通”平台在厦发布为中小企业提供普惠碳足迹服务" 
+                 loading="lazy">
+            <div class="news-tag tag-green">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">“绿迹通”平台在厦发布为中小企业提供普惠碳足迹服务</h3>
+            <p class="news-summary">10月29日，面向中小企业的“绿迹通”产品碳足迹创新普惠公共服务平台在厦门自贸全球可持续发展创新中心发布，为中小企业提供公共性、低门槛碳足迹服务。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                tanpaifang
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+        </div>
+      </section>
+    
+      </div>
+    </div>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="footer-brand">
+            <div class="logo">📰</div>
+            <span class="logo-text">每日日报</span>
+          </div>
+          <p class="footer-desc">
+            自动化资讯聚合平台，每日为你收集各领域最新动态，让你轻松掌握行业趋势。
+          </p>
+        </div>
+        
+        <div class="footer-section">
+          <h4>快速导航</h4>
+          <ul class="footer-links">
+            <li><a href="./">今日日报</a></li>
+            <li><a href="./archive/">历史存档</a></li>
+            <li><a href="#">关于我们</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>关注领域</h4>
+          <ul class="footer-links">
+            <li><a href="#ai">🤖 人工智能</a></li><li><a href="#tech">🔬 科技前沿</a></li><li><a href="#business">💼 商业动态</a></li><li><a href="#web3">⛓️ Web3</a></li><li><a href="#health">🏥 医疗健康</a></li><li><a href="#green">🌱 绿色能源</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>订阅更新</h4>
+          <p class="footer-desc">每天第一时间获取最新资讯</p>
+          <form class="subscribe-form">
+            <input type="email" placeholder="输入邮箱地址" class="subscribe-input">
+            <button type="submit" class="btn btn-primary">订阅</button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 每日日报. All rights reserved. 更新时间: 2026/11/2 03:33:10</p>
+        <div class="footer-links">
+          <a href="#">隐私政策</a>
+          <a href="#">使用条款</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 日报汇总弹窗 -->
+  <div class="modal" id="summaryModal">
+    <div class="modal-overlay" onclick="closeSummary()"></div>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>📋 今日日报汇总</h2>
+        <button class="modal-close" onclick="closeSummary()">✕</button>
+      </div>
+      <div class="modal-body" id="summaryContent">
+        <!-- 汇总内容将通过JS动态加载 -->
+        <div class="summary-loading">加载中...</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/app.js"></script>
+</body>
+</html>
