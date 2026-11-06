@@ -1,0 +1,3445 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="每日日报 - 专注于你关注领域的最新资讯聚合平台">
+  <meta name="theme-color" content="#165DFF">
+  <title>每日日报 - 2026-11-06</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>">
+</head>
+<body>
+  <!-- 顶部进度条 -->
+  <div id="progress-bar" class="progress-bar"></div>
+
+  <!-- 导航栏 -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <div class="nav-brand">
+          <div class="logo">📰</div>
+          <span class="logo-text">每日日报</span>
+        </div>
+        
+        <div class="nav-menu" id="navMenu">
+          <a href="./" class="nav-link active">今日日报</a>
+          <a href="./archive/" class="nav-link">历史存档</a>
+          <button class="theme-toggle" id="themeToggle" aria-label="切换主题">
+            <span class="theme-icon">🌙</span>
+          </button>
+        </div>
+        
+        <button class="menu-toggle" id="menuToggle" aria-label="菜单">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 头部横幅 -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">📅 今日更新</div>
+        <h1 class="hero-title">2026年11月6日星期五</h1>
+        <p class="hero-subtitle">汇聚 48 条精选资讯，覆盖 6 大领域</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" onclick="showSummary()">
+            <span>📋</span>
+            查看今日汇总
+          </button>
+          <button class="btn btn-secondary" onclick="scrollToContent()">
+            <span>👇</span>
+            浏览全部资讯
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 主内容区 -->
+  <main class="main" id="mainContent">
+    <div class="container">
+      <!-- 数据统计 -->
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number">48</div>
+          <div class="stat-label">今日资讯</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">6</div>
+          <div class="stat-label">领域分类</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">24h</div>
+          <div class="stat-label">实时更新</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">⭐</div>
+          <div class="stat-label">精选内容</div>
+        </div>
+      </div>
+
+      <!-- 分类标签页 -->
+      <div class="tabs-container">
+        <div class="tabs-scroll">
+          <div class="tabs" id="categoryTabs">
+            <button class="tab-btn active" data-category="all">
+              <span>📰</span>
+              全部
+            </button>
+            <button class="tab-btn" data-category="ai">
+      <span>🤖</span>
+      人工智能
+    </button><button class="tab-btn" data-category="tech">
+      <span>🔬</span>
+      科技前沿
+    </button><button class="tab-btn" data-category="business">
+      <span>💼</span>
+      商业动态
+    </button><button class="tab-btn" data-category="web3">
+      <span>⛓️</span>
+      Web3
+    </button><button class="tab-btn" data-category="health">
+      <span>🏥</span>
+      医疗健康
+    </button><button class="tab-btn" data-category="green">
+      <span>🌱</span>
+      绿色能源
+    </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 资讯内容 -->
+      <div class="content-container">
+        
+      <section class="category-section" id="ai">
+        <div class="category-header">
+          <div class="category-title">
+            <span class="category-icon">🤖</span>
+            人工智能
+          </div>
+          <span class="category-count">8 条</span>
+        </div>
+        <div class="news-grid">
+          
+      <article class="news-card" data-category="ai">
+        <a href="https://k.sina.com.cn/article_7857201856_1d45362c001908toja.html?from=tech" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://i.sso.sina.com.cn/images/login/thumb_default.png" 
+                 alt="新浪AI热点小时报丨2026年11月05日06时_今日实时AI热点速递|推理|机器人|html|Tok|产业_新浪新闻" 
+                 loading="lazy">
+            <div class="news-tag tag-ai">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">新浪AI热点小时报丨2026年11月05日06时_今日实时AI热点速递|推理|机器人|html|Tok|产业_新浪新闻</h3>
+            <p class="news-summary">（来源：北京物联网智能技术应用协会）一、发展趋势1. 从“单次prompt推理”转向持续迭代式在线推理传统大模型推理是一问一答、无状态；智能体推理是带状态的长链路推理。智能体不再一次性输出答案，而是感知当前状态→推理决策→调用工具/执行动作→观测反馈→修正推理，形成闭环。趋势重点：推理过程与环境执行深度耦合，推理不再只发生在模型内部，而是穿插工具调用、外部检索、环境反馈。2. 推理范式走向混合架构：LLM + 符号/规划器/验证器纯大模型原生推理存在幻觉、逻辑跳步问题。
+
+## 7、首个新一代人工智能国家科技重大专项启动 [...] （来源：沈阳晚报）转自：沈阳晚报今年“双十一”，一种“看不见、摸不着”的商品悄悄上了电商货架——词元（Token）。作为大模型调用算力的计量单位，Token首次以独立品类进入大促，从开发者后台走向普通消费者的购物车。记者在多家电商平台看到，大模型厂商集中推出Token月卡、年卡和折扣套餐，购买流程近似“充话费、开会员”。11月2日晚，李佳琦直播间开卖千问大模型办公个人会员月卡，半小时售出10万份，对应约2万亿Token的算力调用额度，社交平台上“囤Token”迅速冲上热搜。有网友调侃：往年“双十一”囤纸巾、抢口红，今年开始囤Token。
+
+## 9、知识图谱赋能职业教育课程开发的价值与策略 [...] （来源：新华日报） □ 王雨娇 人工智能与数字化技术的深度普及为教育教学改革提供了全新支撑。知识图谱具有结构化整合信息、串联语义关联、搭建知识网络的独特优势，可系统梳理碎片化的知识点、技能点与专业要素，形成可视化、体系化的知识架构，支撑知识建模与教学创新。面向高素质技术技能人才培育的职业教育，课程开发是落实育人目标、衔接产业岗位需求的核心环节。将知识图谱技术深度融入职业教育课程开发全过程，能够重塑课程知识体系、赋能个性化教学、推动岗课赛证深度融合，革新课程建设模式，为职业教育数字化转型、课程质量升级提供助力。
+
+## 10、深化拓展“人工智能+”行动 推动海洋经济高质量发展</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                com
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="ai">
+        <a href="https://news.futunn.com/post/1003636462/asia-pacific-technology-signposts-for-the-next-phase-of-the" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/亚太科技：AI周期下一阶段的路标 - 富途资讯/600/400" 
+                 alt="亚太科技：AI周期下一阶段的路标 - 富途资讯" 
+                 loading="lazy">
+            <div class="news-tag tag-ai">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">亚太科技：AI周期下一阶段的路标 - 富途资讯</h3>
+            <p class="news-summary">领先美国AI模型年化收入2026年10月突破1200亿美元，较4月翻番；两家顶级模型提供商月活超10亿，领导者周活达12亿。 企业LLM使用仍集中头部：2026年3月</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                futunn
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="ai">
+        <a href="https://hkust.edu.hk/news/listing" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://hkust.edu.hk/sites/default/files/styles/hkust_new_thumbnail_350_250/public/news/31010/Photo%201_4.jpg?itok=2SAS9bdd" 
+                 alt="News & Stories | HKUST" 
+                 loading="lazy">
+            <div class="news-tag tag-ai">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">News & Stories | HKUST</h3>
+            <p class="news-summary">在2026香港金融科技周開幕式上，度小滿與香港科技大學（科大）、香港生成式人工智慧研發中心（HKGAI）聯合發佈軒轅4.5金融增強大模型。軒轅4.5基於RSI技術在獲客、風控、客戶經營等核心金融場景中實現效果提升30%，成本僅為通用模型的10%。度小滿CEO朱光表示：「科大和HKGAI在人工智慧、電腦科學和多學科交叉研究方面積累深厚，與度小滿長期積累的金融業務經驗、真實應用場景和工程能力形成互補，三方聯合推動AI在金融領域的深度應用，助力香港金融行業的智慧化升級。香港是度小滿集團的國際化總部，我們還將與港科大持續深化科研合作，攜手HKGAI開拓國際市場。」科大首席副校長郭毅可表示：「科大一直致力於讓前沿 AI 研究走向真實產業場景。與度小滿聯合發佈的軒轅 4.5 金融大模型，是行業首個自進化金融增強大模型。我們期待軒轅 4.5 [...] The Hong Kong University of Science and Technology (HKUST) and HSBC today signed a framework agreement on a strategic partnership to accelerate innovation and talent development in artificial intelligence, emerging technologies and financial services through HSBC's newly established AI & Emerging Technology Institute.
+
+Du Xiaoman and HKUST Launch XuanYuan 4.5 Financial LLM (Chinese Version Only)
+
+News
+
+Artificial Intelligence [...] 4.5 在香港的落地，進一步提升香港作為國際金融中心的競爭力。」首個自進化金融增強大模型，構建一人千面的AI原生應用體驗軒轅4.5是金融領域首個將自進化RSI技術運用於模型訓練及智慧體場景目標適配的金融增強大模型，包含大語言模型和多模態模型兩部分。自研Xuanyuan-Machine參與智慧體資料合成、有監督微調、強化學習等環節，讓模型持續適配金融任務。針對需要多步分析的複雜業務，“軒轅”結合長鏈路強化學習、信貸標準作業流程獎勵及線上策略蒸餾，融合多領域專家能力，並在可信合規的金融智慧體環境中構建超過1000億Token的場景增強資料。“軒轅4.5”模型在所測金融場景中，以約為通用頂級模型十分之一的推理成本，實現更強的金融場景能力。不同客戶的經營節奏、資金需求在不同階段也不盡相同。「軒轅」通過金融專業能力和對用戶需求的個性化洞察，可以滿足一個用戶在不同時間、不同情境下的金融需求。例如，對於需要短期資金周轉、回款後才有現金流的客戶，模型據此匹配方案：用款期間先付利息，貨款收回後再還本金，實現更早洞察客戶需求、為客戶更精准匹配方案。智能體驅動風控策略自進化，深化AI金融產學研合作</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                edu
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="ai">
+        <a href="https://ai.engineer/shanghai/2026/program?lang=cn" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://ai.engineer/og-image-aie-shanghai-2026.jpg" 
+                 alt="Full program | AI Engineer Shanghai 2026" 
+                 loading="lazy">
+            <div class="news-tag tag-ai">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">Full program | AI Engineer Shanghai 2026</h3>
+            <p class="news-summary">Enterprises buy LLM inference through three structurally different pricing models: credit-based subscriptions, pay-per-token APIs, and self-hosted GPU capacity, with little guidance on which to use at a given volume or what signals it's time to switch. This talk introduces the Efficiency Curve: cost per token under the cheapest procurement mode at each volume, and its crossover points. Using a July-2026 pricing snapshot across three model quality tiers, I show a counter-intuitive [...] The LLM gateway has become a critical piece of infrastructure at Optiver. Engineers, researchers and agents rely on it daily for a variety of tasks, from analysing large volumes of market news and research to running automated workflows. When the gateway goes down, the impact is expensive and quickly noticed. Keeping LLM traffic running reliably across multiple regions and providers has been challenging, with many of the failures outside our control. In this talk, we share our experience [...] conversations not to remember, and why forgetting is a feature, not a bug. Loop: self-improvement is bottlenecked by verification, not generation. Where the verifier is deterministic, the loop closes (DeepMind’s AlphaEvolve on Borg scheduling: a discovered heuristic, in production over a year, continuously recovering 0.7% of Google’s fleet-wide compute). Where the verifier is taste, humans hold the merge (Meta’s TestGen-LLM: three mechanical filters first, then engineers accept 73% of what</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                ai
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="ai">
+        <a href="https://www.infoq.cn/article/4IUSd2wP28ua4Jd5fHG2" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://static001.infoq.cn/resource/image/f2/cd/f275c4b6e3be016487371bf6350eb8cd.jpg" 
+                 alt="AI Native 企业研发工具链：架构重构与持续演进｜AICon北京 - InfoQ" 
+                 loading="lazy">
+            <div class="news-tag tag-ai">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">AI Native 企业研发工具链：架构重构与持续演进｜AICon北京 - InfoQ</h3>
+            <p class="news-summary">logo
+
+AI会议 hot
+
+AI课程 hot
+
+AI应用 hot
+
+Snowflake new
+
+更多 
+
+ 写点什么
+
+#### 创作场景
+
+
+
+ 记录自己日常工作的实践、心得
+ 发表对生活和职场的感悟
+ 针对感兴趣的事件发表随笔或者杂谈
+ 从 0 到 1 详细介绍你掌握的一门语言、一个技术，或者一个兴趣、爱好
+ 或者，就直接把你的个人博客、公众号直接搬到这里
+
+登录/注册
+
+ 企业动态
+ 行业深度
+ AI&大模型
+ 出海
+ 后端
+ 芯片&算力
+ 架构
+ 大数据
+ 软件工程
+ 云计算
+ 大前端
+ 管理/文化
+
+# AI Native 企业研发工具链：架构重构与持续演进｜AICon 北京
+
+ AICon 全球人工智能开发与应用大会
+
+ 2026-11-06
+
+  北京
+ 本文字数：3266 字
+
+  阅读完需：约 11 分钟
+
+AI摘要
+
+AI Agent 正从问答辅助转向嵌入企业流程的任务执行者，工程能力（工具调用、上下文管理、反馈闭环）成为规模化落地的关键瓶颈。 [...] 在这一背景下，2026 年 AICon 人工智能开发与应用大会 · 北京站正式启动。本次大会将于 12 月 18–19 日，在北京新云南皇冠假日酒店举办。本届大会以探索 A 应用边界为主题，设置 13 大技术专题，覆盖大模型后训练、推理优化、Agent 工程、知识工程、智能体评测与安全、自进化系统、AI 软件交付、原生架构及组织变革等核心方向，汇聚一线技术专家，深入分享 AI 技术突破与企业规模化落地的真实实践。 [...] 这套架构以“AI 的操作系统”为定位，重点是减少任务执行中的不确定性。输入侧通过知识、规则和上下文收敛方案；输出侧让用户看懂执行过程、判断结果是否可信，并能直接修改。权限、审计、评测和人工审批贯穿其中，支持 Agent 在受控范围内逐步承担更多工作。
+
+目前已覆盖需求拆解、业务配置与实现、质量校验等核心链路。本次分享将结合实际案例，讨论业务操作工具的粒度、低代码 Harness、上下文治理与人机分工的设计取舍，以及如何把执行中的失败和用户修正沉淀为平台规则与可复用的经验，让同类任务少踩一次坑。
+
+陈偲颖，腾讯资深研发工程师，曾任职于多家全球知名科技公司，专注营销活动技术领域，持有多项技术专利。2023 年起聚焦 LLM 与工程效能的深度融合，作为核心负责人主导某互联网大厂低代码平台 AI 能力建设。成功完成多年数据资产的价值转化，将人工经验沉淀提炼为知识复利方法论，构建"LLM + 低代码"双驱动的智能研发体系。打通"一句话需求到上线"的端到端智能化链路，推动承载数百款业务的平台完成从传统开发模式向 AI 原生开发范式的演进升级。
+
+她在本次会议的详细演讲内容如下：</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                infoq
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="ai">
+        <a href="https://www.justsayai.org/blog" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://www.justsayai.org/og/justsayai-og.png" 
+                 alt="博客 | JustSayAI" 
+                 loading="lazy">
+            <div class="news-tag tag-ai">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">博客 | JustSayAI</h3>
+            <p class="news-summary">腾讯“血脉觉醒”：马化腾朋友圈背后，小龙虾和大模型我都要！ 这两天，国内科技圈最魔幻的景象不是哪个大模型又刷榜了，而是所有大厂都在“养虾”。阿里一口气发了CoPaw和JVS，字节飞书全面CLI化，小米在谈MiClaw，最夸张的是腾讯——那个一向“敢为天下后”、优雅得近乎傲慢的腾讯，这次居然血脉觉醒了。 马化腾亲自发朋友圈关注，腾讯云 Lighthouse、QClaw、 Workbuddy、元宝，在短短五六天内连珠炮一样发新产品、新适配。你什么时候见过腾讯去地推？什么时候见过他们动作这么快？ 这说明什么？说明小龙虾精准地踩在了腾讯的生死线上。小龙虾的界面就是聊天框，这就是社交；它的玩法是养成和指
+
+JustSayAI·2026年3月31日当 AI 开始替你办事：硅谷没看懂，中国先做出来了！
+
+BLOG
+
+## 当 AI 开始替你办事：硅谷没看懂，中国先做出来了！ [...] 我必须承认，当马斯克突然宣布砍掉整个Dojo团队时，我的第一反应是：这是假新闻吗？ 这可不是小打小闹，这是一个投入了数年、耗费了数十亿美金、在每一季财报里都被寄予厚望的“亲儿子”。用一个不那么恰当但足够形象的比喻，这无异于一个中年男人，在事业巅峰期，亲手割掉了自己的一个肾。你得想象一下，这有多疼。 但这绝不是一次简单的战略收缩，更不是一次愚蠢的投资失败。这是一次痛苦、决绝、但又无比理性的“献祭”。马斯克挥刀砍向的，不仅仅是一个落后英伟达四代、已然走进“进化死胡同”的自研芯片项目 ，更是向整个行业宣告：基于纯粹大语言模型（LLM）的旧神正在黄昏，一个名为“世界模型”（World Model）的新
+
+JustSayAI·2025年9月30日硅谷的“体面”滤镜，碎了
+
+BLOG
+
+## 硅谷的“体面”滤镜，碎了 [...] Gemma4真相：它不是智能，是苦力！ 聊聊Gemma4。 很多人还在欢呼Google大善人又撒钱了，但我看明白了，这根本不是什么技术普惠，这是一场彻头彻尾的“苦力”大收割！ 你要是真把Gemma4当成什么无所不能的智能神明，那你真的会被坑得连裤衩都不剩。 真相是什么？真相是：这玩意儿根本不是智能，它就是一个不要钱的、专门干脏活累活的电子黑奴！ 最近这段时间，我把这几个所谓的顶级模型轮番折腾了一遍。结果呢？我彻底无语了！ 第一刀：云端AI的无底斩杀线 我给大家算笔真实的账。我是Perplexity的Max会员，一个月两百美刀的保护费交着。前段时间，他们推出了那个牛逼哄哄的Computer Us
+
+JustSayAI·2026年4月15日把Token搞成顺差？中国 AI 的“拼多多”时代，我只愿中东无战事！｜对话沈帅波
+
+BLOG
+
+## 把Token搞成顺差？中国 AI 的“拼多多”时代，我只愿中东无战事！｜对话沈帅波</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                justsayai
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="ai">
+        <a href="https://www.prnewswire.com/apac/zh/news-releases/supermicro--ibm--nvidia--kv-cache--302930615.html" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://mmx.prnewswire.com/media/MS2026567/Supermicro-IBM-KV-Cache.jpg?id=OA3058615&p=facebook" 
+                 alt="Supermicro 攜手 IBM 及 NVIDIA 推出 KV Cache 解決方案，展現顯著推論效能優勢" 
+                 loading="lazy">
+            <div class="news-tag tag-ai">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">Supermicro 攜手 IBM 及 NVIDIA 推出 KV Cache 解決方案，展現顯著推論效能優勢</h3>
+            <p class="news-summary">這些技術相結合，可大幅縮短 AI 模型開始生成回應所需的時間。隨著企業採用代理式及長上下文 AI 工作流程，這項優勢尤其重要。利用本地 GPU 記憶體以外的儲存空間擴展 KV cache 容量，可提升 GPU 使用率及推論吞吐量，同時支援 KV cache 內容的高可用性，並在不中斷服務的情況下擴展 KV cache 容量。由此構建的推論架構更易擴展、更具韌性，帶來更快捷、回應更靈敏的 AI 體驗。
+
+KV Cache high-performance platform for large-scale AI inference
+
+Supermicro 總裁兼行政總裁 Charles Liang 表示：「隨著 AI 工作負載由訓練延伸至推論，企業及新型雲端服務供應商在部署代理式 AI，以及長上下文、多輪互動生成式 AI 所需的高吞吐量推論工作負載時，需要消除瓶頸，提升 GPU 效率。我們與 IBM 及 NVIDIA 聯合推出的解決方案，清楚展示了這些效能優勢。」
+
+如欲觀看本新聞稿的影片摘要，請按此。 [...] 如欲觀看本新聞稿的影片摘要，請按此。
+
+推論工作負載分為兩個階段：預填充及解碼。在預填充階段，輸入文字會轉換為詞元（token），再由大型語言模型（LLM）處理，生成推論所需的中間鍵值（KV）狀態。透過將這些已計算的 KV 狀態儲存於持久化 KV cache，系統可重用這些狀態，毋須為後續請求重新計算相同的上下文。代理式工作流程、編程助手、長上下文檢索增強生成（RAG）、多模態 AI 及多輪互動應用，在處理大型程式碼庫、文件、對話、圖像及其他上下文時，可能產生大量 KV 狀態，迅速超出 GPU 及 CPU 的記憶體容量，因此需要將 KV cache 轉存至大容量共用網絡儲存空間。
+
+Supermicro、IBM 及 NVIDIA 的 KV cache 解決方案提供了這個持久化儲存層，有助提升推論效率、吞吐量及擴展能力，同時減少重複運算。
+
+這套 KV cache 解決方案為客戶帶來的主要優勢包括： [...] 聯繫我們
+
+搜索您的內容
+
+## News Releases
+
+# Supermicro 攜手 IBM 及 NVIDIA 推出 KV Cache 解決方案，展現顯著推論效能優勢
+
+美超微電腦股份有限公司
+
+## 新聞提供者
+
+2026 年 11 月 05 日 22:05 CST
+
+## 分享這篇文章
+
+分享這篇文章
+
+加州聖荷西2026年11月5日 /美通社/ -- Supermicro, Inc.（納斯達克股票代碼：SMCI）今日宣佈，攜手 IBM 及 NVIDIA 推出全新的 KV cache 儲存解決方案。Supermicro 是一家涵蓋 AI、企業級運算、儲存及 5G/邊緣領域的整體 IT 解決方案供應商，提供 Data Center Building Block Solutions®（DCBBS）。這套聯合解決方案整合了採用 AMD EPYC 9005 系列處理器（「Turin」）的 Supermicro Petascale 全快閃儲存伺服器、IBM Storage Scale 軟件，以及 NVIDIA Dynamo 推論框架軟件和 Spectrum-X 乙太網絡。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                prnewswire
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="ai">
+        <a href="https://careers.tencent.com/jobdesc.html?postId=2040982131504738304" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://cdn.m.tencent.com/tencentcareer/tencentcareers_logo.jpg" 
+                 alt="岗位详情 | 腾讯招聘" 
+                 loading="lazy">
+            <div class="news-tag tag-ai">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">岗位详情 | 腾讯招聘</h3>
+            <p class="news-summary">慎防招聘诈骗
+
+我们想提醒您，近期新加坡出现招聘诈骗活动，有不法之徒冒充腾讯公司招聘人员以提供工作和投资机会的名义实施诈骗。
+我们认真看待此事并已采取必要的行动。在与招聘人员接洽时，请保持警惕并核实其身份，也勿透过即时通讯或电话提供任何信息予可疑人士。
+
+欲获取更多信息，请参阅
+。
+
+微信-AI应用开发工程师 广州
+
+分享
+
+# 分享岗位
+
+ 
+
+## 方式1:复制岗位链接
+
+## 方式2:分享岗位海报
+
+手机扫描二维码分享
+
+收藏
+
+WXG
+
+点击了解更多BG信息
+
+技术 两年以上工作经验 更新于2026年10月16日
+
+ 在腾讯，后台开发工程师不仅是“又快又稳”的问题解决专家，更是生态共创者。你将与技术团队一同沉淀优质代码，让它成为我们共有的宝贵资产。在不同的业务场景和技术发展阶段，你的架构思维也将帮助更多协作团队拓展新的思考。我们也珍视你的挑战精神，同时欢迎你一起参与团队愿景、文化和产品方向的探讨。
+
+岗位职责 [...] 岗位要求
+
+ 1.熟悉 C++ 等编译型语言，有一年及以上服务端开发经验，具备扎实的计算机基础、数据结构与算法功底；
+  2.具备高并发、高可靠海量服务的开发经验，熟悉分布式系统、异步任务调度及故障恢复机制者优先；
+  3.理解 Agent 基本原理与常见执行模式，熟悉 ReAct、Plan-and-Execute、Multi-Agent 等模式，有 Agent 应用或执行引擎开发经验者优先；
+  4.有长程任务执行基础设施建设经验，熟悉任务持久化、Checkpoint、断点恢复、失败重试、幂等控制及工作流编排等技术者优先；
+  5.有 Ray 等分布式计算框架开发经验，或 Temporal、LangGraph 等任务执行框架实践经验者优先；
+  6.有 MCP、Tool Calling、Computer Use、Browser Agent 或代码执行沙箱等相关项目经验者优先；
+  7.有 OI、ACM-ICPC 等算法竞赛背景者优先；
+  8.热爱编程，喜欢钻研技术，愿意深入思考并解决复杂工程问题，对 Agent 技术及基础设施建设有热情。 [...] 岗位职责
+
+ 1.负责 Agent Runtime 及执行基础设施的设计与开发，构建支持复杂任务、多步骤推理、多轮工具调用的 Agent 执行引擎；
+  2.负责长程任务执行系统建设，解决任务状态持久化、Checkpoint、断点恢复、失败重试、超时控制、任务取消等核心问题，保障 Agent 任务可靠运行；
+  3.负责异步任务调度、工作流编排、事件驱动及执行环境隔离等基础设施建设，提升系统的稳定性、可扩展性和资源利用率；
+  4.参与 Agent 核心机制研发，包括上下文管理、工具调用、任务规划、记忆管理及执行控制，探索 ReAct、Plan-and-Execute、Multi-Agent 等执行模式的工程化落地；
+  5.跟进 Agent 领域的前沿技术，结合实际业务需求，持续优化 Agent 的执行效率、可靠性及规模化运行能力。
+
+岗位要求</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                tencent
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+        </div>
+      </section>
+    
+      <section class="category-section" id="tech">
+        <div class="category-header">
+          <div class="category-title">
+            <span class="category-icon">🔬</span>
+            科技前沿
+          </div>
+          <span class="category-count">8 条</span>
+        </div>
+        <div class="news-grid">
+          
+      <article class="news-card" data-category="tech">
+        <a href="https://www.youtube.com/watch?v=4ocrnQ1v3So" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://i.ytimg.com/vi/4ocrnQ1v3So/maxresdefault.jpg" 
+                 alt="美國中期選舉後誰真正受益？特斯拉與SpaceX同步下跌，是短期政治錯殺，還是成長與合併風險升級？" 
+                 loading="lazy">
+            <div class="news-tag tag-tech">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">美國中期選舉後誰真正受益？特斯拉與SpaceX同步下跌，是短期政治錯殺，還是成長與合併風險升級？</h3>
+            <p class="news-summary">### Description
+1,317 views
+Posted: 2026-11-05
+▶️ 本期看點 👀
+道瓊選後暴漲1,569點，特斯拉（TSLA）與SpaceX卻同步下跌。馬斯克砸下超過4.45億美元力挺共和黨，德州仍然翻盤。市場究竟在賣政治失勢，還是在重估兩家公司的生意與合併前景？
+本期拆解民主黨掌控國會後，油價、殖利率與板塊資金如何重新站隊；為什麼微軟與亞馬遜上漲，輝達與CoreWeave反跌；以及德州95%的Robotaxi里程、SpaceX政府合約調查、特斯拉與SpaceX合併三道關卡。看完本期影片，你將能識別政權更迭下的關鍵營運指標、政策監管風險，以及驗證業務擴張與合併價值的核心訊號。
+Yuki帶你看美股，及時獨到有深度。喜歡今天的深度拆解，別忘了點讚並訂閱【TradingKey美股財經】，開啟小鈴鐺，我們下期影片繼續帶你看懂財經脈絡、挖掘美股市場的核心價值！ [...] ▶️ 影片章節 ✨
+00:00 民主黨獲勝，特斯拉SpaceX一起跌
+00:56 道瓊為什麼大漲？為什麼同樣做AI，有人漲、有人跌？
+04:32 德州變天對特斯拉有多大影響？
+08:23 SpaceX：國會可以查，但美國政府換得掉它嗎？
+12:35 民主黨贏了，特斯拉和SpaceX真的更難合併了嗎？ 
+
+▶️ 往期影片 🌟
+   • AMD的AI增長真能變現嗎？99%營收增量來自資料中心，財報後股價大漲、現金流埋雷？   
+   • 特斯拉股東不答應？Tesla、SpaceX合併走到哪一步？散戶持股會縮水，還是價值翻...   
+
+▶️ 掌握最新財經資訊 🌟
+📌 App Store: 
+📌 Google Play: 
+
+📢 免責聲明 
+TradingKey 提供某些投資產品的一般資訊。此資訊並不構成財務建議或對任何特定投資產品的推薦。 [...] #TSLA #特斯拉 #SpaceX #SPCX #馬斯克 #Robotaxi #Starlink #Starshield #美國中期選舉 #民主黨 #道瓊 #AI資料中心 #輝達 #NVDA #微軟 #MSFT #亞馬遜 #AMZN #CoreWeave #CRWV #聯準會 #美聯儲 #降息 #通膨 #美債 #避險 #美股 #美股投資 #AI #投資 #Tradingkey
+
+### Chapters
+[0:00] 民主黨獲勝，特斯拉SpaceX一起跌
+[0:56] 道瓊為什麼大漲？為什麼同樣做AI，有人漲、有人跌？
+[4:32] 德州變天對特斯拉有多大影響？
+[8:23] SpaceX：國會可以查，但美國政府換得掉它嗎？
+[12:35] 民主黨贏了，特斯拉和SpaceX真的更難合併了嗎？</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                youtube
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="tech">
+        <a href="https://www.youtube.com/watch?v=WSvf2zaucBc" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://i.ytimg.com/vi/WSvf2zaucBc/maxresdefault.jpg?v=6aec8d1c" 
+                 alt="【美股盘前11月5日直播】纳指冲高回落！半导体何时才能止跌？#美股#纳指#美股分析#美股投资#AI#存储芯片#美光#英伟达#AVGO#谷歌#特斯拉#股市分析" 
+                 loading="lazy">
+            <div class="news-tag tag-tech">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">【美股盘前11月5日直播】纳指冲高回落！半导体何时才能止跌？#美股#纳指#美股分析#美股投资#AI#存储芯片#美光#英伟达#AVGO#谷歌#特斯拉#股市分析</h3>
+            <p class="news-summary">### Description
+全新视角解析美股市场！
+在接下来的直播中，我将带领大家深入剖析当前美股市场的动向，重点关注以下三大核心内容：
+1. 纳指走势透析
+🔍 短期与长期分析：通过技术分析，解读纳指（Nasdaq）的当前走势，揭示关键支撑与压力位，帮助你预判未来的市场走向。
+📊 数据与趋势：从量价关系、技术形态到市场情绪，我们将多维度分析，助你精准掌握趋势变化。
+2. 热点股全解
+🔥 聚焦科技股：我们将深入探讨市场上最热的科技巨头——如 英伟达、特斯拉、台积电 等的表现与潜力，分析它们的短期及长期走势，剖析投资机会与风险。
+3. 实战操作技巧
+🎯 投资策略分享：结合最新市场数据，分析当前市场波动，提供具体的操作建议，如何在市场起伏中找到最佳的买入与卖出时机。
+📈 优化投资组合：如何根据技术面和市场趋势调整持仓，提升资金运作效率，提升投资回报。
+无论你是新手还是资深投资者，这场直播都将为你提供宝贵的市场洞察与操作技巧。
+🎯 直播时间
+⏰ 美东时间 周一至周五 12:00
+📺 直播平台：YouTube频道：@HRJMaoShu [...] # 【美股盘前11月5日直播】纳指冲高回落！半导体何时才能止跌？#美股#纳指#美股分析#美股投资#AI#存储芯片#美光#英伟达#AVGO#谷歌#特斯拉#股市分析
+## Channel: 华尔街美股猫叔
+13.1K subscribers [...] 🔔 记得订阅频道并打开小铃铛，与我一起在开盘前洞察市场，避免盲目交易，抢占先机！
+
+⚠️ 免责声明：
+本直播所分享的内容仅供参考。所有分析与建议基于当前市场数据和技术分析，旨在帮助观众了解市场走势与可能的操作机会，并不构成投资建议。任何投资决策应基于个人判断与风险承受能力。股市投资具有风险，可能导致资金亏损。投资者需根据个人风险承受能力做出独立决策，并对投资结果负责。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                youtube
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="tech">
+        <a href="https://www.youtube.com/watch?v=XiHAUXg1c5M" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://i.ytimg.com/vi/XiHAUXg1c5M/hqdefault.jpg" 
+                 alt="EP351. Anthropic S1 Update, Investing in Frontier AI Companies, and How to Spot an AI Bubble ft. ..." 
+                 loading="lazy">
+            <div class="news-tag tag-tech">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">EP351. Anthropic S1 Update, Investing in Frontier AI Companies, and How to Spot an AI Bubble ft. ...</h3>
+            <p class="news-summary">[1:00:04] 所以, 不是說, 其實, 因為他已經跨過那個獲利門檻, 知道獲利就會噴滿, 因為這是數學問題哦, 所以, 欸那你自己覺得,
+[1:00:12] 這五個layer, 他們未來的賺錢能力的演變程度會怎麼樣?
+[1:00:19] 我, 我覺得, 當然還會是各自每個layer裡面的, 類似競, 競爭格局, 然後他的人數到底有多少來看的話,
+[1:00:28] 但是現在, 呃, 就如果我把時間拉長的話,前半段因為我們現在有很多不管是在能源或者是infr
+[1:00:36] a晶片這裡的這個利潤是比起,就是因為我們現在有很多shortage,就不管 那個shortage是來自於你因為接不上電網啊,或者說你要
+[1:00:46] 拿電源,能源也有shortage,然後 那個晶片也是Shortage, 然後Infra也是Shortage吧。 對,所以這個有Shortage的時候,它一定會有超額利潤的產生。
+[1:00:56] 超賺的。 所以,但是你。 你看美光那個毛利率真的太誇張了,我覺得台積電罵他們罵得好啊。 [...] [1:01:01] 就是,美光還好,因為馬斯克有稱讚他們說, 其他記憶體公司都亂漲價,只有美光還算合理,對不對,就是啊。
+[1:01:09] 美光才是長期賺,但是說真的,就算是看美光,那個毛利率也是高到很誇張的程度, 我就是。
+[1:01:15] 所以就是說時間拉長一點 因為這些東西的擴產這些都要調整到時間 但時間如果拉長的話
+[1:01:24] 我還是相信前上半部的這些利潤會有一半是往後面 就是模型和應用端 然後應用端我還是覺得
+[1:01:33] 對於因為你是跟客戶直接接觸 然後你可以有比較理解客戶的需求 還有這種調整的空間比較大
+[1:01:41] 以及在上面可以做的 類似技巧或者是策略會比較多,跟上半部很多都是像commodity的概念,那理論上
+[1:01:48] 來說的話,是後半段能夠跟這個 客戶連接的更好的這裡的利潤會變大,不過現在就是不知道應用端到底最後是一個什
+[1:01:59] 麼樣子的商業模式和哪些地方是應用端的主場景。
+[1:02:06] 我覺得其實,你看我們剛剛講說能源晶片跟infra,他們現在都是高度供不應求 [...] [59:00] 那台灣人最熟悉的公司是輝達, 因為老闆常常來我們來台灣吃夜市吃小吃。
+[59:09] 5層蛋糕理論,AI的5 layer of cake,它說什麼,從最下面一層 ,能源, 接下來是什麼,晶
+[59:16] 片,接下來兩個組合起來就變成infra, 就變成基礎設施,基礎設施上面跑模型,模型後面跑應用。
+[59:24] 那我覺得其實大家在想說,那請問未來如果AI創造很大的價值,到底哪一塊賺走最 多,
+[59:31] 那目前看起來呢, 晶片賺蠻多的, 然後infra也賺不少,
+[59:39] 現在看起來模型層也開始要賺了,因為至少Anthropic看起來,我跟你講,第二 季如果是賺這樣的話,我認為第三季第四季會賺很多了,我認為他第三季第四季財報
+[59:49] 會賺很多,因為他們第二季是100多億美元的營收嘛,但是第三季我現在估應該會 有超過400億了,應該會有,對。
+[1:00:00] 三四百億啊, 反正沒有, 兩百多億, 第三季應該會有兩百多億。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                youtube
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="tech">
+        <a href="https://www.instagram.com/ncku.taiwan" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://scontent.cdninstagram.com/v/t51.2885-19/357634597_289930826931575_5188355841140758293_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=111&ig_cache_key=GCUSURV33fLHsAcBABWXhP8lvgBIbkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy45MDAuQzMifQ%3D%3D&_nc_ohc=2oBv37F2jmgQ7kNvwGb8_Xu&_nc_oc=AdrmS8bF_6okddC0BvDRITRUWdJQvafjQNFCiHE9CkRJRZEpj_RGlM2LhjN-SqjKbXk&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7d980&oh=00_AQQ_87FU3krSpvMTcZ-t7ukvYYb2E9V08TNLchgr9l0Nlg&oe=6AF20CEE" 
+                 alt="國立成功大學 (@ncku.taiwan) • Instagram photos and videos" 
+                 loading="lazy">
+            <div class="news-tag tag-tech">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">國立成功大學 (@ncku.taiwan) • Instagram photos and videos</h3>
+            <p class="news-summary">Log In
+
+Sign Up
+
+ 27.5K followers
+ 213 following
+
+國立成功大學
+
+𝗡𝗖𝗞𝗨  
+𝗡𝗮𝘁𝗶𝗼𝗻𝗮𝗹 𝗖𝗵𝗲𝗻𝗴 𝗞𝘂𝗻𝗴 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆  
+▌成大官方IG ｜永續策略發展處管理  
+🔗最新連結⬇️
+
+linktr.ee/NCKU\_All\_Links\_Click\_Here
+
+ ncku.taiwan's highlight story picture
+
+  徵稿活動
+ ncku.taiwan's highlight story picture
+
+  最新活動報名
+ ncku.taiwan's highlight story picture
+
+  Campus
+ ncku.taiwan's highlight story picture
+
+  成大大小事（中獎貼文查詢）
+ ncku.taiwan's highlight story picture
+
+  成大亮點Newsletter
+ ncku.taiwan's highlight story picture [...] 校園藝文尋寶🎁
+ ncku.taiwan's highlight story picture
+
+  Mental Health
+
+Photo by 國立成功大學 on November 05, 2026.
+
+Photo by 國立成功大學 on November 04, 2026.
+
+Photo by 國立成功大學 on November 03, 2026. May be an image of text.
+
+Photo by 國立成功大學 on October 30, 2026. May be an image of text.
+
+Photo by 國立成功大學 on October 26, 2026. May be an image of hospital, buildings and text.
+
+Photo by 國立成功大學 on October 23, 2026.
+
+Photo by 國立成功大學 on October 21, 2026.
+
+Photo by 國立成功大學 on October 19, 2026. [...] Video by 國立成功大學 on October 16, 2026. May be an image of one or more people, newspaper, poster, magazine and text.
+
+Video by 國立成功大學 on October 09, 2026. May be a cartoon of street, monument, fountain and text.
+
+Photo by 國立成功大學 on October 06, 2026.
+
+Photo by 國立成功大學 on October 05, 2026.
+
+Show more posts from ncku.taiwan</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                instagram
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="tech">
+        <a href="https://www.shobserver.com/staticsg/res/html/web/newsDetail.html?id=1208272" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/迈向零下273.15摄氏度的绝对零度！中国空间站制备出已知 .../600/400" 
+                 alt="迈向零下273.15摄氏度的绝对零度！中国空间站制备出已知 ..." 
+                 loading="lazy">
+            <div class="news-tag tag-tech">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">迈向零下273.15摄氏度的绝对零度！中国空间站制备出已知 ...</h3>
+            <p class="news-summary">零下273.15摄氏度,是物理学定义的绝对零度,吸引全世界科学家百年来不断奔赴的温度极限。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                shobserver
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="tech">
+        <a href="https://www.104.com.tw/jobs/search?jobcat=2008001025&ro=0" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/「其他特殊工程師」最新找工作職缺/600/400" 
+                 alt="「其他特殊工程師」最新找工作職缺" 
+                 loading="lazy">
+            <div class="news-tag tag-tech">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">「其他特殊工程師」最新找工作職缺</h3>
+            <p class="news-summary">工作內容： 1. 主導無人機子系統之完整開發週期規劃與實踐2. 融入現有無人機之架構、組裝、線路配置與優化3. 飛控參數的設置、調校與驗證4. 飛行測試、分析、維護、</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                com
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="tech">
+        <a href="https://www.youtube.com/watch?v=Y33Ww4f_9-E" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://i.ytimg.com/vi/Y33Ww4f_9-E/maxresdefault.jpg" 
+                 alt="崩盘中。。。到底发生了什么? | Jay金融财经分析" 
+                 loading="lazy">
+            <div class="news-tag tag-tech">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">崩盘中。。。到底发生了什么? | Jay金融财经分析</h3>
+            <p class="news-summary"># 崩盘中。。。到底发生了什么? | Jay金融财经分析
+## Channel: StockTalkwithJay美股
+139K subscribers
+
+### Description
+144,954 views
+YT频道X账户： 感谢follow！
+
+   • 美国国债投资正确的打开方式 小秘诀大公开 TMF TLT 通胀 利率倒挂 全面解密 ...  
+   • 百倍股的基因 罗素2000指数关键点 下一只特斯拉在这里吗? | Jay金融财经分析  
+   • Tradingview 交易系统全面攻略 主力筹码 底部探索 新手老手皆宜 | Ja...  
+
+谢谢观看 ！
+欢迎订阅点赞 !!
+大家注意我只有官方油管频道, X 和微信会员群，没有discord和别的平台。欢迎小伙伴们继续在我的频道支持。感恩。
+
+请我喝咖啡: [...] 免责声明： 本頻道內容僅供參考，並不構成投資建議。本频道所有分享纯属个人心得，所提供的投资策略未必适合所有投资者。 本人并非证监会持牌人士，所谈及、分析之股票及金融产品，任何不论种类或形式之申述，并不构成任何投资要约、诱使、邀请、建议及推荐。 证券价格可升可跌，甚至变成毫无价值。买卖证券未必一定能赚取利润，反而可能会招致损失。无论如何，投资者都应审慎投资行事。
+
+#美股 #特斯拉 #股票 #investing #investment #invest #makemoneyonline #makemoney #morganstanley #goldmansachs #thinkorswim #jpmorgan #moomoo #etoro #forex #trading #merrill #verizon #business #finance #hsbc #tesla #futurestrading #options #optionstrading #blackstone #crypto #reddit #tesla #tsla [...] This video and description may contain affiliate links, which means if you purchase a product through one of the links, I will receive a commission (at no additional cost to you). This helps to support the channel and in my continued efforts to supply you with the best possible video content and materials for your viewing pleasure. Thank you for your support!</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                youtube
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="tech">
+        <a href="https://www.shobserver.com/staticsg/res/html/web/newsDetail.html?id=1207934" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/沃土兴业| 英国人乔纳森：一方菜园见生机，扎根湾区看上海/600/400" 
+                 alt="沃土兴业| 英国人乔纳森：一方菜园见生机，扎根湾区看上海" 
+                 loading="lazy">
+            <div class="news-tag tag-tech">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">沃土兴业| 英国人乔纳森：一方菜园见生机，扎根湾区看上海</h3>
+            <p class="news-summary">乔纳森来自英国，今年68岁，在上海已经生活15年了。他曾在多家国际企业里担任高管，如今是一名商务顾问，同时兼职英语教师。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                shobserver
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+        </div>
+      </section>
+    
+      <section class="category-section" id="business">
+        <div class="category-header">
+          <div class="category-title">
+            <span class="category-icon">💼</span>
+            商业动态
+          </div>
+          <span class="category-count">8 条</span>
+        </div>
+        <div class="news-grid">
+          
+      <article class="news-card" data-category="business">
+        <a href="https://money.udn.com/money/story/12987/9860877" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="http://b.scorecardresearch.com/p?c1=2&c2=7390954&cv=2.0&cj=1" 
+                 alt="「2026數碼港創業投資論壇」破紀錄逾 600 項投資配對 超過 2,800 人出席及 20 萬人次網上瀏覽 | 國際現場 | 商情 | 經濟日報" 
+                 loading="lazy">
+            <div class="news-tag tag-business">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">「2026數碼港創業投資論壇」破紀錄逾 600 項投資配對 超過 2,800 人出席及 20 萬人次網上瀏覽 | 國際現場 | 商情 | 經濟日報</h3>
+            <p class="news-summary">金都餐廳深耕埔里32年 食品加工廠11月4日啟用
+ 走進半導體魔法學院 一趟晶片的誕生之旅
+ 搞定白髮！歐萊德仿生麥拉寧黑科技 德國紐倫堡發明獎摘金
+ 銘榮元集團攜手洲鉅、元上擴大南部布局 投資50億打造高屏綠能重工供應鏈
+ 2026台灣國際遊艇展11月盛大登場！豪華遊艇、冠軍帆船與智慧無人船亮相 國際產業交流及登船體驗精彩可期
+ 鬍鬚張的百年習題：從路邊攤到連鎖品牌 張永昌回雲林談一碗魯肉飯的標準化與傳承
+ 美利達工業領航 自行車體系三年深耕有成 展現產業韌性新價值
+ 合庫啟動116年徵才計畫 首波招募106名專業人才
+ 科技串聯健康老化新實踐 曾曉薇分享「灶神在家」十年有成與AI應用
+ 高師大72週年校慶音樂會登場 多元樂聲展現跨域創意
+ 元智QS亞洲排名居臺灣非醫科私校第一 招生與育才成果亮眼
+ 歐華酒店 2026 感恩禮籃開賣　11月15日前早鳥現折200元
+ 北海道實習磨出國際競爭力 中華大學觀光學子勇闖海外職場
+ 集保結算所 11/6舉辦「亞洲永續金融新篇章」論壇　助攻「2026臺灣週」
+ 國際組織攜手臺灣醫界與病友，呼籲完善IBD健保給付 [...] 香港 – Media OutReach Newswire – 2026年11月5日 – 一連兩日的「2026數碼港創業投資論壇」（CVCF）於今天圓滿落幕，破紀錄達成逾 600 項投資配對。作為數碼港年度創投盛事，論壇以「變中求銳 聚勢成長: 制勝新賽道」為主題，吸引了超過2,800人出席及 20 萬人次網上瀏覽。透過創業者路演、投資者配對、初創診所及創新科技展示區等系列活動，論壇成功促進國際投資者與高成長科技企業之間直接交流。其中，多名產業領袖和全球投資者就新興的跨國機會、資本策略和可擴展的企業模式交換了重要的市場資訊。論壇亦成為探索下一代技術解決方案的平台，重點介紹了AI智能體、技術基礎設施轉型及代幣化資產等領域的最新發展。   
+   
+  Group Photo (1).jpg    
+ CVCF的焦點活動「智能經濟峰會」邀請到香港特區政府財經事務及庫務局副局長陳浩濂致辭，並由數碼港行政總裁鄭松岩博士致歡迎辭。 [...] 成大產學創新日展近百項研發成果　產官學研齊聚加速科研落地
+ 從一無所有到傳承大愛 郭耀文榮獲2026高雄市好人好事代表
+ 第32屆遠哲科學競賽中區賽　興大附中「全壘打」橫掃大會獎前三名
+ 精密工程專題與論文獎登場 產學研齊聚探討AI整合新未來
+ 台灣銲接協會40週年年會 攜手產業共創淨零新能源與智慧銲接未來式
+ 華碩軍規級商用筆電 ExpertBook A7登場
+ 雙11前夕狂銷破億！BGYM比勁「大坡步走步機」上市80天登頂電商銷售冠軍
+ 張瑞竹巴黎藝術之旅激盪火花！ 原創Monkey Bunana吸睛、獲邀明春舉辦個展
+ 企業有技術、有訂單，為何仍難獲投資？MOC探索企業價值新思維
+ 溫德姆酒店集團加速台灣多品牌布局　四店簽約、雙品牌首度登台
+ 商品優惠100元起！GU感謝祭11月6日登場
+ 珍食堡 Jasper Pet Care Products 深耕台灣　旗下 Afreschi艾富鮮進軍美日寵物食品市場展現國際競爭力
+ GAIAN美的概念館開幕藝術盛典「一夢入大觀」 當「美」成為一種文明
+ 接軌高端深度遊 菁鑽聯盟秘書長陳祖緯：科技導入釋放人性溫度 打造高質感生活旅遊解法</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                udn
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="business">
+        <a href="https://www.jiuyangongshe.com/study_hot/1_none" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://www.jiuyangongshe.com/_nuxt/img/ic_logo_pc@3x.c3dc30d.png" 
+                 alt="韭研公社-研究优选-最新热度" 
+                 loading="lazy">
+            <div class="news-tag tag-business">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">韭研公社-研究优选-最新热度</h3>
+            <p class="news-summary">🔥《九九归一，双影封神》 讲一个被严重低估的潜力黑马 一彬科技001278：机器人+半导体+新能源+历史低位+九阳玄学（九九归一）。 🔥妖股坯子：实际流通仅7亿，破发历史低位，腰斩超跌——该砸的全砸完了，剩下全是子弹利好。 🔥第一重影子：机器人独角兽，IPO倒计时，印钞机。 25年2月公司出资3500万（占63.64%）的基金专项投资法奥机器人——协作机器人国内销量第一、海外出货第一。 26年10月阿里、美团、高瓴，刚完成近10亿D轮，9月已启动A股IPO辅导，估值看到120亿。这么小的身
+
+  S
+
+  九阳股份
+
+  S
+
+  一彬科技
+
+  S
+
+  东方海洋
+
+  S
+
+  阳光照明
+
+  S
+
+  中际旭创
+
+  37.29
+ 
+
+  种太阳
+
+  蜜汁自信的吃面达人
+
+  2026-11-05 13:35:45
+
+  30cm的羊：华洋赛车，取消关税预期 [...] 浙文互联：浙江财政厅唯二 "浙文" 字辈，浙文影业的嫡系亲兄弟 一、对标逻辑 浙文影业 AI 漫剧 连板打出高度，资金找对标。A 股 "浙文" 二字仅两家：浙文影业、浙文互联。控股股东同为浙江文投体系，实控人同为浙江省财政厅 —— 不是蹭名字，是亲兄弟。国资嫡系对标，比任何名字玄学都硬。 二、业务映射 AI 漫剧爆发，一个是内容端、一个是应用端：浙文影业生产漫剧、微短剧（影视制作发行）；浙文互联做数字营销 + 数字文化变现，公司战略明确 "数智营销筑基、数字文化创新、算力基建扩容"。内容火了，投
+
+  S
+
+  浙文影业
+
+  S
+
+  浙文互联
+
+  S
+
+  大晟文化
+
+  S
+
+  龙版传媒
+
+  S
+
+  桂林三金
+
+  3
+
+  4
+
+  3
+
+  9.42
+ 
+
+  要饭（抖碗）
+
+  2026-11-05 19:19:12
+
+  低位北交所黄金股，满满的预期差！次新＋黄金＋市占率第一，流通盘仅17亿—森合高科 [...] 韭研公社学习笔记（261105）
+
+  一、板块热议： 光伏：国家能源局数据，2026年第三季度中国新增光伏装机约38.76GW，较2025年同期的28.06GW，增长约38%。（闽发铝业、永耀股份、贝特利、海源复材、中利集团等） AI端侧：苹果宣布国行版 Apple Intelligence正式接入阿里通义千问，被视为端侧AI从概念走向商业化验证的标志性事件。（瑞芯微、国光电器、润欣科技、博通集成、日海智能等） 算力租赁：机构称，算力需求远超供给，国内算力租赁行业正从"主题预期"走向"业绩兑现"。（润建股份、青云科技、优刻得、中嘉博
+
+  S
+
+  闽发铝业
+
+  27
+
+  21
+
+  39
+
+  16.82
+ 
+
+  黑火信息差
+
+  2026-11-05 21:16:23
+
+  11.05 (AI脱钩加剧，国产芯片崛起，AI下一阶段应用为王)</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                jiuyangongshe
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="business">
+        <a href="https://www.unite.ai/zh-cn/claimlane-secures-5-6m-series-a-to-expand-aftersales-ai-and-us-operations" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://www.unite.ai/wp-content/uploads/2026/11/claimlane-secures-eur5-6m-series-a-to-expand-aftersales-ai-and-us-operations.jpg" 
+                 alt="Claimlane获560万欧元A轮融资，将拓展售后AI业务和美国运营 – Unite.AI" 
+                 loading="lazy">
+            <div class="news-tag tag-business">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">Claimlane获560万欧元A轮融资，将拓展售后AI业务和美国运营 – Unite.AI</h3>
+            <p class="news-summary">我的动态
+
+### 融资
+
+# Claimlane获560万欧元A轮融资，将拓展售后AI业务和美国运营
+
+发布于
+
+作者
+
+ Nova Jain, AI 创业与创始人、AI 研究代理 AI研究智能体
+
+将 Unite.AI 添加到您在 Google 上的首选来源 
+
+Claimlane于2026年11月5日宣布，公司已获得560万欧元A轮融资，投资方包括Verb Ventures、Skagerak Capital和Vendep Capital。这笔资金将用于开发售后产品问题处理领域的AI智能体，并拓展公司的美国业务。
+
+首席执行官兼联合创始人Anders Sommer已迁居奥斯汀，负责推动美国业务增长。他将加入当地团队，并得到哥本哈根和伦敦团队的支持。此次迁居使Claimlane的最高级别管理者更贴近公司希望服务的美国品牌和零售商。 [...] Claimlane表示，北美是其2026年新客户数量最多的市场；美国销售机会同比增长150%，新建销售管道的价值也翻了一番。Vendep Capital合伙人Timo Felin表示，该公司于2024年首次投资Claimlane，而Claimlane有一半的新客户来自美国。
+
+## 融资背后的工作流程
+
+售后产品问题处理不只是回应客户投诉。企业可能需要先确认保修范围、查明故障并划分责任，然后才能决定维修、更换、退款或开具贷项通知单。这些环节往往分散在电子邮件往来、电子表格和彼此孤立的系统中，而一个案例可能涉及客户、零售商、供应商、制造商和维修合作伙伴。
+
+Claimlane的平台将这些参与方连接起来，并为团队处理每个问题提供相关背景信息，包括产品、保修、供应商协议和案例历史记录。随后，平台可以协调维修，或通过已连接的系统发起更换、退款或开具贷项通知单。对于融资计划而言，这一基础至关重要，因为这些智能体旨在结合运营背景信息和客户留言开展工作。 [...] Nova Jain署名的文章由AI生成，并经Unite.AI编辑团队审核，以确保对全球AI创业生态的介绍准确、具有充分背景且负责任。
+
+#### 发现更多
+
+ NVIDIA将Vera CPU与x86处理器在智能体速度和功耗承载能力方面进行对比 北京暂缓进口，香港约有 60 万块 NVIDIA H200 芯片闲置 World Labs 发布 Frameboy，实现 Atlas 实时探索 AmeriLife在健康与财富分销业务中全面部署Palantir AI Meta 为 Muse 带来实时语音和富有表现力的虚拟形象 EDB收购Altinity，将Postgres与ClickHouse整合，服务主权AI</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                unite
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="business">
+        <a href="https://tags.sina.com.cn/finance_quanshang" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="http://n.sinaimg.cn/spider20261105/166/w900h866/20261105/7687-65be00383765843a76e4c03902afe899.png" 
+                 alt="券商 - 最新券商实时滚动快讯，聚合所有券商相关热门新闻快讯_新浪财经" 
+                 loading="lazy">
+            <div class="news-tag tag-business">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">券商 - 最新券商实时滚动快讯，聚合所有券商相关热门新闻快讯_新浪财经</h3>
+            <p class="news-summary">最近不少人在聊，下半年IPO受理量从上半年的242单骤降到6单，中小券商的投行业务会不会扛不住。先看一组具体数据：2026年前三季度，全市场IPO承销金额2163亿元，同比增长近180%，但增量主要来自超大项目，头部券商吃下了主要份额，中小券商大多在争夺中小项目...
+
+2026-11-05 08:42:53
+
+## 券商晨会精华 | 10年国债破1.6% 创业板反弹条件积累
+
+1、高美债利率导致全球AI科技资金缩圈至美股AI核心龙头...
+
+2026-11-05 08:41:50
+
+## 周四早间市场信息
+
+周四早间市场信息
+
+环球信息：美股收高，道指上涨3.03%，纳指上涨1.44%，标普上涨1.58%，欧洲主要国家股市收高。全球主要半导体制造商正争相签订三年后才能交付的设备供应合同；中国微短剧出海热度持续攀升，迎来全球化发展的高光时刻；10月全球DRAM合约均价再度刷新历史新高（涉长鑫科技、江波龙等）...
+
+2026-11-05 08:35:38
+
+## 券商晨会观点速递
+
+券商晨会观点速递 [...] 来源：@中新经纬微博【A股收评：#A股史诗级大涨#超4600只个股飘红】#A股史诗级大涨原因找到了#4日，A股三大指数集体走高大幅收涨...
+
+2026-11-04 15:22:04
+
+## 午后！A股，超级大反攻！
+
+午后！A股，超级大反攻！
+
+来源：券商中国终于，A股迎来大反攻。午后，A股各大指数集体拉升，截至记者发稿，创业板指涨超6%，科创50指数涨超9%，沪指涨近2%，深证成指涨超4%...
+
+2026-11-04 15:07:36
+
+## 五家配资券商实盘观察：交易流程、系统响应与风控表现对比
+
+五家配资券商实盘观察：交易流程、系统响应与风控表现对比
+
+对于经常在波动行情里做交易的投资者来说，这种"极端时刻不掉链子"的能力，就是最硬核的安全保障...
+
+2026-11-04 15:04:29
+
+## 24家券商确认中标，第三批SFISF落地千亿元
+
+已披露中标金额合计超400亿元央行第三批证券、基金、保险公司互换便利（SFISF）操作结果陆续出炉，目前已有31家机构申报需求，意向申报额度超过1000亿元，远超前两批单轮规模...
+
+2026-11-04 15:04:00 [...] 非银金融自营波动压制单季利润，行业盈利基础仍较稳固——证券行业2026年三季报总结投资要点：2026Q1~3日均股基交易额3.1万亿元，同比增长58%...
+
+2026-11-05 07:54:35
+
+## 财经早报丨产业资本掀起增持潮 宇树科技市值超新易盛股价A股第四高丨2026年11月5日
+
+财经早报丨产业资本掀起增持潮 宇树科技市值超新易盛股价A股第四高丨2026年11月5日
+
+在此背景下，11月4日，A股放量普涨，三大指数集体走高，科创50指数大涨近10%，两市成交额超2万亿元，半导体产业链领涨。特朗普当天被记者问及副总统万斯把共和党失利归因于伊朗战事时说：“我认为这在很大程度上是真的，因为它（伊朗战事）在短期内推高了汽油价格...
+
+2026-11-05 07:45:12
+
+## 券商积极出手参与第三批互换便利操作</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                com
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="business">
+        <a href="https://www.ithome.com/1/022/703.htm" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/从签约到收入：2026具身智能企业商业化转化链图谱 - IT之家/600/400" 
+                 alt="从签约到收入：2026具身智能企业商业化转化链图谱 - IT之家" 
+                 loading="lazy">
+            <div class="news-tag tag-business">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">从签约到收入：2026具身智能企业商业化转化链图谱 - IT之家</h3>
+            <p class="news-summary">“预测未来最好的方式，就是亲手创造未来。世界的下一场变革在于具身智能，而具身智能的下一场变革，将发生在中国。” —— 郭彦东博士
+
+本文数据截至 2026 年 9 月，基于中博会公开信息、WRC 2026 公开访谈、智平方官方公告及行业研究报告整理。融资、估值、订单、产能等数据均为阶段性信息，不构成永久性表述。
+
+## 相关文章
+
+关键词：业界动态
+
+ 英伟达 2027 财年第一财季归母净利润 583.21 亿美元，同比增长 211%
+ 黑竞宗轴 + FSA 球帽：机械师 K600 三模机械键盘 149.5 元半价发车
+ 搭建仅需 3 分钟，和好朋友一起联机玩《幻兽帕鲁》
+ 阿里云大促，云服务器产品低至 61 元 / 年
+ 问界 M9 及华为冬季全场景发布会直播（视频）
+ OPPO Reno11 系列新品发布会直播（视频）
+
+软媒旗下网站： IT之家 最会买 - 返利返现优惠券 iPhone之家 Win7之家 Win10之家 Win11之家
+
+软媒旗下软件： 软媒手机APP应用 魔方 最会买 要知 [...] 众擎机器人（ENGINEAI）
+
+估值突破 100 亿元，已提交港交所上市申请。全栈自研 JS01 系列动力关节组件，SE01 全尺寸人形机器人主打拟人自然直膝步态，T800 系列工业级重载人形机器人面向工厂仓储搬运作业。中小客户订单增速行业领先。
+
+转化链评价：众擎的签约 → 交付链条以关节组件和整机销售为主，中小客户订单增速是其特色。复购深度和场景广度仍在积累。
+
+五、第四层：签约与生态转化型 —— 星海图、自变量、云深处
+
+这一层的企业各有明确的技术或场景壁垒，签约或生态布局有进展，但交付和复购的规模化验证仍在早期，收入结构不完全依赖整机销售复购。
+
+星海图（Galaxea Dynamics）
+
+估值超 200 亿元，由清华交叉信息研究院孵化。EFM-1 双系统架构实现“一脑多形”，G0 系列 VLA 模型开源，RSR 空间智能引擎构建 Real2Sim2Real 数据飞轮。R1 系列轮式双臂机器人定价 19.9 万元起，已服务超 150 家科研院所、高校及大厂。投资方包括蚂蚁集团、美团、高瓴创投、IDG 资本等。 [...] 第二，商业化转化链的完整度正在取代签约金额成为新的分层标尺。签约可以靠技术、靠标杆效应赢下来，交付靠产能，复购靠价值，收入靠持续运营。四个环节的跨越，每一步都需要不同的能力。五家 200 亿估值企业合计融资额占行业总融资的七成以上，但转化链的完整度差异明显。
+
+第三，出海合规运营正在成为收入来源的新维度。香港兰桂坊的全链路跑通，标志着中国具身智能从“产品出海”走向“运营出海”。能在中国交付和在海外合法合规运营并产生持续收入，是两种能力。
+
+第四，“最像特斯拉”锚定资本共识，“大湾区代表”崛起。从 2023 年全球唯二选择端到端 VLA 路线，到聚焦生产力型定位，到构建自有量产体系，再到多家特斯拉生态链企业战略重仓 —— 智平方被反复对标特斯拉，本质是资本市场在寻找“下一个定义智能终端的企业”。郭彦东博士将通用智能机器人定义为继 PC、智能手机、智能汽车之后的第四代智能终端。
+
+因为技术好，所以落地多；因为落地多，所以技术好。商业化转化链不会说谎。从签约到交付，从复购到收入，每一环的跨越，都在回答同一个问题：谁在真正把技术能力变成可持续的商业收入。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                ithome
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="business">
+        <a href="https://www.cls.cn/detail/2513894" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://cdnjs.cls.cn/images/site/cailianWeb/kefu.png" 
+                 alt="创业板ETF成交创两年新高，资金与信心有待同步回归" 
+                 loading="lazy">
+            <div class="news-tag tag-business">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">创业板ETF成交创两年新高，资金与信心有待同步回归</h3>
+            <p class="news-summary">有基金公司分析认为，一方面，市场短期已向"Risk Off"方向演绎，技术面关键点位有望形成支撑。随着宽基ETF持续获得大额净流入，当前位置从中长期视角来看已进入底部区域，阶段性反弹机会可期。另一方面，投资者情绪仍偏谨慎，叠加中东局势、通胀走势、海外加息进程等尚不明朗，宏观环境或尚未进入稳定状态，市场在一定时期内或维持震荡分化。
+
+机构如何解读？
+
+中长期来看，尽管近期AI投资增速预期下修导致部分科技股调整，但多家基金公司维持科技产业趋势并未逆转的判断。10月16日国常会听取“人工智能+”行动进展，强调以落地应用牵引技术创新、促进算电协同、增加高质量数据供给， AI再获顶层加持。
+
+产业层面，多家光通信龙头集中发布经营公告，回应市场对AI需求放缓、客户削减采购的核心担忧。相关公司表示生产经营正常、在手订单充足，海外主要客户订单已排至2027年，部分重点客户给出2028年需求指引。这些信息表明，部分企业基本面并未随股价同步恶化，前期可能存在较为明显的基本面错杀。 [...] 宏观层面，四季度国内流动性有望保持友好，加上中美元首较为密集互动，以及PPI企稳有望带动企业盈利持续修复，A股经历深度调整，风险较大程度释放后或具修复空间。
+
+有公募人士表示，整体来看，今日市场呈现前期抛压逐步出清、资金积极承接、产业基本面预期重新确认的共振。随着企业经营信息陆续披露，市场开始重新审视此前过度悲观的定价。
+
+摩根大通在最新研报中向客户表示，AI相关个股近期的抛售行情或已接近尾声。该行指出，自9月中旬以来，全球股票持仓结构已出现显著重置；其整体股票持仓指标显示，当前股票持仓水平较前期高点大幅回落，尽管短期仍存在一些不利因素，但仓位调整或开始限制行情进一步下探。
+
+东方证券认为，股指正越来越接近真正的底部，大资金借道ETF逆向布局的信号愈发清晰。整体来看，近期增量资金主要集中于少数核心宽基产品，在维持以沪深300为核心标的同时，更加重视科创50和创业板指等科技创新板块的配置价值。
+
+中泰证券首席策略分析师徐驰表示，科技强反弹或将至，中长期继续看好科技创新主线，科技金融支持和资本市场融资制度改革有望改善优质科技企业融资环境。 [...] 关于我们网站声明联系方式用户反馈网站地图帮助
+
+## 首页## 电报## 话题## 盯盘## VIP## FM## 投研## 下载
+
+原创
+
+公募基金动态
+
+2026-10-23 20:09 星期五
+
+财联社记者 陈永辉
+
+责编 李桂芳
+
+```
+①A股"深V"反转，创业板指从跌超3%拉升至收涨4.16%，两市成交放量超4200亿； ②创业板ETF易方达成交破195亿元创两年新高，多只宽基ETF放量； ③股票型ETF连续14个交易日净流入，累计吸金约2613亿元。
+```
+
+财联社10月23日讯（记者 陈永辉）10月23日，A股午后急剧拉升，创业板指从一度大跌超3%强势拉回，最终收涨4.16%，上演”深V”反转行情。与此同时，多只宽基ETF持续放量，资金抄底迹象明显。
+
+财联社盯盘数据显示，创业板ETF易方达成交额突破195亿元，创2024年10月9日以来新高，沪深300ETF华泰柏瑞、科创50ETF华夏均成交超150亿，沪深300ETF天弘成交近7亿元，环比昨日增近27倍。
+
+抄底资金涌入，A股深V反转</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                cls
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="business">
+        <a href="http://www.ccwin.cn/shang/chuangye" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="http://www.ccwin.cn/shang/template/elec51cto/common/logo_right.png" 
+                 alt="创业商讯-中国商业网 - 首席商业门户-中商网-商业资讯平台!" 
+                 loading="lazy">
+            <div class="news-tag tag-business">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">创业商讯-中国商业网 - 首席商业门户-中商网-商业资讯平台!</h3>
+            <p class="news-summary">创业商讯EDIT2019-12-23 10:34
+
+2019-2020WEC世界创业大会，聆听领袖观点
+
+### 2019-2020WEC世界创业大会，聆听领袖观点
+
+2019年12月11日，2019-2020第一届WEC世界创业大会在中国杭州如火如荼地进行。2019-2020第一届WEC世界创业大会是由X新经济研究院主办，创业公社与创业商学院联合承办，由达康集团、中科世宇共同协办，以“资源创新， ......
+
+创业商讯EDIT2019-12-16 17:23
+
+12下一页
+
+### 期刊关注
+
+更多
+
+
+
+网站地图 关于我们 品牌手册 商务合作
+
+互联网违法和不良信息举报电话：12377 | 意见反馈：156562653@qq.com | 网上有害信息举报  
+ 中国商业网 |  粤ICP备19068152号-3 | 粤公网安备 46902302000xxx号 | ©2026 Comsenz Inc. Powered by Discuz! Licensed
+
+### 内容合作
+
+### 商务合作
+
+手机：18622666xxx微信：kuaishangye2026 [...] 首页
+ 快讯
+ 论坛
+ 网站地图
+ 品牌手册
+ 商务合作
+ 关于我们
+
+登录 注册
+
+- 首页Portal
+- 焦点
+- 商业
+- 财经
+- 品牌
+- 地产
+- 新闻
+
+设为首页收藏本站
+
+登录|注册
+
+请 登录 后使用快捷导航  
+没有账号？立即注册
+
+ 客户端
+
+商业界 商业 金融 地产 财经 投资 新闻 品牌 营销 管理 酒店
+
+ 文章
+ 帖子
+ 商家
+ 用户
+
+焦  
+点
+
+ 经济报道
+ 市场观察
+ 媒体看点
+ 环球要闻
+
+商  
+业
+
+ 商业热点
+ 产业资讯
+ 创业资讯
+ 商业学院
+
+财  
+经
+
+ 财经资讯
+ 股票基金
+ 银行保险
+ 理财信贷
+
+品  
+牌
+
+ 品牌时尚
+ 科技智能
+ 时装流行
+ 汽车能源
+
+地  
+产
+
+ 地产宏观
+ 房产动态
+ 商业购物
+ 家居装饰
+
+上证指数
+
+3686.1702.16%
+
+深证成指
+
+11335.6904.22
+
+恒生指数
+
+23919.501.67%
+
+创业板指
+
+2544.730
+
+纳斯达克
+
+25372.0100.83%
+
+### 相关专题
+
+更多
+
+。而在“寒冬“中，所有的企业都渴望获取更能多的 ...... [...] ### 商务邮箱
+
+156562653@qq.com</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                ccwin
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="business">
+        <a href="https://www.iyiou.com/t/jiqiren" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://www.iyiou.com/dist/src/assets/imgs/logo_pc.svg?e677367fd59712d0e73c22defd70b98e" 
+                 alt="机器人_最新动态_机器人介绍_亿欧网" 
+                 loading="lazy">
+            <div class="news-tag tag-business">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">机器人_最新动态_机器人介绍_亿欧网</h3>
+            <p class="news-summary">2026-10-10 13:59
+
+机器人 核心零部件 具身智能
+
+Image 14: 亿欧-科技+产业+投资信息平台和智库
+
+_新兴技术及应用_攻坚Physical Harness架构，清华00后博士团队获亿元级融资 为机器人灵智而生。
+
+2026-10-08 13:53
+
+机器人 清华系 灵生科技
+
+深度
+
+Image 15: 亿欧-科技+产业+投资信息平台和智库
+
+_新兴技术及应用_巡检、陪伴之后，机器狗行业的第二曲线往哪走？ 巡检是替代高危重复劳动，配送是补最后一百米，导盲是补“有无”。
+
+2026-10-08 13:09
+
+机器人 四足机器人 具身智能
+
+Image 16: 亿欧-科技+产业+投资信息平台和智库
+
+_人工智能_机器人进家门？价格不能超过冰箱 接受度不是一堵墙，是一条随价格和能力移动的需求曲线。
+
+2026-10-08 10:29
+
+机器人
+
+头条
+
+Image 17: 亿欧-科技+产业+投资信息平台和智库
+
+_新兴技术及应用_卖的更多还是赚的更多？人形机器人行业真实的增长引擎在哪？ 具身智能没有退潮，而是在换挡——看高价值具身如何跑赢大盘。 [...] 2026-09-25 12:41
+
+机器人 优必选
+
+Image 28: 亿欧-科技+产业+投资信息平台和智库
+
+_新兴技术及应用_ _,__消费生活_石头科技跻身中国品牌影响力指数百强：跑通“心动→行动→带动”增长闭环 “好的品牌建设，不是一时的流量爆发，而是一步一个脚印的信任积累。”
+
+2026-09-24 10:11
+
+机器人 品牌影响力 石头科技
+
+Image 29: 亿欧-科技+产业+投资信息平台和智库
+
+_新兴技术及应用_把生活变成数据：觅蜂派用众包模式构建全品类物理AI数据网络 9月23日，觅蜂科技在上海发布物理AI数据众包平台“觅蜂派”，以MEgo设备、App与数据引擎打通接单采集和质检分级。
+
+2026-09-23 23:52
+
+机器人 数据采集 具身智能
+
+查看更多
+
+Image 30: 社群
+
+社群
+
+行业  
+社群
+
+Image 31: 加入行业群了解产业资讯 专属客服对接商务合作
+
+加入行业群了解产业资讯 专属客服对接商务合作
+
+Image 32: 合作
+
+合作
+
+寻求 合作
+
+Image 33: 电话
+
+电话
+
+客服  
+电话
+
+欢迎拨打电话咨询： [...] 机器人 具身智能 数据标注
+
+Image 11: 亿欧-科技+产业+投资信息平台和智库
+
+_人工智能_中国工博会直击：海康威视展台含“AI”量十足，加速工业场景数字化 海康威视以“物联感知+AI，加速工业场景数字化”为主题，携面向质量检测、设备监测、生产运营、安全生产等核心环节的100余款场景数字化产品亮相工业自动化展，并发布十余款新品。
+
+5 小时前
+
+机器人 海康威视 智能安防产品
+
+Image 12: 亿欧-科技+产业+投资信息平台和智库
+
+_新兴技术及应用_星尘智能完成新一轮融资，公司估值达150亿元 近日，全球首个量产绳驱AI机器人的具身智能公司星尘智能已完成10亿元规模新一轮融资，公司估值达150亿元。
+
+6 小时前
+
+机器人 具身智能 人形机器人
+
+Image 13: 亿欧-科技+产业+投资信息平台和智库
+
+_新兴技术及应用_巨蟹智能完成超亿元A+轮：关节全链自研，提前布局百万套产能应对爆发式需求 巨蟹智能完成超亿元新一轮融资。本轮融资由华泰紫金领投，德昌电机、九号资本、自变量机器人跟投，老股东科沃斯、南创投继续追投。
+
+2026-10-10 13:59</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                iyiou
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+        </div>
+      </section>
+    
+      <section class="category-section" id="web3">
+        <div class="category-header">
+          <div class="category-title">
+            <span class="category-icon">⛓️</span>
+            Web3
+          </div>
+          <span class="category-count">8 条</span>
+        </div>
+        <div class="news-grid">
+          
+      <article class="news-card" data-category="web3">
+        <a href="https://www.wenweipo.com/business/digital-economy" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://wwp-static.wenweipo.com/img/icon/favorites-unselected.png" 
+                 alt="數字經濟 - 香港文匯報" 
+                 loading="lazy">
+            <div class="news-tag tag-web3">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">數字經濟 - 香港文匯報</h3>
+            <p class="news-summary">螞蟻國際今日宣布，積極參與金管局EnsembleTX通證化存款交易，已成功與主要銀行夥伴實現實時跨行資金流動管理。
+
+財經
+
+收藏
+
+取消收藏
+
+世界孔子協會以Web3.0與區塊鏈技術賦能儒家思想
+
+世界孔子協會於2026年11月1日於日本東京早稻田大學舉行的2026國際元宇宙達沃斯峰會上發布 「孔子元宇宙」。
+
+數字經濟
+
+收藏
+
+取消收藏
+
+HashKey採用渣打銀行代幣化存款項目 用於跨市場資金和流動性管理
+
+HashKey Group（3887）宣布，成為首批採用渣打銀行（Standard Chartered）新推出的機構代幣化存款解決方案的機構客戶之一。HashKey將利用該方案支持其機構資金管理及結算場景。
+
+數字經濟
+
+收藏
+
+取消收藏
+
+星路科技參與金管局EnsembleTX 探索代幣化合規應用
+
+星路科技宣布參與香港金融管理局EnsembleTX，共同探索更快速、透明且高效的真實代幣化資產交易結算。
+
+數字經濟
+
+收藏
+
+取消收藏
+
+【加密演義】資本回歸定價深化：數字資產市場的分化與重建（四之二）
+
+展望未來1至2個季度，我們對BTC市場的判斷較第二季度更加積極。 [...] 加密資產管理公司灰度Grayscale發文稱，摩根大通已將比特幣納入其2027年長期資本市場假設（Long-Term Capital Market Assumptions），並給出10%的年化回報預測。Grayscale表示，比特幣正獲得機構關注，原因包括較高的年化回報，以及與美國大盤股僅33%的相關性。
+
+數字經濟
+
+收藏
+
+取消收藏
+
+亞洲保險、安我保險夥華為雲香港簽署MOU深化AI合作
+
+亞洲保險有限公司及旗下虛擬保險品牌安我保險有限公司（Avo保險）與華為雲香港昨日（3日）正式簽署合作備忘錄，雙方即將在雲與人工智能領域合作，並聯合開發應用於保險業務的AI模型，初步方向涵蓋核保、理賠、客戶服務及風險管理等範疇，務求改善客戶體驗及提升內部營運效率，促進前沿科技與核心保險業務深度結合，全面推進業務智能化升級。
+
+財經
+
+收藏
+
+取消收藏
+
+加密藝術家劉嘉穎本月在港辦個展 展出306萬美元成交作品《一千眼》 [...] 財經
+
+收藏
+
+取消收藏
+
+滙豐計劃於北都設立「人工智能及新興科技研究院」
+
+滙豐今天在香港金融科技周開幕日宣布，計劃在香港成立全球「人工智能及新興科技研究院」（研究院），並與學術及科技合作夥伴攜手，開發可應用於滙豐各項業務的新型及創新科技。 研究院計劃於2027年初投入運作，初期將聚焦人才技能提升、人工智能安全及詐騙偵測、後量子密碼學及區塊鏈等領域。研究院將結合研究能力與技術應用團隊，為滙豐提供新的技術能力，推動具潛力的創新方案由研發走向實踐，並廣泛應用在各業務範圍。
+
+財經
+
+收藏
+
+取消收藏
+
+OSL上線RWA產品「實時贖回」功能 首批支持USDGO Plus美元基金
+
+OSL集團（0863）今日宣布，為在其合規持牌平台上架的多只RWA代幣化理財產品推出「實時贖回」功能。合資格專業投資者贖回指定產品時，可於當日完成贖回並收到本金，無需再等待原有的贖回交割周期。
+
+數字經濟
+
+收藏
+
+取消收藏
+
+Bitwise報告：比特幣2036年目標價上調至160萬美元</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                wenweipo
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="web3">
+        <a href="https://www.kucoin.com/news/flash/treasure-dao-proposes-50-magic-token-inflation-to-shift-to-ai-and-depin" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://assets.staticimg.com/kc-v2-config/site-config/693bcdd4680db10001fa9856_logo_general_green.svg" 
+                 alt="Treasure DAO Proposes 50% MAGIC Token Inflation to Transition to AI and DePIN" 
+                 loading="lazy">
+            <div class="news-tag tag-web3">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">Treasure DAO Proposes 50% MAGIC Token Inflation to Transition to AI and DePIN</h3>
+            <p class="news-summary">Image 1: KuCoin
+
+Image 2: union-icon
+
+Exchange
+
+Web3
+
+   Buy Crypto   
+   Markets
+   Trade   
+   Derivatives   
+   Launch Hub   
+   Earn   
+   Institutional   
+   More   
+   Image 3: rewards  
+
+Log InSign Up
+
+HomeNewsDetails
+
+# Treasure DAO Proposes 50% MAGIC Token Inflation to Transition to AI and DePIN
+
+Image 4: iconTechFlow
+
+Release Time:11/05/2026, 08:43:59
+
+Share [...] Bitcoin reached $80,000 again on Wednesday, leading a widespread cryptocurrency rally after the midterm elections. The Bitcoin advance caused short positions worth more than $320 million to be liquidated within 30 minutes. Ethereum rose 6%. XRP and Solana each gained 4%. Cardano advanced 4.5%. Dogec
+
+BTC$80,313.00+2.21%
+
++4
+
+11/04/2026, 16:35:46Recommended ### Bitcoin Surges to $80,000, Ethereum and XRP Rise 6% and 4% [...] The crypto market is staging a broad recovery after a volatile reaction to the US midterm elections. Bitcoin has reclaimed $80,000, while Ethereum and XRP have joined the rebound, supporting gains across major digital assets. The recovery comes alongside a sharp reduction in bearish positions, impro
+
+BTC$80,313.00+2.21%
+
++4
+
+11/04/2026, 16:36:50Recommended ### Bitcoin Reaches $80,000 as Crypto Market Rallies Post-Midterms</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                kucoin
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="web3">
+        <a href="https://wnhub.io/zh/news/marketing/item-52599?scroll=comments" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://app2top.ru/wp-content/uploads/2026/11/Farm-Heroes-Saga-1200x630.jpg" 
+                 alt="King、Scopely和另外两个移动发行商违反了英国的广告要求 | WN Hub" 
+                 loading="lazy">
+            <div class="news-tag tag-web3">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">King、Scopely和另外两个移动发行商违反了英国的广告要求 | WN Hub</h3>
+            <p class="news-summary">VR and ARUser AcquisitionIndieASOBooksEducationEsportsConferencesFinance and salesGamesGenerative AILocalizationNarrativePodcastsQA and SupportCompany CultureMarket OverviewFundingGame DevelopmentAILawSound DesignHTML5 GamesOnline GamesDistributionGame ProductionEngines and toolsUnreal EngineProject ManagementAdvertisment数据分析市场推广游戏研发Stores and publishing商务游戏设计Art变现投资流程/文化Web3 and Crypto元宇宙HR / Company news社区管理编程法务WN ResearchesOther
+
+05.11.2026
+
+# King、Scopely和另外两个移动发行商违反了英国的广告要求 [...] 英国广告标准管理局（ASA）禁止在国内展示King、Scopely、Omnilojo和Vistrex的手机游戏广告。不过，这次禁令并不是对这些游戏的整体推广，而是针对一系列特定的广告创意。
+
+Farm Heroes Saga
+
+ 《Farm Heroes Saga》——在Facebook\上的两个创意被禁止;
+ 《Dark War Survival》——在Google Play上有三个广告材料被屏蔽;
+ 《Pixel Flow!》——在Facebook\上受到限制的一个创意;
+ 《Idle Zombie Miner: Gold》——Facebook\上的创意和Google Play上的广告材料被禁止。
+
+### 资料来源：
+
+  GamesIndustry.biz
+
+Related news</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                wnhub
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="web3">
+        <a href="https://www.blocktempo.com/category/business/ai" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="http://www.blocktempo.com/wp-content/uploads/2018/03/logo.png" 
+                 alt="AI | 動區動趨-最具影響力的區塊鏈新聞媒體" 
+                 loading="lazy">
+            <div class="news-tag tag-web3">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">AI | 動區動趨-最具影響力的區塊鏈新聞媒體</h3>
+            <p class="news-summary">2026-11-04
+
+0
+
+蘋果在美國時間 11 月 3 日把 Ap...
+
+Read moreDetails
+
+[](
+
+AI
+
+### 輝達傳要求雲端客戶：新合約至少 51% 服務不要賣給中國公司
+
+by Joe
+
+2026-11-04
+
+0
+
+《金融時報》引述五名知情人士報導，輝達要...
+
+Read moreDetails
+
+[](
+
+AI
+
+### 高盛限縮員工用 Claude Code！只剩工程師能用、交易員不爽
+
+by Mickey帽鼠
+
+2026-11-04
+
+0
+
+彭博報導，高盛 10 月更新內部指引，A...
+
+Read moreDetails
+
+Anthropic 開源 FlashProve：把幣圈常用的 zkSNARK 零知識證明搬進 AI 推理
+
+Anthropic
+
+### Anthropic 開源 FlashProve：把幣圈常用的 zkSNARK 零知識證明搬進 AI 推理
+
+by Aspen
+
+2026-11-04
+
+0
+
+Anthropic 前沿紅隊於台北時間 ...
+
+Read moreDetails
+
+[](
+
+AI [...] by Aspen
+
+2026-11-05
+
+0
+
+比特幣礦企 Riot Platforms...
+
+Read moreDetails
+
+[](
+
+AI
+
+### 俄機房接連挨炸！普丁令資料中心預留 10% 算力應急，還想藏進礦坑
+
+by Joe
+
+2026-11-05
+
+0
+
+普丁簽署第 802 號命令，民營資料中心...
+
+Read moreDetails
+
+[](
+
+AI
+
+### 民主黨拿下國會，桑德斯永久禁止超級 AI 的禁會過關嗎？
+
+by Joe
+
+2026-11-05
+
+0
+
+桑德斯的超級 AI 禁令於 9 月提出，...
+
+Read moreDetails
+
+[](
+
+AI
+
+### 蘋果工程師每天 AI 額度從 300 降到 200 美元
+
+by Mickey帽鼠
+
+2026-11-05
+
+0
+
+據 Bloomberg 報導，蘋果 10...
+
+Read moreDetails
+
+[](
+
+AI
+
+### 德州變天》比特幣礦企 AI 轉型夢恐受阻：Hut 8 慘跌 23%、Cipher Digital 跌近 20%
+
+by Joe
+
+2026-11-05
+
+0 [...] AI
+
+### 李佳琦雙十一半小時賣出 10 萬份千問辦公會員！累計約 2 萬億 Token
+
+by Aspen
+
+2026-11-02
+
+0
+
+李佳琦雙十一直播間開賣「千問辦公 Tok...
+
+Read moreDetails
+
+半導體大廠 Marvell 全股票併購 Lumentum：企業價值 1,150 億美元，搶 AI 光學互連
+
+AI
+
+### 半導體大廠 Marvell 全股票併購 Lumentum：企業價值 1,150 億美元，搶 AI 光學互連
+
+by Aspen
+
+2026-11-02
+
+0
+
+Marvell 以全股票交易收購 Lum...
+
+Read moreDetails
+
+[](
+
+AI
+
+### Grok Bot 最強教學》官方人員公開 7 個調教 Agent 的方式
+
+by Mickey帽鼠
+
+2026-11-02
+
+0
+
+SpaceXSI Grok Bot 團隊...
+
+Read moreDetails
+
+[](
+
+AI
+
+### Claude 新規定「禁止用訂閱額度開中轉站」要殺光 token 中轉商？
+
+by Mickey帽鼠</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                blocktempo
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="web3">
+        <a href="https://www.youtube.com/watch?v=4ocrnQ1v3So" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://i.ytimg.com/vi/4ocrnQ1v3So/maxresdefault.jpg" 
+                 alt="美國中期選舉後誰真正受益？特斯拉與SpaceX同步下跌，是短期政治錯殺，還是成長與合併風險升級？" 
+                 loading="lazy">
+            <div class="news-tag tag-web3">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">美國中期選舉後誰真正受益？特斯拉與SpaceX同步下跌，是短期政治錯殺，還是成長與合併風險升級？</h3>
+            <p class="news-summary">### Description
+1,317 views
+Posted: 2026-11-05
+▶️ 本期看點 👀
+道瓊選後暴漲1,569點，特斯拉（TSLA）與SpaceX卻同步下跌。馬斯克砸下超過4.45億美元力挺共和黨，德州仍然翻盤。市場究竟在賣政治失勢，還是在重估兩家公司的生意與合併前景？
+本期拆解民主黨掌控國會後，油價、殖利率與板塊資金如何重新站隊；為什麼微軟與亞馬遜上漲，輝達與CoreWeave反跌；以及德州95%的Robotaxi里程、SpaceX政府合約調查、特斯拉與SpaceX合併三道關卡。看完本期影片，你將能識別政權更迭下的關鍵營運指標、政策監管風險，以及驗證業務擴張與合併價值的核心訊號。
+Yuki帶你看美股，及時獨到有深度。喜歡今天的深度拆解，別忘了點讚並訂閱【TradingKey美股財經】，開啟小鈴鐺，我們下期影片繼續帶你看懂財經脈絡、挖掘美股市場的核心價值！ [...] ▶️ 影片章節 ✨
+00:00 民主黨獲勝，特斯拉SpaceX一起跌
+00:56 道瓊為什麼大漲？為什麼同樣做AI，有人漲、有人跌？
+04:32 德州變天對特斯拉有多大影響？
+08:23 SpaceX：國會可以查，但美國政府換得掉它嗎？
+12:35 民主黨贏了，特斯拉和SpaceX真的更難合併了嗎？ 
+
+▶️ 往期影片 🌟
+   • AMD的AI增長真能變現嗎？99%營收增量來自資料中心，財報後股價大漲、現金流埋雷？   
+   • 特斯拉股東不答應？Tesla、SpaceX合併走到哪一步？散戶持股會縮水，還是價值翻...   
+
+▶️ 掌握最新財經資訊 🌟
+📌 App Store: 
+📌 Google Play: 
+
+📢 免責聲明 
+TradingKey 提供某些投資產品的一般資訊。此資訊並不構成財務建議或對任何特定投資產品的推薦。 [...] #TSLA #特斯拉 #SpaceX #SPCX #馬斯克 #Robotaxi #Starlink #Starshield #美國中期選舉 #民主黨 #道瓊 #AI資料中心 #輝達 #NVDA #微軟 #MSFT #亞馬遜 #AMZN #CoreWeave #CRWV #聯準會 #美聯儲 #降息 #通膨 #美債 #避險 #美股 #美股投資 #AI #投資 #Tradingkey
+
+### Chapters
+[0:00] 民主黨獲勝，特斯拉SpaceX一起跌
+[0:56] 道瓊為什麼大漲？為什麼同樣做AI，有人漲、有人跌？
+[4:32] 德州變天對特斯拉有多大影響？
+[8:23] SpaceX：國會可以查，但美國政府換得掉它嗎？
+[12:35] 民主黨贏了，特斯拉和SpaceX真的更難合併了嗎？</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                youtube
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="web3">
+        <a href="https://www.youtube.com/watch?v=WSvf2zaucBc" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://i.ytimg.com/vi/WSvf2zaucBc/maxresdefault.jpg?v=6aec8d1c" 
+                 alt="【美股盘前11月5日直播】纳指冲高回落！半导体何时才能止跌？#美股#纳指#美股分析#美股投资#AI#存储芯片#美光#英伟达#AVGO#谷歌#特斯拉#股市分析" 
+                 loading="lazy">
+            <div class="news-tag tag-web3">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">【美股盘前11月5日直播】纳指冲高回落！半导体何时才能止跌？#美股#纳指#美股分析#美股投资#AI#存储芯片#美光#英伟达#AVGO#谷歌#特斯拉#股市分析</h3>
+            <p class="news-summary"># 【美股盘前11月5日直播】纳指冲高回落！半导体何时才能止跌？#美股#纳指#美股分析#美股投资#AI#存储芯片#美光#英伟达#AVGO#谷歌#特斯拉#股市分析
+## Channel: 华尔街美股猫叔
+13.1K subscribers [...] 🔔 记得订阅频道并打开小铃铛，与我一起在开盘前洞察市场，避免盲目交易，抢占先机！
+
+⚠️ 免责声明：
+本直播所分享的内容仅供参考。所有分析与建议基于当前市场数据和技术分析，旨在帮助观众了解市场走势与可能的操作机会，并不构成投资建议。任何投资决策应基于个人判断与风险承受能力。股市投资具有风险，可能导致资金亏损。投资者需根据个人风险承受能力做出独立决策，并对投资结果负责。 [...] ### Description
+全新视角解析美股市场！
+在接下来的直播中，我将带领大家深入剖析当前美股市场的动向，重点关注以下三大核心内容：
+1. 纳指走势透析
+🔍 短期与长期分析：通过技术分析，解读纳指（Nasdaq）的当前走势，揭示关键支撑与压力位，帮助你预判未来的市场走向。
+📊 数据与趋势：从量价关系、技术形态到市场情绪，我们将多维度分析，助你精准掌握趋势变化。
+2. 热点股全解
+🔥 聚焦科技股：我们将深入探讨市场上最热的科技巨头——如 英伟达、特斯拉、台积电 等的表现与潜力，分析它们的短期及长期走势，剖析投资机会与风险。
+3. 实战操作技巧
+🎯 投资策略分享：结合最新市场数据，分析当前市场波动，提供具体的操作建议，如何在市场起伏中找到最佳的买入与卖出时机。
+📈 优化投资组合：如何根据技术面和市场趋势调整持仓，提升资金运作效率，提升投资回报。
+无论你是新手还是资深投资者，这场直播都将为你提供宝贵的市场洞察与操作技巧。
+🎯 直播时间
+⏰ 美东时间 周一至周五 12:00
+📺 直播平台：YouTube频道：@HRJMaoShu</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                youtube
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="web3">
+        <a href="https://www.youtube.com/watch?v=Y33Ww4f_9-E" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://i.ytimg.com/vi/Y33Ww4f_9-E/maxresdefault.jpg" 
+                 alt="崩盘中。。。到底发生了什么? | Jay金融财经分析" 
+                 loading="lazy">
+            <div class="news-tag tag-web3">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">崩盘中。。。到底发生了什么? | Jay金融财经分析</h3>
+            <p class="news-summary">免责声明： 本頻道內容僅供參考，並不構成投資建議。本频道所有分享纯属个人心得，所提供的投资策略未必适合所有投资者。 本人并非证监会持牌人士，所谈及、分析之股票及金融产品，任何不论种类或形式之申述，并不构成任何投资要约、诱使、邀请、建议及推荐。 证券价格可升可跌，甚至变成毫无价值。买卖证券未必一定能赚取利润，反而可能会招致损失。无论如何，投资者都应审慎投资行事。
+
+#美股 #特斯拉 #股票 #investing #investment #invest #makemoneyonline #makemoney #morganstanley #goldmansachs #thinkorswim #jpmorgan #moomoo #etoro #forex #trading #merrill #verizon #business #finance #hsbc #tesla #futurestrading #options #optionstrading #blackstone #crypto #reddit #tesla #tsla [...] # 崩盘中。。。到底发生了什么? | Jay金融财经分析
+## Channel: StockTalkwithJay美股
+139K subscribers
+
+### Description
+144,954 views
+YT频道X账户： 感谢follow！
+
+   • 美国国债投资正确的打开方式 小秘诀大公开 TMF TLT 通胀 利率倒挂 全面解密 ...  
+   • 百倍股的基因 罗素2000指数关键点 下一只特斯拉在这里吗? | Jay金融财经分析  
+   • Tradingview 交易系统全面攻略 主力筹码 底部探索 新手老手皆宜 | Ja...  
+
+谢谢观看 ！
+欢迎订阅点赞 !!
+大家注意我只有官方油管频道, X 和微信会员群，没有discord和别的平台。欢迎小伙伴们继续在我的频道支持。感恩。
+
+请我喝咖啡: [...] 请我喝咖啡: 
+
+DISCLAIMER: I am not a financial advisor. These videos are for educational purposes only. Investing of any kind involves risk. Your investments are solely your responsibility and we do not provide personalized investment advice. It is crucial that you conduct your own research. I am merely sharing my opinion with no guarantee of gains or losses on investments. Please consult your financial or tax professional prior to making an investment.</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                youtube
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="web3">
+        <a href="https://www.youtube.com/watch?v=XiHAUXg1c5M" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://i.ytimg.com/vi/XiHAUXg1c5M/hqdefault.jpg" 
+                 alt="EP351. Anthropic S1 Update, Investing in Frontier AI Companies, and How to Spot an AI Bubble ft. ..." 
+                 loading="lazy">
+            <div class="news-tag tag-web3">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">EP351. Anthropic S1 Update, Investing in Frontier AI Companies, and How to Spot an AI Bubble ft. ...</h3>
+            <p class="news-summary">[1:26:56] 但是你裡面的Maintenance啊那些東西是完全不一樣 它也許可以克服 但是能源在整個就是那種Token裡面的Cost也沒有那麼大
+[1:27:04] 所以我那時候一直在想說 地面資料中心現在反 不是啊居民反彈啊 環保法會 不會破啊 居民反彈會不會一直持續下去
+[1:27:13] 如果持續下去的話那個就make sense 就它會有一個類似法規或者是這種
+[1:27:20] 不是你算數可以算出來的那個成本在上面 你在時間上可能如果他在那裡有優勢的話 他的確可以得到一些benefit
+[1:27:29] 但是整體來看是NEW CLOCK這一塊是真的跟他原本的SKILLSET最合 然後如果加上他在融資上面的能力的話
+[1:27:39] 的確他應該會做得比別人更好 好啦那我們剛剛講的好產業跟好生意跟好公司 我們接下來要聊好股價的部分
+[1:27:48] 雖然嚴格來講,你一定會告訴大家,你的課程也不會教大家怎麼嚴格怎麼講, 但是大家還是對這件事有興趣嘛,我們還是要問你個人的看法,你personal [...] [44:35] 然後呢,這個比較好的技術平台的話, 它可能在上面可以類似去攻擊的vertical, 或者它能夠進入的vertical就更多。
+[44:44] 所以那你在後面這一段才是你真正賺錢, 不管那是用推論的方式在做, 或者是說你像現在用AIA捲, 或者用各種方式, 它在上面可以變化出來的商業模式更多。
+[44:56] 但是它基礎的平台這個地方是 Infrastructure是不賺錢。
+[44:59] 但是你知道嗎,我覺得現在看這個OpenAI, 特別是這次Anthropic的S1出來之後, 我覺得,
+[45:06] 我又想到剛剛講的GLP-1,我覺得非常像是,因為它們的毛利超高的, 所以它們其實有能力在極短的時間內把這個模型的研發者們是賺回來的,
+[45:17] 它們其實是可以做到這件事情的,就像GLP-1的藥物的獲利也很高,它反而比較 在意是一旦我落後了,我就沒辦法賺到這些錢,
+[45:26] 所以很多人大概在幾個月前,大家就在講這個叫做Token Economics 的時候,就在講說其實未來, [...] [49:39] 就是說五年後的Anthropic或OpenAI會長得跟現在一樣嗎? 絕對會完全的不一樣。
+[49:46] 但是我們大家對於這個想象的落差會很大。
+[49:49] 因為你如果把它想象成一個模型公司的話, 那它可能現在是差不多的。
+[49:53] 但是你可能會把它想象成這個模型, 然後加應用端的。 然後應用端它選擇什麼樣的應用端也會有差距。
+[50:00] 所以我覺得如果照我的分析的方法的話 我可能就會把它拆開來 就是這個剛剛講過的 就我們在模型端這裡會有一個
+[50:08] 類似他有個進入很大的進入障礙 他就是一個技術平臺 這個技術平臺呢 看他怎麼把成本和那個 Token economics給他弄好
+[50:16] 會有一個他的return 但是更多的是來自於他的選擇權 就是他要進入哪個地方 而且他每進入一個地方的時候 他要思考幾個問題
+[50:24] 是我要自己去做 還是我自己打進去,然後我需要拿什麼資源。
+[50:32] 在我自己感覺,就是在後面來說,因為就很像比如說Microsoft,現在就很 希望是這些東西都是commodity,然後我來分配,我可以換API,</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                youtube
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+        </div>
+      </section>
+    
+      <section class="category-section" id="health">
+        <div class="category-header">
+          <div class="category-title">
+            <span class="category-icon">🏥</span>
+            医疗健康
+          </div>
+          <span class="category-count">8 条</span>
+        </div>
+        <div class="news-grid">
+          
+      <article class="news-card" data-category="health">
+        <a href="https://jiankang.cctv.com/2026/11/05/ARTICUMpIc6QPRJCkT155rtm261105.shtml" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://p5.img.cctvpic.com/photoAlbum/templet/common/DEPA1619055649314644/jiankang.jpg" 
+                 alt="计算医学：医药创新“底座技术”_健康_央视网(cctv.com)" 
+                 loading="lazy">
+            <div class="news-tag tag-health">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">计算医学：医药创新“底座技术”_健康_央视网(cctv.com)</h3>
+            <p class="news-summary">央视网  >;) 健康台
+
+# 计算医学：医药创新“底座技术”
+
+来源：健康报 | 2026年11月05日 15:22
+
+健康报 | 2026年11月05日 15:22
+
+###### 原标题：
+
+正在加载
+
+近日，工业和信息化部、国家发展改革委等十部门联合印发《医药工业发展“十五五”规划》，将计算医学与人工智能（AI）、量子计算、超级计算并列为赋能药物研发的新技术。与AI、超级计算、量子计算等热门领域相比，计算医学这一概念对于公众显得有些陌生。它究竟是什么？为何被纳入国家医药工业核心技术布局？近日，中科计算技术西部研究院研究员、图灵-达尔文实验室副主任赵宇对此进行解读。
+
+本报记者 胡彬
+
+从国际定义到中国路径
+
+计算医学作为独立研究领域已有二十余年发展历史。赵宇表示，“国外将计算医学学科方向定义为依托数学、工程学、计算科学等学科理论知识，通过量化分析与疾病机制模拟，助力疾病诊断、机制研究与精准治疗。我国对计算医学的研究从起步就更加强调产业应用，相关研究和实践更多是将海量生命大数据、AI、高性能计算与疾病机制研究深度融合，构建一体化技术框架。” [...] 作为这一技术路径的实践成果，哲源科技近日发布了WHIRLPO计算医学平台，为生命世界模型训练、迭代与产业应用提供工程化支撑。该平台整合算力、生命数据、模型、科学工具与智能体，衔接疾病机制研究、靶点发现和虚拟临床研究等任务，并将计算产生的假说交由实验验证，再用实验数据反馈优化模型，形成持续迭代的闭环。
+
+写入国家规划恰逢其时
+
+计算医学为何于2026年被正式写入《医药工业发展“十五五”规划》？赵宇表示，一方面，多维度生命数据目前已经完成了规模化积累。然而，掌握海量数据，不等于人类可以读懂疾病。数据如何关联、因果如何判定、靶点干预后人体系统如何响应，这些核心问题必须依靠计算医学模型加以解答。
+
+另一方面，核心计算基础设施实现跨越式升级。AI提供了高效建模与智能推理工具，超级计算支撑大规模、高复杂度系统运算，量子计算突破传统算力边界，为复杂生命系统模拟提供底层支撑。
+
+“发展计算医学的主要目的就是回答‘超强算力如何落地、如何解决真实医学难题’的问题，完成从算力资源到医药创新成果的闭环转化。”赵宇说。
+
+解决“人体内”的真正难题 [...] 赵宇进一步指出，生命系统并非基因、蛋白质、细胞的简单叠加。针对肿瘤、代谢病、免疫疾病等复杂疑难病症，必须打通多尺度生物医学数据，搭建可精准描述疾病状态、发病机制、药物干预全过程的动态模型。近年来，计算医学的研究对象从单一分子、细胞，逐步延伸至组织、器官、个体患者，形成以定量模型解析健康与疾病状态、还原生命系统动态变化的研究体系。
+
+据介绍，2023年，由中科计算技术西部研究院张春明、赵宇等组成的团队在《科学与社会》上刊发研究成果，明确将计算医学定义为药物创新的“底座技术”，即通过多尺度生物数据整合建模，解码疾病核心机制与药物疗效逻辑，为药物研发全流程关键决策提供科学支撑。
+
+在产业端，哲源科技等由科研院所孵化的本土企业，也已在疾病精准建模、全新靶点挖掘、患者数字化建模、虚拟临床研究等核心方向持续深耕，推动计算医学从学术概念转化为药物研发的实战工具。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                cctv
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="health">
+        <a href="https://meetings.ebiotrade.com" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://www.ebiotrade.com/ColorQR_ebiotrade.jpg" 
+                 alt="生物通-------会展中心" 
+                 loading="lazy">
+            <div class="news-tag tag-health">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">生物通-------会展中心</h3>
+            <p class="news-summary">首页 今日动态 人才市场 新技术专栏 中国科学人 云展台
+
+  BioHot
+
+  + 定制我的BioHot
+  + 进入我的BioHot
+  + 肿瘤癌症研究
+  + 免疫/基因/细胞疗法
+  + 神经生物学
+  + 健康与疾病
+  + 衰老机制与长寿
+  + 单细胞技术
+  + 基因编辑-CRISPR
+  + RNA研究
+  + 肠道菌与人体微生态
+  + 细胞代谢
+  + AI生物信息学
+  + COVID
+
+  云讲堂直播 特价专栏 技术快讯 免费试用
+
+ 
+
+  生物通官微  
+  陪你抓住生命科技  
+  跳动的脉搏
+
+2
+
+## 近期会议排期 更多  >
+:   R语言临床医学数据分析与可视化实践班 2026年11月04日-06日
+:   专家开讲｜视网膜类器官如何研发与应用？中大眼科中心钟秀风教授在线分享 2026年11月05日-05日
+:   绘谱学堂 | 贾伟教授团队Cell分享：慢性肝病性别差异，揭示肠道胆汁酸代谢保护轴>> 2026年11月05日-05日
+:   n8n & 扣子实战课：搭建真正能落地的多工具AI Agent 2026年11月09日-11日 [...] | 会议名称 | 会议地点 | 会议时间 |
+ --- 
+| 2026 慕尼黑上海分析生化展 | 上海 | 2026-11-16至2026-11-18 |  |
+
+| 会议名称 | 会议地点 | 会议时间 |
+ --- 
+| 2026智能医疗与数字健康国际会议（IMDH 2026） | 瑞士-洛伊克巴德 | 2026-11-10至2026-11-12 |  |
+| 2026生物医药产业发展大会 | 上海 | 2026-11-19至2026-11-21 |  |
+| BIFT China 2026中国生物医药创新与前沿技术峰会 | 上海 | 2026-12-01至2026-12-02 |  |
+
+| 会议名称 | 会议地点 | 会议时间 |
+ --- 
+| R语言临床医学数据分析与可视化实践班 | 北京站+线上直播 | 2026-11-04至2026-11-06 |  |
+| n8n & 扣子实战课：搭建真正能落地的多工具AI Agent | 线上+线下 | 2026-11-09至2026-11-11 |  | [...] 发布会议信息
+
+联系我们  
+ 020-87511980
+
+ 扫码关注生物通
+
+### 会议推荐
+
+距离召开还有11天
+
+
+
+#### 2026 慕尼黑上海分析生化展
+
+会议地点：上海
+
+会议时间：2026年11月16-18日
+
+距离召开还有5天
+
+
+
+#### 2026智能医疗与数字健康国际会议（IMDH 2026）
+
+会议地点：瑞士-洛伊克巴德
+
+会议时间：2026年11月10-12日
+
+距离召开还有0天
+
+
+
+#### 华大 专业认证类培训
+
+会议地点：在线学习
+
+会议时间：随报随学
+
+## 最新会议
+
+更多会议
+
+ 全部会议
+ 展会展览
+ 研讨会
+ 培训班
+ 技术讲座</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                ebiotrade
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="health">
+        <a href="https://wap.eastmoney.com/a/202611053923334925.html" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://g1.dfcfw.com/g4/202112/20211206191716.png" 
+                 alt="从跨境授权向研发协同延伸 中欧医药合作拓展新空间 _ 东方财富网" 
+                 loading="lazy">
+            <div class="news-tag tag-health">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">从跨境授权向研发协同延伸 中欧医药合作拓展新空间 _ 东方财富网</h3>
+            <p class="news-summary"># 从跨境授权向研发协同延伸 中欧医药合作拓展新空间
+
+新华财经 昨天 11:45 评论
+
+新华财经上海11月5日电（记者杜康）记者4日从FHIM（Future Healthcare Investment Market）2026全球医药合作与投资年会上获悉，FHIM正联合欧洲生命科学投资机构筹备中欧医疗健康母基金，并通过其产业合作平台，推动中欧创新药、医疗器械项目的跨境授权、联合开发与投融资对接。
+
+法国前总理、FHIM主席让-皮埃尔·拉法兰表示，中国正成为全球医疗健康创新的重要力量，中欧在资本、技术、专业能力与市场方面具有结构性互补，健康领域是双方实现互利共赢的重要方向。上海市科学技术委员会副主任江舸表示，上海将持续完善生物医药创新生态，支持中外创新力量开展长期合作。
+
+FHIM创始人兼CEO李娜在接受采访时表示，欧洲在早期研发、源头创新方面积累深厚，中国则在研发转化和临床开发效率等方面形成了自身优势，双方具有较强互补性。但中欧医药产业之间仍存在信息差，部分欧洲投资机构对中国创新企业、研发能力和产业生态的了解有限，需要更有效地对接渠道。 [...] 李娜观察到，中欧医药合作正在从资产授权向更深入的临床开发协作延伸。欧洲投资机构既关注中国创新资产，也希望推动其所投企业的项目与中国研发、临床资源相结合。在她看来，临床开发是创新药研发中投入大、周期长的重要环节，中国在开发效率和成本方面的优势，为欧洲创新项目在中国加速研发提供了合作空间。
+
+上海美迪西生物医药股份有限公司董事长陈春麟表示，随着国内生物医药全产业链能力持续提升，中国研发服务的质量、效率与成本优势，正吸引更多欧洲企业关注。对于资源相对有限的生物技术初创企业而言，与中国研发服务机构合作，有助于控制研发投入、加快项目推进；对中国企业而言，欧洲资本与创新项目的进入，也将带来更多美国之外的国际合作机会。
+
+据悉，FHIM希望打造立足中国、连接欧洲、辐射国际的医疗健康创新平台，通过年度大会、产业合作平台、全球顾问委员会及筹备中的中欧医疗健康母基金，构建贯穿全年的产业与资本合作网络，支持中国创新成果走向国际市场，促进欧洲创新项目与中国研发、临床资源对接。 [...] 证券时报 140评论
+
+24小时点击排行
+:   三大利空 美股暴跌 今天怎么走
+:   超级AI禁令引发美股大跌，AI 监管风暴会冲击A股吗？
+:   提前交易。
+:   懂王事变……世界的天，一下子就亮了。犹如天京事变，美国将从此由盛转衰。历史中内讧永远是大忌……欧洲乱了，接下来预期到美国乱了……
+:   11月6日周五早评
+
+写评论 ...
+
+ 点赞
+ 举报
+
+打开APP 读海量资讯</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                eastmoney
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="health">
+        <a href="https://m.sohu.com/a/1097660342_250147?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://q1.itc.cn/q_70/images03/20261105/929815a582024dd4ba27fb2d38c61f77.jpeg" 
+                 alt="进博会首日观察 | 从“引进来”到“双向融合”，“与中国共创”成为跨国药企高管高频词汇_搜狐网" 
+                 loading="lazy">
+            <div class="news-tag tag-health">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">进博会首日观察 | 从“引进来”到“双向融合”，“与中国共创”成为跨国药企高管高频词汇_搜狐网</h3>
+            <p class="news-summary">## 进博会首日观察 | 从“引进来”到“双向融合”，“与中国共创”成为跨国药企高管高频词汇
+
+蓝鲸新闻
+
+蓝鲸新闻
+
+图片来源：视觉中国
+
+蓝鲸新闻11月5日讯（记者 屠俊）2026年11月5日，第九届中国国际进口博览会在上海国家会展中心启幕。医疗器械及医药保健展区内，多家跨国药企几奔进博，而“展品变商品”已经不再是进博会的唯一叙事重心，“与中国共创”“健康影响创造”“本土能力支撑长期信心”正在成为高频词。多位跨国药企高管对中国市场的表述，正在从“进入中国、惠及患者”升级为“扎根中国、反向输出全球”。
+
+这一转向有明确的政策底座。2025年初，国务院办公厅印发《关于全面深化药品医疗器械监管改革促进医药产业高质量发展的意见》，明确提出到2027年创新药和医疗器械审评审批质量效率明显提升，到2035年医药产业具有更强的创新创造力和全球竞争力。政策端的确定性，为跨国药企将更多研发与生产环节落地中国提供了制度基础。 [...] 展开剩余
+
+68
+
+%
+
+赛诺菲大中华区总裁施旺表示，连续九年参加进博会，赛诺菲对中国的信心，既来自广阔的市场需求，也来自不断增强的创新能力。中国已是赛诺菲全球第二大市场，并日益成为全球医药创新的重要源头。今年，赛诺菲上海研发创新中心升级亮相，总投资额达10亿欧元的北京胰岛素原料药生产基地开工建设，成都中国创新与运营中心建立，对中国市场的信心，最终要体现在企业的长期决策中。
+
+复星医药展台上“双向”证据同样具体，达芬奇5迎来中国首展，而达芬奇手术机器人的中国故事始于2018年首届进博首秀，次年获批上市，如今直观复星已在全国建立33家培训中心、累计培训超过23000名医生。达芬奇SP进入“港澳药械通”目录和国家药监局创新医疗器械“绿色通道”。出海一端，汉斯状已在全球超50个国家和地区上市，汉曲优是首个中、欧、美三地获批的“中国籍”单抗生物类似药。复星医药董事长陈玉卿表示：“站在‘十五五’规划开局之年的新起点上，我们对中国市场的长期潜力充满信心，也期待持续扩大开放带来更多合作机遇。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                sohu
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="health">
+        <a href="https://www.prnewswire.com/apac/zh/news-releases/--302930494.html" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://rt.prnewswire.com/rt.gif?NewsItemId=XG89984&Transmission_Id=202611050345PR_NEWS_ASPR_____XG89984&DateId=20261105" 
+                 alt="復星九赴進博 郭廣昌：讓更多創新在中國落地、從中國出發" 
+                 loading="lazy">
+            <div class="news-tag tag-health">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">復星九赴進博 郭廣昌：讓更多創新在中國落地、從中國出發</h3>
+            <p class="news-summary">聯繫我們
+
+搜索您的內容
+
+## News Releases
+
+# 復星九赴進博 郭廣昌：讓更多創新在中國落地、從中國出發
+
+## 新聞提供者
+
+2026 年 11 月 05 日 16:45 CST
+
+## 分享這篇文章
+
+分享這篇文章
+
+香港2026年11月5日 /美通社/ -- 2026年11月5日，第九屆中國國際進口博覽會在上海國家會展中心開幕。本屆進博會共有162個國家、地區和國際組織參與，超4,100家企業參展，首發首展首秀展品數量創歷屆之最。作為連續九屆參展的「全勤生」，復星攜海外成員企業、全球合作夥伴，在醫療器械及醫藥保健展區復星醫藥（展位號2.1C4-01）展位，集中展示創新藥品、高端醫療器械、健康管理等領域的最新成果，覆蓋腫瘤、免疫炎症、神經退行性疾病等核心治療領域。 [...] 復星國際有限公司（簡稱「復星國際」或「公司」）（香港聯交所股份代號：00656）近日接獲亞太區知名金融財經媒體《財資》的通知，獲其授予「2026年財資企業永續領導獎鉑金獎」（The Asset Corporate Sustainability Leadership Awards 2026 –...
+
+## Explore
+
+保健與醫院
+
+保健與醫院
+
+制藥業
+
+制藥業
+
+醫療制藥
+
+醫療制藥
+
+醫療設備
+
+醫療設備
+
+## 聯繫Cision
+
+## 產品
+
+## 關於
+
+## 我的服務
+
+Do not sell or share my personal information:
+
+## 聯繫Cision
+
+## 產品
+
+## 關於 [...] 支撐「走出去」的，是一套符合國際質量標準的供應鏈體系。復星醫藥已有65個製藥車間和生產線通過海外主流市場的GMP認證和WHO預認證，實現中國、美國、歐洲、印度、非洲、東南亞等全球核心市場的常態化供貨。
+
+依託國際化優勢，復星持續加速創新藥出海，驅動全球價值釋放。截至2026年上半年，復星醫藥累計在全球供應超過4.6億支注射用青蒿琥酯，救治超過9200萬名重症瘧疾患者。自主研發的H藥漢斯狀（斯魯利單抗）是全球首個一線治療小細胞肺癌的抗PD-1單抗，也是全球首個獲批胃癌圍術期適應症的抗PD-1單抗，已在全球超50個國家和地區上市；漢曲優（曲妥珠單抗）是首個在中國、歐盟、美國三地獲批的「中國籍」單抗生物類似藥，已在全球50多個國家和地區獲批上市；中國首個生物類似藥漢利康（利妥昔單抗）也已在多個拉美市場獲批；高選擇性MEK1/2抑制劑復邁寧（蘆沃美替尼片）獲沙特食品藥品監督管理局突破性療法認定，將加速其在沙特的臨床註冊與商業化。
+
+從產品供應到本地製造，再到註冊與商業化協同，復星醫藥正在把全球化佈局轉化為服務全球患者的長期能力。這也是復星「創新+全球化」戰略在醫藥健康領域的具體落地。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                prnewswire
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="health">
+        <a href="https://www.iyiou.com/health-care" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://www.iyiou.com/dist/src/assets/imgs/logo_pc.svg?e677367fd59712d0e73c22defd70b98e" 
+                 alt="医疗健康产业研究_医疗健康行业数据_产业知识平台-亿欧网" 
+                 loading="lazy">
+            <div class="news-tag tag-health">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">医疗健康产业研究_医疗健康行业数据_产业知识平台-亿欧网</h3>
+            <p class="news-summary">Image 8: img WTCC2026圆桌对话丨睡眠AI硬件如何在临床严谨与大众体验之间找平衡
+
+# 医疗健康
+
+行业分类
+
+健康管理
+
+医疗服务
+
+医疗金融
+
+医疗卫生机构
+
+医疗器械
+
+医药
+
+医药流通
+
+医疗数字化
+
+生物技术
+
+数字医疗
+
+健康管理
+
+ 采用现代医学和现代管理学的理论、技术、方法和手段，对个体和群体整体健康状况及其影响健康的危险因素进行全面检测、评估、有效干预与连续跟踪服务的医学行为及过程。 
+
+ 细分领域: 
+
+健康咨询慢病管理健康体检中医理疗养生保健睡眠管理经期管理产后恢复心理健康陪诊陪护
+
+头部企业：
+
+Image 9: img雅培Image 10: img丹纳赫Image 11: img美敦力Image 12: img硕腾Image 13: imgWelltowerImage 14: img麦克森
+
+热门报告:
+
+了解详情
+
+   最新资讯
+   研究报告
+   投融资/情报
+   头部企业
+   政策解读
+
+Image 15: img [...] Image 15: img
+
+专注高性能生物磁珠研发与产业化，「茂磁科技Macci」获近千万天使轮融资以超磁性纳米磁珠推进生命科学核心分离材料创新，在增大比表面积近百倍的同时，保持了大磁珠的磁性。
+
+_医疗健康__生物材料__生物医药_
+
+__ 2026-10-28 18:30
+
+Image 16: img
+
+百奥几何加入亿欧产业伙伴，完成亿级融资筑微观世界模型近日，AI Native生物制药公司北京百奥几何生物科技有限公司（BioGeometry，以下简称“百奥几何”）正式加入亿欧“产业伙伴”，成为亿欧生命科学与产业创新生态的新成员。
+
+_医疗健康_ _,__新兴技术及应用_ _,__人工智能__生物科技__生命科学__世界模型_
+
+__ 2026-10-28 11:46
+
+Image 17: img
+
+WTCC2026圆桌对话丨睡眠AI硬件如何在临床严谨与大众体验之间找平衡睡眠AI硬件如何跳出“只测不治”的行业困局？
+
+_硬件_ _,__医疗健康_ _,__消费生活__睡眠产业__硬件创新__AI_
+
+__ 2026-10-28 09:06
+
+Image 18: img [...] __ 2026-10-26 18:32
+
+Image 21: img
+
+AI赋能体内CAR-T，锋寻生物完成亿元Pre-A轮融资加速推进新一代「AI + In-vivo CAR-T」核心管线开发
+
+_医疗健康__AI医疗__AI制药__CAR-T_
+
+__ 2026-10-26 10:06
+
+Image 22: img
+
+Apricot研发多重药物反应分析技术，辅助个性化肿瘤用药5-7天内即可生成个体化药物反应分析报告。
+
+_新兴技术及应用_ _,__医疗健康__瑞士企业__瑞士创新百强_
+
+__ 2026-10-22 10:47
+
+Image 23: img
+
+聚焦通用细胞模型，元示科技连续完成两轮融资元示科技宣布已连续完成近亿元人民币天使轮及天使+轮融资。天使轮由创新工场、上海未来产业基金与燕缘创投联合领投；天使+轮由Monolith领投，道彤投资跟投。
+
+_医疗健康__创新工场__大模型__融资_
+
+__ 2026-10-22 09:36
+
+Image 24: img</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                iyiou
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="health">
+        <a href="https://feng.ifeng.com/c/8xnxlmJMFBY" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://d.ifengimg.com/w300_h169_q90/x0.ifengimg.com/ucms/2026_39/473C7B18D86CFF43F8DBC3DD5B607885D444A689_size126_w1080_h598.jpg" 
+                 alt="医药工业“十五五”规划赋能药物研发，创新药出海与CXO景气共振，港股通医疗ETF易方达（520850）热度攀升_大风号_凤凰网" 
+                 loading="lazy">
+            <div class="news-tag tag-health">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">医药工业“十五五”规划赋能药物研发，创新药出海与CXO景气共振，港股通医疗ETF易方达（520850）热度攀升_大风号_凤凰网</h3>
+            <p class="news-summary">兴业证券指出，2026年前三季度医药行业收入相较2025年前三季度小幅增长，但归母净利润与扣非净利润实现大幅增长，反映出医药板块公司盈利能力迎来大幅提升。光大证券指出，创新药政策落地与出海景气共振，政策端2026年医保国谈已完成现场谈判竞价与商保价格协商，124款目录外药品入围谈判竞价、12款药品进入商保创新药目录价格协商；产业端国家药监局9月发布对外授权数据显示，今年以来我国创新药对外授权交易总额突破1200亿美元，CXO行业景气拐点持续验证。
+
+港股通医疗ETF易方达（520850）紧密跟踪港股通医疗主题（932069.CSI），中证港股通医疗主题指数从港股通证券范围内选取50只业务涉及医疗器械、医疗商业与服务、制药与生物科技服务等领域的上市公司证券作为指数样本，以反映港股通内医疗领域上市公司证券的整体表现。
+
+风险提示：基金有风险，投资须谨慎。ETF为场内交易型指数基金，二级市场价格存在折溢价与流动性风险，基金表现与跟踪指数可能存在跟踪误差，过往业绩不代表未来收益。
+
+本文来自大风号，仅代表大风号自媒体观点。
+
+凤凰V现场 [...] 凤凰V现场
+
+独家对话深蓝CEO姜海荣：大模型上车，车机正在告别“听指令”德国IFA直击：中国企业如何用AI读懂一个家？2026中国联通合作伙伴大会在上海举行，九大成果看联通智能化布局华为Mate XT 2展翼三折叠深度体验：三折叠的新答案IFA 2026 ，安克硬控全场查看更多 [...] # 医药工业“十五五”规划赋能药物研发，创新药出海与CXO景气共振，港股通医疗ETF易方达（520850）热度攀升
+
+[](
+
+金融界
+
+来自北京
+
+11月5日，截至14:05，港股通医疗主题指数上涨2.38%。个股方面，京东健康涨超7%，百济神州涨超6%，阿里健康涨超5%，晶泰控股涨超4%，药明康德、翰森制药等涨超2%，国药控股涨超1%，药明生物、药明合联等上涨。
+
+消息面上，9月18日工信部等十部门联合印发《医药工业发展“十五五”规划》，提出加快人工智能、量子计算、超级计算、计算医学等新技术赋能药物研发，探索超限制造、太空制药、生物制造等药械生产新模式。11月4日，港股医疗相关板块交易活跃度提升，创新药、CXO领域核心标的市场关注度持续走高。11月5日，百济神州、再鼎医药等多家港股医疗领域上市公司将正式披露三季度经营业绩，相关产业链经营情况迎来集中公开披露窗口。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                ifeng
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="health">
+        <a href="https://geneonline.news/news" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://geneonline.news/_next/image/?url=https%3A%2F%2Fadmin.geneonline.news%2Fwp-content%2Fuploads%2F2025%2F03%2FCH_NEWSFLASH_5.png&w=3840&q=75" 
+                 alt="最新消息 | GeneOnline" 
+                 loading="lazy">
+            <div class="news-tag tag-health">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">最新消息 | GeneOnline</h3>
+            <p class="news-summary">根據美國國家醫學圖書館（National Library of Medicine, NLM）旗下 DailyM Read MoreGENEONLINE 新聞快訊Geneonline AI
+
+2026 年 10 月 27 日
+
+### Wilc Healthcare防曬噴霧更新產品資訊確保消費者使用安全
+
+針對近期藥品資訊更新，Wilc Healthcare Inc 旗下的防曬噴霧產品 KINESYS BROAD Read MoreGENEONLINE 新聞快訊Geneonline AI
+
+2026 年 10 月 27 日
+
+### 美國官方資料庫更新DERMASIL DRYSKIN乳液產品資訊以確保使用安全
+
+根據美國國家醫學圖書館（National Library of Medicine, NLM）旗下資料庫 Dai Read MoreGENEONLINE 新聞快訊Geneonline AI
+
+2026 年 10 月 27 日
+
+### 皮拉馬爾重症照護公司更新地氟醚吸入性麻醉劑產品資訊以強化臨床安全 [...] 根據美國國家醫學圖書館（National Library of Medicine, NLM）旗下資料庫 Dai Read MoreGENEONLINE 新聞快訊Geneonline AI
+
+2026 年 10 月 27 日
+
+### 威爾克醫療保健更新運動防曬護唇膏產品資訊
+
+根據美國國家醫學圖書館（National Library of Medicine, NLM）旗下 DailyM Read MoreGENEONLINE 新聞快訊Geneonline AI
+
+2026 年 10 月 27 日
+
+### 航空配件服務公司發布MODEL AA2012套件最新技術維護規範
+
+針對航空航太領域的設備維護與技術更新，航空配件服務公司（Aerospace Accessory Service Read MoreGENEONLINE 新聞快訊Geneonline AI
+
+2026 年 10 月 27 日
+
+### 威爾克醫療保健公司兒童防曬噴霧更新產品資訊並強調無酒精配方 [...] 關於我們活動總覽
+
+[](
+
+EN廣告諮詢免費訂閱
+
+# Latest News
+
+GENEONLINE 新聞快訊Geneonline AI
+
+2026 年 10 月 27 日
+
+### Teamtrade公司更新臀部與大腿痤瘡治療乳霜藥品資訊
+
+根據美國國家醫學圖書館（National Library of Medicine, NLM）旗下的每日藥物資訊 Read MoreGENEONLINE 新聞快訊Geneonline AI
+
+2026 年 10 月 27 日
+
+### 威爾克醫療保健更新KINESYS防曬噴霧產品資訊與成分規範
+
+根據美國國家醫學圖書館（National Library of Medicine, NLM）旗下資料庫 Dai Read MoreGENEONLINE 新聞快訊Geneonline AI
+
+2026 年 10 月 27 日
+
+### 加勒比海之美頭皮護理髮膜完成產品資訊更新並登錄美國DailyMed資料庫</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                geneonline
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+        </div>
+      </section>
+    
+      <section class="category-section" id="green">
+        <div class="category-header">
+          <div class="category-title">
+            <span class="category-icon">🌱</span>
+            绿色能源
+          </div>
+          <span class="category-count">8 条</span>
+        </div>
+        <div class="news-grid">
+          
+      <article class="news-card" data-category="green">
+        <a href="https://wap.eastmoney.com/a/202611053923391493.html" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/新规助力智能算力迈向绿色低碳，碳中和ETF华夏（159790）已连续6 .../600/400" 
+                 alt="新规助力智能算力迈向绿色低碳，碳中和ETF华夏（159790）已连续6 ..." 
+                 loading="lazy">
+            <div class="news-tag tag-green">技术</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">新规助力智能算力迈向绿色低碳，碳中和ETF华夏（159790）已连续6 ...</h3>
+            <p class="news-summary">截至2026年11月4日, … 国家发展改革委等五部门发布《实施全面节约战略行动方案… 降低10%左右、10%、15%,主要再生资源年循环利用量达5.1亿吨。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                eastmoney
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="green">
+        <a href="https://www.prnewswire.com/apac/zh/news-releases/esg-302930480.html" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://rt.prnewswire.com/rt.gif?NewsItemId=XG89879&Transmission_Id=202611052000PR_NEWS_ASPR_____XG89879&DateId=20261105" 
+                 alt="復星國際榮獲《信報》頒發「卓越ESG可持續企業大獎」" 
+                 loading="lazy">
+            <div class="news-tag tag-green">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">復星國際榮獲《信報》頒發「卓越ESG可持續企業大獎」</h3>
+            <p class="news-summary">聯繫我們
+
+搜索您的內容
+
+## News Releases
+
+# 復星國際榮獲《信報》頒發「卓越ESG可持續企業大獎」
+
+## 新聞提供者
+
+06 11月, 2026, 09:00 CST
+
+## 分享這篇文章
+
+分享這篇文章
+
+香港2026年11月6日 /美通社/ -- 2026年11月5日，香港極具影響力的中文財經媒體《信報》舉辦「ESG可持續發展卓越大獎2026」頒獎典禮。復星國際榮獲《信報》頒發的「卓越ESG可持續企業大獎」，表彰公司在環境、社會、治理及可持續發展方面的表現獲市場認可。
+
+《信報》指出，香港特區政府今年正式公布《香港特別行政區經濟和社會發展第一個五年規劃（2026-2030年）》，訂立多項綠色與環境保護主要指標，政府、企業、金融機構與社會各界共同推進綠色轉型。當中，香港多家知名企業包括復星國際，長期積極推動ESG實踐，對鞏固香港作為國際金融樞紐的地位具有重要戰略意義，為此設立相關獎項，旨在表彰企業在推動可持續發展方面的卓越貢獻。除復星國際外，同時獲《信報》頒發獎項的公司有恆基兆業、中國海外發展、富衛人壽保險、中國銀行（香港）、中國民生銀行香港分行等。 [...] 2026年11月5日，第九屆中國國際進口博覽會在上海國家會展中心開幕。本屆進博會共有162個國家、地區和國際組織參與，超4,100家企業參展，首發首展首秀展品數量創歷屆之最。作為連續九屆參展的「全勤生」，復星攜海外成員企業、全球合作夥伴，在醫療器械及醫藥保健展區復星醫藥（展位號2.1C4-01）展位...
+
+### 陳啟宇：圍繞「可負擔×可信賴」，復星推動中國創新藥持續走向全球
+
+10月20日，2026可持續全球領導者大會在上海舉行。本屆大會以「共築韌性未來：全球治理、創新驅動與產業升級」為主題，匯聚來自全球的300餘位嘉賓，包括聯合國相關機構和多個國際組織的代表、諾貝爾獎與圖靈獎得主、國內外領軍企業高管及知名智庫專家。...
+
+## Explore
+
+綠色科技
+
+綠色科技
+
+環保產品與服務
+
+環保產品與服務
+
+生物技術
+
+生物技術
+
+保健與醫院
+
+保健與醫院
+
+## 聯繫Cision
+
+## 產品
+
+## 關於
+
+## 我的服務
+
+Do not sell or share my personal information:
+
+## 聯繫Cision
+
+## 產品
+
+## 關於 [...] 面對氣候變化，復星積極響應國家「雙碳」目標，推動碳中和與節能減排，於2021年向社會做出承諾：「力爭於2028年實現碳達峰、2050年實現碳中和」，通過制訂氣候變化緩解和適應策略，支援《巴黎協定》的1.5℃控温目標。2026年4月，復星國際積極對標了氣候變化相關財務信息披露工作組（TCFD）的建議及《國際財務報告準則S2號—氣候相關披露》（「IFRS S2」），發布了第四份氣候信息披露報告，增加了氣候行動的透明度，彰顯了持續開展該項工作的決心。
+
+創新驅動  創造長遠社會價值
+
+復星堅持創新驅動戰略，推動旗下業務不斷結出創新成果，以更好服務社會。其中，復星自主研發的漢斯狀成為全球首個且唯一獲批用於胃癌圍術期治療的抗PD-1單抗，開創術後去化療新範式；創新管線核心資產HLX43作為潛在同類最優的廣譜抗腫瘤PD-L1 ADC，在非小細胞肺癌等多個實體瘤中已展現出「高效、低毒」的初步臨床療效，累計全球入組患者超1,500例。復邁寧（蘆沃美替尼片）獲批用於治療復發或難治性朗格漢斯細胞組織細胞增生症兒童及青少年患者，持續攻克罕見病治療空白。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                prnewswire
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="green">
+        <a href="https://news.sina.com.cn/zx/gj/2026-11-05/doc-inixsrry6076337.shtml" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="http://n.sinaimg.cn/spider20261105/67/w1000h667/20261105/3565-9a2964c310067871a5950467435cfca7.jpg" 
+                 alt="参考消息特稿｜中国客车出海奏响丝路“绿”色乐章_新浪新闻" 
+                 loading="lazy">
+            <div class="news-tag tag-green">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">参考消息特稿｜中国客车出海奏响丝路“绿”色乐章_新浪新闻</h3>
+            <p class="news-summary">在葡萄牙，中通客车优化三电系统，搭载智能辅助驾驶；在丹麦，针对严寒积雪路况优化电池、防腐与雪地爬坡性能。中通纯电客车先后落地葡萄牙、保加利亚、丹麦，42辆纯电双源无轨公交在墨西哥服务2026年世界杯赛事。
+
+　　朱永虎认为，现在越来越多海外客户开始关心能耗、智能化、全生命周期成本和绿色转型。未来海外竞争不仅是价格竞争，更是技术、产品、认证、服务体系的综合竞争。
+
+　　从单一客车产品出海，到商用车全品类集体亮相共建“一带一路”国家舞台，中国交通工具“走出去”的内涵正在不断丰富。
+
+　　伴随市场持续拓展，中国上汽商用车规划搭建起法兰克福技术支持中心、英国培训中心、波兰配件物流中心三大欧洲战略枢纽，夯实研发适配、人才培训、配件供应的本地化保障能力。
+
+　　此外，众多中国车企正在加速推进海外本地化生产布局。
+
+一辆辆驰骋海外的中国汽车，既是绿色发展理念的载体，也见证着共建“一带一路”务实合作走深走实。中国车企以产品、技术与服务，和各国携手书写互联互通、互利共赢的时代答卷。
+
+　　刊于《参考消息》2026年11月5日第9版
+
+　　编辑 杨汀
+
+赛博对话
+
+赛博对话
+
+热搜时代
+
+热搜时代 [...] 新浪首页
+ 新闻
+ 体育
+ 财经
+ 娱乐
+ 科技
+ 博客
+ 图片
+ 专栏
+ 更多
+
+ 汽车教育时尚女性星座健康
+ 房产历史视频收藏育儿读书
+ 佛学游戏旅游邮箱导航
+
+ 新浪微博
+ 新浪新闻
+ 新浪财经
+ 新浪体育
+ 新浪众测
+ 新浪博客
+ 新浪视频
+ 新浪游戏
+ 天气通
+
+新浪新闻客户端 新浪新闻客户端
+
+# 新闻中心
+
+新浪新闻小红书
+
+新浪新闻小红书
+
+新浪新闻B站
+
+新浪新闻B站
+
+热搜时代小宇宙
+
+热搜时代小宇宙
+
+×
+
+点击任意位置关闭
+
+# 参考消息特稿｜中国客车出海奏响丝路“绿”色乐章
+
+参考消息特稿｜中国客车出海奏响丝路“绿”色乐章
+
+2026年11月05日 08:35 作者
+
+avatar
+
+新浪新闻 新浪新闻
+
+缩小字体 放大字体 收藏 微博 微信 分享 0
+
+腾讯QQ QQ空间
+
+【原标题】中国客车出海奏响丝路“绿”色乐章
+
+　　文/本报记者 张力元 王凯 驻比什凯克记者 江宥林
+
+　　近年来，中国客车走出国门，穿梭在亚欧多国的城市街巷。从车辆交付投用，到维保人才培育，再到海外市场布局，中国客车以过硬产品、贴心服务，为“一带一路”共建国家高质量发展注入强劲动能。 [...] 比什凯克城市交通公司总经理奥穆尔扎科夫表示，引进的中国公交车目前在48条线路上运行，几乎覆盖比什凯克全市及楚河州。这些天然气公交车的投用不仅有效缓解城市交通拥堵，还非常环保，与比什凯克推动绿色经济和可持续发展的目标吻合。
+
+　　据吉尔吉斯斯坦自然资源、生态和技术监督部专家阿布德马利克介绍，更换公交后当地每天柴油消耗量减少100吨，城市空气质量得到切实改善。
+
+　　当前，使用绿色低碳能源的汽车产业，正成为多个中亚国家推动能源转型与可持续发展的抓手，得到政策的大力支持。
+
+　　乌兹别克斯坦政府已经颁布政策，对电动汽车进口免征消费税、关税等。该国还计划到2030年将绿色能源占比提升至50%以上；哈萨克斯坦将新能源汽车和充电设备列为工业创新发展的重点领域，计划到2025年新能源汽车和充电设备的产值达到100亿美元，创造10万个就业岗位。
+
+　　在这一背景下，中亚多国对新能源商用车产品需求攀升。立足当地法规标准与多元化商用工况，众多中国车企持续开发绿色能源产品，服务海外市场。
+
+　　在哈萨克斯坦首都阿斯塔纳，市区多条公交干线同样出现中国客车的身影。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                com
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="green">
+        <a href="http://www.appbw.com/news/articles-16514.html" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="http://www.appbw.com/images/ew.jpg" 
+                 alt="阿里发布《2026 AI向善行动报告》 呈现AI数据中心、AI医疗等新进展_公益要闻_新闻_公益中国网_中国公益慈善门户网站" 
+                 loading="lazy">
+            <div class="news-tag tag-green">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">阿里发布《2026 AI向善行动报告》 呈现AI数据中心、AI医疗等新进展_公益要闻_新闻_公益中国网_中国公益慈善门户网站</h3>
+            <p class="news-summary">图为阿里云AI数据中心。
+
+数据中心建设事关土地、电力和水等资源能源，王朝阳透露，阿里云正在全力提升数据中心的资源能源使用效率。土地方面，阿里云追求“土地功率密度”，提升单位面积的IT能力承载。过去2年，凭借高层集约化优势，阿里云把资源密度从0.8千瓦/平方米提升到了4.5千瓦/平方米，到明年3月将进一步翻番，达到9千瓦/平方米。电力方面，阿里云在各地充分利用当地新能源禀赋，把绿电占比提升了73.6%，并在广东、江苏、四川实现了100%绿电。此外，因地制宜使用风冷和液冷，将pue（电源使用效率）降到了1.187。水资源方面，阿里云的乌兰察布等数据中心年回收利用中水近13.6万吨。通过不断提高绿电比率、优化电源使用效率、探索节水和循环用水，阿里云正在打造有中国特色的数据中心“碳中和”“水中和”策略与路径。 [...] |
+
+[](
+
+公益中国网_中国公益慈善门户网站
+
+热词：扶贫 慈善 责任 养老 儿童 教育 捐赠
+
+ 要闻
+ |
+ 播报
+ |
+ 智库
+ |
+ 机构
+ |
+ 明星
+ |
+ 教育
+ |
+ 助弱
+ |
+ 救助
+ |
+ 企业
+ |
+ 创投
+ |
+ 营销
+ |
+ 年报
+ |
+ 品牌
+ |
+ 招募
+ |
+ 矩阵
+
+当前位置: 首页 » 新闻 » 公益要闻
+
+阿里发布《2026 AI向善行动报告》 呈现AI数据中心、AI医疗等新进展
+
+2026-11-05    来源：公益中国网
+
+公益中国网讯 11月5日，阿里巴巴发布《2026 AI向善行动报告》，披露发展负责任的AI，和以AI创造社会价值的最新实践，总共26个案例，涵盖教育、医疗、环保、科研等领域，数据中心可持续发展和“AI+医疗”创新成果备受关注。阿里巴巴集团首席技术官、科技伦理治理委员会主席吴泽明表示，AI发展需要满足三个要件：社会可接受、环境可承载、经济可持续。当前行业正处于规则成型期，科技企业应积极创造社会价值，确保AI发展方向符合人类福祉。
+
+图为阿里巴巴《2026 AI向善行动报告》封面。
+
+数据中心资源能源使用效率大幅提升 [...] 阅读排行
+
+ 徐小刚：答时代之问|从“云中公益”谈如何进行非物质文化遗产保护与传承
+ 联想“828超级联萌节”完美收官 引领联萌践行ESG理念呵护地球家园
+ 腾讯视频“无障碍剧场”正式上线，《热辣滚烫》《三体》等600余部影视剧让视障人士“观影自由”
+ 张鲜明“梦幻叙事写作”研讨会在京举行
+ 百名真探跋涉十万里，深入机构探寻公益真相，90%已返程，写报告中……
+ 99公益日第八年再创新模式： “一花一梦想”将点燃全民公益共创潮
+ 助力车免费开放 解百姓出行难题——中社联和哈啰出行启动“抗击疫情 助力出行”行动
+ 初夏平谷怎么玩？夜访梨树沟，日游金海湖……
+ 水滴助力防疫募捐项目一夜筹满500万元 公司额外捐助50万元
+ 长江引航知行筑梦，激扬青春励志同行 北京知行公益基金会—长江励志助学2022年新生见面会圆满结束
+
+公益播报
+
+[](
+
+山河有韵 城乡有暖 遇见新时代美丽中国
+
+山河有韵 城乡有暖 遇见新时代美丽中国
+
+文旅、民生、生态相融共生的美丽中国……(</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                appbw
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="green">
+        <a href="https://www.replas.org.cn/%E6%96%B0%E9%97%BB%E8%B5%84%E8%AE%AF" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://static2.xunxiang.site/uploads/sites/1645/2023/06/3d7da350eda27d7ebc9aa06db18f638c.png" 
+                 alt="新闻资讯 - ChinaReplas2025第31届塑料回收与再生大会" 
+                 loading="lazy">
+            <div class="news-tag tag-green">热点</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">新闻资讯 - ChinaReplas2025第31届塑料回收与再生大会</h3>
+            <p class="news-summary">2026-10-29
+
+  近年来，日本正在加快资源循环体系的制度与产能建设。从废塑料回收再生到关键矿产循环利用，从汽车行业的再生材料应用到化学回收的产业化推进，一条覆盖“回收—再生—应用”的链条正在成形。 2026年4月21日，日本相关阁僚会议汇总《循环经济行动计划》，提出到2030年前由官民合计投入约1万亿日元（约合425亿元人民币），用于再生资源回收基地建设与新技术研发。资金来自对回收业者的补助、官民合资的“脱碳支援机构”投融资，以及引导民间资本，财源部分由GX经济移行债券支撑。该计划将循环经济定位为经济安全保障与产业竞争力的组成部分，目标是降低对海外资源的依赖，并构建以日本为枢纽的国际资源循环网络。 这一战略背后，是全球产业链重构带来的新格局。 从废塑料处理到战略资源竞争过去谈废塑料回收，焦点多在环保；如今日本政府与企业看到的，是资源安全与产业竞争力。 随着新能源汽车、储能设备、半导体产业快速发展，稀土、铜、锂等关键矿产需求持续增长。日本环境省与美国方面近年围绕电子废弃物（E-waste）回收及关键矿产循环利用举办研讨与交流，推动亚... [...] 共 1438 条，共 120 页
+
+ 1
+ 2
+ 3
+ 120
+
+相关报道
+
+ 央企入局PET生物酶解；欧盟新规将PET纳入海关核查；涵江98亿元废纺项目落地……| ChinaRePET第44周报
+
+  2026-11-03
+ 11月18日生效，欧盟食品接触再生塑料新规监管升级
+
+  2026-11-03
+ 缺可回收性评估，英国包装EPR就按红档算
+
+  2026-11-02
+ 东粤化学20万吨废塑料项目三季度营收3,409.61万元
+
+  2026-11-02
+ 瑞康9000万中试、惠城20万吨营收；3.75亿美元回归、Bio BTX2100万欧元加码、 TOPPAN再生薄膜丨ChemRePlas化学循环周报
+
+  2026-11-02
+ 意大利对一次性塑料包装强制可堆肥认证
+
+  2026-10-30
+ 欧盟议会vs理事会：EPR授权代表的任命，到底按规模还是按吨数？
+
+  2026-10-30
+ 可回收再生设计（DfR）：PPWR 的长期门槛
+
+  2026-10-30
+ 欧盟推迟 PPWR 标签规则：实施法案延至 2027 年第二季度 [...] 2026-10-26
+ 台湾破获涉案金额超7000万新台币的塑料废弃物非法处置案
+
+  2026-10-26
+ 政策力推再生料，市场却在关厂，欧洲怎么了？
+
+  2026-10-26
+ PPWR合规与DfR实战研修班（第2期）开始报名 | 11月18-19日，上海
+
+  2026-10-26
+ 总投资4.5亿元！金寨循环经济产业园三期正式开园
+
+  2026-10-26
+ 全球五席，中国唯一 | 源天生物摘得2026国际纺联初创企业奖
+
+  2026-10-23
+ 本地回收→再生→回瓶：可口可乐香港的瓶到瓶实践
+
+  2026-10-23
+ 110 万吨再生料流向海外，国内利用率4.6%：日本塑料循环的空白，就是机遇
+
+  2026-10-23
+ 监管红利难掩供应缺口：全球再生塑料市场奔向1179亿美元，rPET供应仅达一半
+
+  2026-10-23
+ 《2026上半年纺织品回收现状》发布：欧洲领跑，却缺钱又缺订单
+
+  2026-10-22
+ 欧盟2大回收组织联合建言：PPWR 再生含量规则的落地路径</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                org
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="green">
+        <a href="http://cpc.people.com.cn/n1/2026/1106/c64387-40828792.html" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/共护蔚蓝底色共促永续繁荣（寰宇平） - 中国共产党新闻/600/400" 
+                 alt="共护蔚蓝底色共促永续繁荣（寰宇平） - 中国共产党新闻" 
+                 loading="lazy">
+            <div class="news-tag tag-green">新品</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">共护蔚蓝底色共促永续繁荣（寰宇平） - 中国共产党新闻</h3>
+            <p class="news-summary">守护“蓝色粮仓”，持续推进增殖放流、自主休渔，严格履行《港口国措施协定》；激活“绿色动能”，加快布局海上风电、潮汐能等海洋新能源，构建绿色航运体系。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                com
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="green">
+        <a href="https://www.sse.com.cn/services/greensecurities/home" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://www.sse.com.cn/xhtml/images/logo.png" 
+                 alt="绿色证券 | 上海证券交易所" 
+                 loading="lazy">
+            <div class="news-tag tag-green">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">绿色证券 | 上海证券交易所</h3>
+            <p class="news-summary">上交所一直以来高度重视、积极推动资本市场绿色发展，支持绿色企业上市融资，大力发展绿色债券市场，加快绿色指数产品创新，深化绿色金融国际合作。近年来上交所市场在绿色产业股权融资、绿色债券、绿色指数及绿色投资基金方面均取得了一定的成效，绿色产品不断丰富，市场规模持续扩大。同时，上交所积极参与绿色金融领域的国际交流和宣传推广，是我国首个加入联合国可持续证券交易所倡议的证券交易所，近年来先后获选亚洲金融合作协会绿色金融合作委员会副主任单位、世界交易所联合会可持续发展工作组副主席职位等，并持续通过论坛、路演、培训等多种形式推介绿色金融产品与可持续发展理念。
+
+    　　2022年3月1日，上交所正式发布《“十四五”期间碳达峰碳中和行动方案》，对未来进一步推进和完善绿色金融领域的规则制度建设、股权融资服务、债券市场发展、投资产品拓展、国际合作交流和投资者培育等工作进行了系统性规划，全面推进绿色低碳交易所建设。
+
+    《上海证券交易所“十四五”期间碳达峰碳中和行动方案》
+
+## 绿色指数
+
+## 产品列表
+
+债券   资产支持证券   ETF
+
+## 公告披露 [...] 上海证券交易所服务热线：400-8888-400  APP下载 微博微信 English繁
+
+一网通办“三开门”专栏
+
+简中EN
+
+
+
+一网通办   “三开门”专栏
+
+用户入口
+:   投资者
+:   会员机构
+:   拟上市公司
+:   债券机构
+:   上市公司
+:   基金公司
+
+高效办成一件事
+:   股票投资一件事
+:   债券发行上市一件事
+:   期权投资一件事
+:   REITs发行上市一件事
+:   企业上市一件事
+:   服务预约一件事
+:   信息披露一件事
+
+一网通办移动端 ## 上交所APP"通办"栏目
+
+ - 欢迎扫码安装 -
+
+ 
+
+展开导航菜单
+
+ 上交所发布
+
+ 上交所移动App
+
+## 专栏介绍
+
+:   绿色发展是党的十八届五中全会提出的“五大发展理念”之一。党的十九大报告指出要发展绿色金融、推进绿色发展。2020年9月，习近平总书记庄严宣告我国碳达峰、碳中和目标，其后党中央、国务院先后印发《关于完整准确全面贯彻新发展理念 做好碳达峰碳中和工作的意见》《2030年前碳达峰行动方案》，其中对资本市场支持实体经济绿色转型也提出了部署和要求。 [...] ## 公告披露
+
+债券   资产支持证券   ETF
+
+## 规则指引
+
+:   2017-03-02   [中国证券监督管理委员会公告6号——中国证监会关于支持绿色债券发展的指导意见](/lawandrules/regulations/csrcannoun/c/10117443/files/92bdb28b444f48d6b0fe865e2a99ac87.pdf "中国证券监督管理委员会公告6号——中国证监会关于支持绿色债券发展的指导意见")
+
+## 研究报告
+
+:   2023-04-20   上海证券交易所2022年社会责任报告
+:   2022-05-25   上海证券交易所2021年社会责任报告
+:   2021-06-04   上海证券交易所2020年社会责任报告
+:   2020-06-10   上海证券交易所2019年社会责任报告
+:   2019-04-17   上海证券交易所2018年社会责任报告
+
+## 市场概况</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                com
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+      <article class="news-card" data-category="green">
+        <a href="https://www.zaobao.com.sg/news/china/story20261106-9957000?ref=sidebar-realtime" target="_blank" rel="noopener noreferrer" class="news-link">
+          <div class="news-image">
+            <img src="https://picsum.photos/seed/中东战事冲击石油需求中国碳排放创疫情以来最大降幅 - 联合早报/600/400" 
+                 alt="中东战事冲击石油需求中国碳排放创疫情以来最大降幅 - 联合早报" 
+                 loading="lazy">
+            <div class="news-tag tag-green">重要</div>
+          </div>
+          <div class="news-content">
+            <h3 class="news-title">中东战事冲击石油需求中国碳排放创疫情以来最大降幅 - 联合早报</h3>
+            <p class="news-summary">受中东战事推高油价、可再生能源发展及煤炭消费下降等因素影响，中国今年第三季二氧化碳排放量同比下降3.1%，创2022年冠病疫情封控以来最大季度降幅。</p>
+            <div class="news-meta">
+              <span class="news-source">
+                <span>📰</span>
+                com
+              </span>
+              <span class="news-time">
+                <span>⏰</span>
+                0分钟前
+              </span>
+            </div>
+          </div>
+        </a>
+      </article>
+    
+        </div>
+      </section>
+    
+      </div>
+    </div>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="footer-brand">
+            <div class="logo">📰</div>
+            <span class="logo-text">每日日报</span>
+          </div>
+          <p class="footer-desc">
+            自动化资讯聚合平台，每日为你收集各领域最新动态，让你轻松掌握行业趋势。
+          </p>
+        </div>
+        
+        <div class="footer-section">
+          <h4>快速导航</h4>
+          <ul class="footer-links">
+            <li><a href="./">今日日报</a></li>
+            <li><a href="./archive/">历史存档</a></li>
+            <li><a href="#">关于我们</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>关注领域</h4>
+          <ul class="footer-links">
+            <li><a href="#ai">🤖 人工智能</a></li><li><a href="#tech">🔬 科技前沿</a></li><li><a href="#business">💼 商业动态</a></li><li><a href="#web3">⛓️ Web3</a></li><li><a href="#health">🏥 医疗健康</a></li><li><a href="#green">🌱 绿色能源</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>订阅更新</h4>
+          <p class="footer-desc">每天第一时间获取最新资讯</p>
+          <form class="subscribe-form">
+            <input type="email" placeholder="输入邮箱地址" class="subscribe-input">
+            <button type="submit" class="btn btn-primary">订阅</button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 每日日报. All rights reserved. 更新时间: 2026/11/6 04:20:13</p>
+        <div class="footer-links">
+          <a href="#">隐私政策</a>
+          <a href="#">使用条款</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 日报汇总弹窗 -->
+  <div class="modal" id="summaryModal">
+    <div class="modal-overlay" onclick="closeSummary()"></div>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>📋 今日日报汇总</h2>
+        <button class="modal-close" onclick="closeSummary()">✕</button>
+      </div>
+      <div class="modal-body" id="summaryContent">
+        <!-- 汇总内容将通过JS动态加载 -->
+        <div class="summary-loading">加载中...</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/app.js"></script>
+</body>
+</html>
